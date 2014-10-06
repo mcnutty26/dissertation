@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.10)  6 OCT 2014 13:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.10)  6 OCT 2014 14:53
 entering extended mode
 **Spec.tex
 (C:\Users\William\Documents\Dissertation\docs\spec\Spec.tex
@@ -54,15 +54,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [1] [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 38.
+(Font)              <7> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 38.
+(Font)              <5> on input line 39.
  [3] [4]
 (C:\Users\William\Documents\Dissertation\docs\spec\Spec.aux) ) 
 Here is how much of TeX's memory you used:
  249 strings out of 493921
  2941 string characters out of 3144870
- 57031 words of memory out of 3000000
+ 56031 words of memory out of 3000000
  3618 multiletter control sequences out of 15000+200000
  7587 words of font info for 27 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -72,7 +72,7 @@ Here is how much of TeX's memory you used:
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Spec.pdf (5 pages, 70763 bytes).
+Output written on Spec.pdf (5 pages, 71216 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
