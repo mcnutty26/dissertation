@@ -1,0 +1,78 @@
+\documentclass{report}
+
+\begin{document}
+\title{CS310 Specification}
+\author{William Seymour}
+\date{\today}
+\maketitle
+
+\section*{Project Title}
+Exploring the use of Gamification and Analytics in the Design of Educational Software.
+\section*{Justification}
+While the uses of gamification and teaching analytics are often explored at the levels of primary and secondary education, far less has been done to study its effects in the context of undergraduate study. Researching and determining the most effective ways to use gamification in this project will be challenging task, as gamification is still in it's infancy, the concept having only really gained popularity around 2010. In addition to this, the web application that will developed for the project will be complex. It has to manage large amounts of analytics data as well as course content, serving the needs of both students and lecturers.
+\section*{Objectives}
+\subsection*{Core App}
+The core of the application provides services such as database connectivity, objects to encapsulate users and content as well as login and authentication. It must be completed first because every subsequent task builds upon the functionality it provides.
+\subsection*{Content Delivery}
+This part of the software is responsible for reading content from the database and displaying it to the user. It is 
+\subsection*{Analytics}
+\subsection*{Explorer Features}
+\subsection*{Socialiser Features}
+\subsection*{Achiever Features}
+\subsection*{Killer Features}
+
+Broadly, the goal of the project is to explore the use of gamification and advanced analytics in the development of educational software. This will be achieved through the development of an online platform allowing undergraduate students to test and enhance their understanding of course content through hybrid lectures/slides. Questions will be woven in to content delivery to provide students with instant feedback on their understanding of a concept as well as additional material for extra practise. In addition, the software will categorise users into the four Bartle Test personality types (Achiever, Socialiser, Explorer and Killer). Users will be shown features dependent on their identified personality type and the software will use gamification elements appropriate to the users type.
+
+Students excelling in a particular area will be encouraged to help others who are struggling. Likewise, students who are finding a particular piece of content challenging will be prompted to seek help from colleagues who have done well at that task. By designing content assessment to be more specific than the traditional right/wrong it will be possible to give more targeted feedback and suggestions for improvement that traditional tests or assignments allow.
+
+In terms of analytics, lecturers will be presented with a broad overview of their modules, showing how different sections of content are being received by students. Lecturers will also be presented with detailed information on individual students, showing areas they are strong/struggling with as well as suggesting content in that area they have not yet completed to be used as seminar content. Identifying problem areas in this way allows for more effective use of teaching time and a better learning experience for students. For example, students who share a Bartle personality type can be grouped together for seminars so that lecturers can target their teaching style for maximum effectiveness.
+\section*{Methodology}
+The software will be web based, written in PHP, HTML, CSS and javascript, using appropriate frameworks and libraries. Github will be used for version control for both software and documents, and the repository will be synchronised with my personal webspace on the computing society's web server to allow for easy testing. User information and module content will be stored in a mySQL database, also hosted on the computing society's server.
+
+The software development methodology used will be an adapted version of the incremental build model. Each section of the software will be developed, tested and integrated in sequence.  As the analytics part of the software (tasked with storing and updating user data, as well as making inferences based on this data) is a dependency bottleneck, the agile practise of developing a basic version first before adding features would not work. The lack of external stakeholders removes the need for frequent releases and feedback and makes the proposed methodology effective for the task at hand.
+\section*{Timeline}
+\begin{tabular}{|c|c|}
+\hline Term/Week & Tasks \\ 
+\hline 1/1 & Specification \\ 
+\hline 1/2 & Specification \\ 
+\hline 1/3 & Core App, Environment \\ 
+\hline 1/4 & Core App, Content Delivery \\ 
+\hline 1/5 & Analytics \\ 
+\hline 1/6 & Analytics \\ 
+\hline 1/7 & Socialiser features \\ 
+\hline 1/8 & Achiever features \\ 
+\hline 1/9 & Killer features \\ 
+\hline 1/10 & Progress Report \\ 
+\hline 2/1 & Explorer Features \\ 
+\hline 2/2 & X \\ 
+\hline 2/3 & X \\ 
+\hline 2/4 & X \\ 
+\hline 2/5 & X \\ 
+\hline 2/6 & X \\ 
+\hline 2/7 & X \\ 
+\hline 2/8 & Pesentation \\ 
+\hline 2/9 & Presentation \\ 
+\hline 2/10 & Presentation \\ 
+\hline 
+\end{tabular}
+\newline
+\begin{tabular}{|c|c|}
+\hline Task & Dependencies \\ 
+\hline Specification & - \\ 
+\hline Core App & Specification \\ 
+\hline Content Delivery & Core App \\ 
+\hline Analytics & Content Delivery, Core App \\ 
+\hline Explorer features & Core App, Analytics \\ 
+\hline Socialiser features & Core App, Analytics \\ 
+\hline Achiever features & Core App, Analytics \\ 
+\hline Killer features & Core App, Analytics \\ 
+\hline Progress Report & - \\ 
+\hline 
+\end{tabular} 
+\section*{Resources}
+As mentioned above, the master copy of project documents and source code will be on Github. In addition, a clone of the repository will be copied after every commit to my Computing Society webspace for testing, and working copies will exist on my desktop and laptop. In terms of reliability, two of the above services could fail with no loss of data for the project. If an alternative web server is required for testing, it is possible to host the project on Joshua in the department if required. The schema and data used to create and populate the database will be added to the repository to aid recovery in the event of the database server failing. This can be uploaded to Joshua in the event of the Computing Society server failing.
+
+When it comes to academic resources, copies of any potential papers or studies will be stored on my personal computer to provide a backup source should access to an online version be lost.
+\section*{Legal, social, ethical and professional considerations}
+As student (and potentially staff) feedback will be required, approval will have to be sought from BSREC. As this project fulfils the conditions for delegated approval, any such activities will only have to be signed off by the project supervisor instead of being formally submitted to the committee.
+\end{document}
