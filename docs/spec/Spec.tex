@@ -11,30 +11,36 @@ Exploring the use of Gamification and Analytics in the Design of Educational Sof
 \section*{Justification}
 While the uses of gamification and teaching analytics are often explored at the levels of primary and secondary education, far less has been done to study its effects in the context of undergraduate study. Researching and determining the most effective ways to use gamification in this project will be challenging task, as gamification is still in it's infancy, the concept having only really gained popularity around 2010. In addition to this, the web application that will developed for the project will be complex. It has to manage large amounts of analytics data as well as course content, serving the needs of both students and lecturers.
 \section*{Objectives}
+Broadly, the goal of the project is to explore the use of gamification and advanced analytics in the development of educational software. This will be achieved through the development of an online platform allowing undergraduate students to test and enhance their understanding of course content through hybrid lectures/slides. Questions will be woven in to content delivery to provide students with rich, instant feedback on their understanding of a concept as well as additional material for extra practise. In addition, the software will categorise users into the four Bartle Test personality types (Achiever, Socialiser, Explorer and Killer) or which a brief description is given below. Users will be shown gamification elements appropriate to the users type.
+
+The other way in which the software will aim to aid learning is in the tools presented to lecturers. Lecturers will be offered a broad overview of their modules, showing how different sections of content are being received by students. They will also be presented with detailed information on individual students, showing areas they are strong/struggling with. One example of the way in which this information can be used is to suggest content to be used as seminar content. Identifying problem areas in this way also allows for more effective use of teaching time and a better learning experience for students. Lecturers can put students who share a Bartle type together for seminars so that they can target their teaching style for maximum effectiveness.
+
+This data can also be used to help students directly. One possible way to do this is to encourage students who are particularly strong in an area to help others who are struggling. Likewise, students who are finding a particular piece of content challenging could be prompted to seek help from colleagues who have done well at that task. By designing content assessment to be more specific than the traditional right/wrong it might be possible to give more targeted feedback and suggestions for improvement that traditional tests or assignments allow.
+
+What follows is a brief description of the high level functionality each software component will provide. These are the components used in the development timeline below.
+
 \subsection*{Core App}
 The core of the application provides services such as database connectivity, objects to encapsulate users and content as well as login and authentication. It must be completed first because every subsequent task builds upon the functionality it provides.
 \subsection*{Content Delivery}
-This part of the software is responsible for reading content from the database and displaying it to the user.
+This part of the software is responsible for reading content from the database and displaying it to the user. It also takes input from the user if the content is interactive.
 \subsection*{Analytics}
-A large part of the project revolves around capturing data about users and how they interact with the software. The analytics module is tasked with collecting and storing this data, and making inferences which can be used to offer a more engaging experience to the user (i.e. which gamification elements are used).
+A large part of the project revolves around capturing data about users and how they interact with the software. The analytics module is tasked with collecting and storing this data, and making inferences which can be used to offer a more engaging experience to the user (i.e. to decide which gamification elements are used).
 \subsection*{Explorer Features}
-The explorer user type is most engaged by 
+The explorer user type is most engaged by discovering new content. This user type can be targeted with extension material to consume at the users own pace, and should not require much additional functionality, just content.
 \subsection*{Socialiser Features}
-Users who associate more with the socialiser personality type tend to seek out social experiences over anything else. To this end, the features targeted at socialisers include the ability to interact with other users who are consuming the same content, be it to give or seek help.
+Users who associate more with the socialiser personality type tend to seek out social experiences over anything else. To this end, the features targeted at socialisers include the ability to interact with other users who are consuming the same content, be it to give or seek help or even just discuss the task at hand.
 \subsection*{Achiever Features}
 Achievers tend to prioritise completion and progress awards when they interact with systems. The features offered to them will help them track how much of the content they have completed and offer achievements based on challenging goals.
 \subsection*{Killer Features}
-While many of the tendencies displayed by killers is not productive in an educational environment, the competitiveness and desire for control they show can be leveraged to provide an engaging experience. Features like scoreboards appeal to killers, and it may be possible to encourage them to assist other users as it puts them in a position of control.
+While many of the tendencies displayed by killers are not productive in an education environment, the competitiveness and desire for control they show can still be leveraged to provide an engaging experience. Features like scoreboards appeal to killers, and it may be possible to encourage them to assist other users as it puts them in a position of control.
 
-Broadly, the goal of the project is to explore the use of gamification and advanced analytics in the development of educational software. This will be achieved through the development of an online platform allowing undergraduate students to test and enhance their understanding of course content through hybrid lectures/slides. Questions will be woven in to content delivery to provide students with instant feedback on their understanding of a concept as well as additional material for extra practise. In addition, the software will categorise users into the four Bartle Test personality types (Achiever, Socialiser, Explorer and Killer). Users will be shown features dependent on their identified personality type and the software will use gamification elements appropriate to the users type.
-
-Students excelling in a particular area will be encouraged to help others who are struggling. Likewise, students who are finding a particular piece of content challenging will be prompted to seek help from colleagues who have done well at that task. By designing content assessment to be more specific than the traditional right/wrong it will be possible to give more targeted feedback and suggestions for improvement that traditional tests or assignments allow.
-
-In terms of analytics, lecturers will be presented with a broad overview of their modules, showing how different sections of content are being received by students. Lecturers will also be presented with detailed information on individual students, showing areas they are strong/struggling with as well as suggesting content in that area they have not yet completed to be used as seminar content. Identifying problem areas in this way allows for more effective use of teaching time and a better learning experience for students. For example, students who share a Bartle personality type can be grouped together for seminars so that lecturers can target their teaching style for maximum effectiveness.
 \section*{Methodology}
 The software will be web based, written in PHP, HTML, CSS and javascript, using appropriate frameworks and libraries. Github will be used for version control for both software and documents, and the repository will be synchronised with my personal webspace on the computing society's web server to allow for easy testing. User information and module content will be stored in a mySQL database, also hosted on the computing society's server.
 
 The software development methodology used will be an adapted version of the incremental build model. Each section of the software will be developed, tested and integrated in sequence.  As the analytics part of the software (tasked with storing and updating user data, as well as making inferences based on this data) is a dependency bottleneck, the agile practise of developing a basic version first before adding features would not work. The lack of external stakeholders removes the need for frequent releases and feedback and makes the proposed methodology effective for the task at hand.
+
+The effectiveness of the product will be determined primarily by feedback from students and staff. The exact nature of the interactions with these parties will be determined early in term two, but will definitely feature one on one sessions and interviews. The feedback provided by these sessions will form the basis for discussion on the success of the project.
+
 \section*{Timeline}
 \begin{tabular}{|c|c|}
 \hline Term/Week & Tasks \\ 
@@ -48,30 +54,31 @@ The software development methodology used will be an adapted version of the incr
 \hline 1/8 & Achiever features \\ 
 \hline 1/9 & Killer features \\ 
 \hline 1/10 & Progress Report \\ 
+\hline Christmas Holiday & Buffer zone (catchup) \\
 \hline 2/1 & Explorer Features \\ 
-\hline 2/2 & X \\ 
-\hline 2/3 & X \\ 
-\hline 2/4 & X \\ 
-\hline 2/5 & X \\ 
-\hline 2/6 & X \\ 
-\hline 2/7 & X \\ 
+\hline 2/2 & Full product testing \\ 
+\hline 2/3 & User feedback sessions \\ 
+\hline 2/4 & User feedback sessions and feedback analysis \\ 
+\hline 2/5 & Report \\ 
+\hline 2/6 & Report \\ 
+\hline 2/7 & Report \\ 
 \hline 2/8 & Pesentation \\ 
 \hline 2/9 & Presentation \\ 
-\hline 2/10 & Presentation \\ 
+\hline 2/10 & Presentation \\
+\hline Easter Holiday & Report \\
 \hline 
 \end{tabular}
-\newline
+\subsection*{Dependencies for software related tasks}
 \begin{tabular}{|c|c|}
 \hline Task & Dependencies \\ 
-\hline Specification & - \\ 
 \hline Core App & Specification \\ 
 \hline Content Delivery & Core App \\ 
 \hline Analytics & Content Delivery, Core App \\ 
 \hline Explorer features & Core App, Analytics \\ 
 \hline Socialiser features & Core App, Analytics \\ 
 \hline Achiever features & Core App, Analytics \\ 
-\hline Killer features & Core App, Analytics \\ 
-\hline Progress Report & - \\ 
+\hline Killer features & Core App, Analytics \\
+\hline Full product testing & All of the above \\
 \hline 
 \end{tabular} 
 \section*{Resources}
@@ -79,5 +86,5 @@ As mentioned above, the master copy of project documents and source code will be
 
 When it comes to academic resources, copies of any potential papers or studies will be stored on my personal computer to provide a backup source should access to an online version be lost.
 \section*{Legal, social, ethical and professional considerations}
-As student (and potentially staff) feedback will be required, approval will have to be sought from BSREC. As this project fulfils the conditions for delegated approval, any such activities will only have to be signed off by the project supervisor instead of being formally submitted to the committee.
+As student and staff feedback will be required, approval will have to be sought from BSREC. As this project fulfils the conditions for delegated approval, any such activities will only have to be signed off by the project supervisor instead of being formally submitted to the committee.
 \end{document}
