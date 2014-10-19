@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: William Seymour!
+ * User: William Seymour
  * Date: 19/10/2014
  * Time: 14:04
  */
