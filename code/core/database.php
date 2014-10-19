@@ -12,23 +12,13 @@ define('password', 'passw0Rd');
 define('dbname', 'mcnutty');
 
 class database {
-    public $conn;
-
-    function __construct() {
+    public static function query($sql) {
         $conn = mysqli_connect(host, username, password, dbname);
         if (!$conn) {
             die('Could not connect to database');
         }
-    }
-
-    function query($sql) {
         $result = mysqli_query($conn, $sql);
         return $result;
     }
-
-    function __destruct() {
-        mysqli_close($conn);
-    }
 }
-
 ?>
