@@ -13,6 +13,7 @@ class user {
     public $explorer = 0.0;
     public $socialiser = 0.0;
     public $achiever = 0.0;
+    public $isLecturer = false;
 
     function __construct($uname) {
         global $name;
@@ -21,9 +22,10 @@ class user {
             while($row = mysqli_fetch_array($user_info)) {
                 $name = $row['name'];
                 $killer = $row['killer'];
-                $killer = $row['explorer'];
-                $killer = $row['socialiser'];
-                $killer = $row['achiever'];
+                $explorer = $row['explorer'];
+                $socialiser = $row['socialiser'];
+                $achiever = $row['achiever'];
+                $isLecturer = $row['islecturer'];
             }
         }
     }

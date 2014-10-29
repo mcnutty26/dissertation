@@ -16,8 +16,14 @@ if (!isset($_SESSION['user'])) {
 $current_user = new user($_SESSION['user']);
 $current_user->print_user();
 
+if ($current_user->isLecturer) {
 ?>
+<form action="create.php" method="post">
+    <input name="out" id="out" type="hidden" value="OUT">
+    <input type="submit" value="Submit">
+</form>
+<? } ?>
 <form action="core/login.php" method="post">
 <input name="out" id="out" type="hidden" value="OUT">
-<input type="submit" value="Submit">
+<input type="submit" value="Logout">
 </form>

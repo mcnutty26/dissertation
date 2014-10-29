@@ -8,7 +8,7 @@
 
 session_start();
 if (isset($_POST['name'])) {
-    $_SESSION['user'] = $_POST['name'];
+    $_SESSION['user'] = database::escape($_POST['name']);
     header("Location: ../index.php");
 }
 if (isset($_POST['out'])) {
