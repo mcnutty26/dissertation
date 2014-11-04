@@ -8,29 +8,47 @@
 require 'database.php';
 
 class user {
-    public $name = '';
-    public $kiler = 0.0;
-    public $explorer = 0.0;
-    public $socialiser = 0.0;
-    public $achiever = 0.0;
-    public $isLecturer = false;
+    private $id = 0;
+    private $name = '';
+    private $kiler = 0.0;
+    private $explorer = 0.0;
+    private $socialiser = 0.0;
+    private $achiever = 0.0;
+    private $islecturer = false;
 
     function __construct($uname) {
+        global $id;
         global $name;
-        $user_info = database::query("SELECT * FROM ds_users WHERE name='$uname' LIMIT 1");
+        global $killer;
+        global $explorer;
+        global $socialiser;
+        global $achiever;
+        global $islecturer;
+
+        $user_info = database::query("SELECT * FROM ds_user WHERE name='$uname' LIMIT 1");
         if ($user_info) {
             while($row = mysqli_fetch_array($user_info)) {
+                $id = $row['userid'];
                 $name = $row['name'];
                 $killer = $row['killer'];
                 $explorer = $row['explorer'];
                 $socialiser = $row['socialiser'];
                 $achiever = $row['achiever'];
-                $isLecturer = $row['islecturer'];
+                $islecturer = $row['islecturer'];
             }
         }
     }
-    function print_user() {
+
+    function get_id() {
+        global $id;
+        return $id;
+    }
+    function get_name() {
         global $name;
-        echo $name;
+        return $name;
+    }
+    function get_lecturer() {
+        global $islecturer;
+        return $islecturer;
     }
 }
