@@ -6,6 +6,8 @@
  * Time: 14:55
  */
 
+require 'database.php';
+
 session_start();
 if (isset($_POST['name'])) {
     $_SESSION['user'] = database::escape($_POST['name']);

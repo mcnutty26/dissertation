@@ -14,15 +14,30 @@ if (!isset($_SESSION['user'])) {
 }
 
 $current_user = new user($_SESSION['user']);
-$current_user->print_user();
+$_SESSION['userid'] = $current_user->get_id();
+echo $current_user->get_name();
 
-if ($current_user->isLecturer) {
-?>
+if ($current_user->get_lecturer() == 1) { ?>
 <form action="create.php" method="post">
-    <input name="out" id="out" type="hidden" value="OUT">
-    <input type="submit" value="Submit">
+    <input type="submit" value="Create and administer content">
+</form>
+<? } else {
+    $query =    "SELECT F_moduleid, m.name
+                 FROM ds_class AS c
+                 INNER JOIN ds_module AS m ON F_moduleid = moduleid
+                 WHERE c.F_userid = '" . $current_user->get_id() . "'";
+    $result = database::query($query);
+    ?>
+<form action="content.php" method="post">
+    <select name="module">
+        <? while($row = mysqli_fetch_array($result)) {
+            echo '<option value="' . $row['F_moduleid'] . '">' . $row['name'] . '</option>';
+        } ?>
+    </select>
+    <input type="submit" value="Take this module">
 </form>
 <? } ?>
+
 <form action="core/login.php" method="post">
 <input name="out" id="out" type="hidden" value="OUT">
 <input type="submit" value="Logout">
