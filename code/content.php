@@ -6,7 +6,7 @@
  * Time: 11:31
  */
 
-require 'core/database.php';
+require 'core/user.php';
 
 session_start();
 if (isset($_POST['module'])) {
@@ -68,7 +68,6 @@ if ($question < $max) {
     $result = database::query($query);
     while($row = mysqli_fetch_array($result)) {
         $current_question = $row['contentid'];
-        echo $current_question;
         echo '<h2>' . $row['name'] . '</h2>';
         echo '<h3>' . $row['question'] . '</h3>';
         $query2 = " SELECT *
@@ -84,6 +83,36 @@ if ($question < $max) {
     }
 
 } else {
-    //Or forward to review page
-    header('Location: review.php');
+    //Or update stored values
+    $query = "SELECT a.killer, a.socialiser, a.explorer, a.achiever, a.value FROM ds_user AS u
+              INNER JOIN ds_result AS r ON u.userid = r.F_userid
+              INNER JOIN ds_answer AS a ON r.F_answerid = a.answerid
+              INNER JOIN ds_content AS c ON a.F_contentid = c.contentid
+              INNER JOIN ds_module AS m ON c.F_moduleid = m.moduleid
+              WHERE u.userid = $user
+              AND m.moduleid = $module";
+    $result = database::query($query);
+    $killer = $socialiser = $explorer = $t_achiever = $score = 0.0;
+    while($row = mysqli_fetch_array($result)) {
+        $killer += $row['killer'];
+        $explorer += $row['explorer'];
+        $socialiser += $row['socialiser'];
+        $t_achiever += $row['achiever'];
+        $score += $row['value'];
+    }
+    echo $t_achiever;
+    $current_user = new user($_SESSION['user']);
+    //$current_user->update_killer($killer);
+    //$current_user->update_explorer($explorer);
+    //$current_user->update_socialiser($socialiser);
+    echo '|', $t_achiever, '|';
+    $current_user->update_achiever($achiever);
+    echo '|', $t_achiever, '|';
+    //$current_user->update_score($score);
+
+    //Set module as complete
+    database::query("UPDATE ds_class SET complete = 1 WHERE F_userid = $user");
+
+    //Redirect to review page
+    //header('Location: review.php');
 }

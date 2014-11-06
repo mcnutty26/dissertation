@@ -25,7 +25,8 @@ if ($current_user->get_lecturer() == 1) { ?>
     $query =    "SELECT F_moduleid, m.name
                  FROM ds_class AS c
                  INNER JOIN ds_module AS m ON F_moduleid = moduleid
-                 WHERE c.F_userid = '" . $current_user->get_id() . "'";
+                 WHERE c.F_userid = '" . $current_user->get_id() . "'
+                 AND complete = 0";
     $result = database::query($query);
     ?>
 <form action="content.php" method="post">
