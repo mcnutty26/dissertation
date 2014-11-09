@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.27)  9 NOV 2014 18:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.27)  9 NOV 2014 19:31
 entering extended mode
 **progress-report.tex
 
@@ -195,14 +195,14 @@ Overfull \hbox (5.05695pt too wide) in paragraph at lines 20--21
 (C:\Users\William\Documents\dissertation\docs\progress-report\progress-report.l
 of
 Overfull \hbox (2.16733pt too wide) in paragraph at lines 1--1
- [][] []\OT1/cmr/m/n/10 Usage of the term 'gam-i-fi-ca-tion' as a pro-por-tion 
+ [][] []\OT1/cmr/m/n/10 Usage of the term `gam-i-fi-ca-tion' as a pro-por-tion 
 of google searches, 
  []
 
 )
 \tf@lof=\write3
 
-Overfull \hbox (245.56958pt too wide) in paragraph at lines 36--37
+Overfull \hbox (245.56958pt too wide) in paragraph at lines 37--38
 \OT1/cmr/m/it/10 2009 - 2014\OT1/cmr/m/n/10 . [im-age on-line] Avail-able at: $
 \OMS/cmsy/m/n/10 h$\OT1/cmr/m/n/10 http://www.google.com/trends/explore#q=gamif
 ication&date=1%2F2009%2072m&cmpt=q$\OMS/cmsy/m/n/10 i$
@@ -216,7 +216,7 @@ ux) )
 Here is how much of TeX's memory you used:
  2095 strings out of 493921
  26549 string characters out of 3144869
- 77360 words of memory out of 3000000
+ 78360 words of memory out of 3000000
  5382 multiletter control sequences out of 15000+200000
  11840 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -227,7 +227,7 @@ fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on progress-report.pdf (4 pages, 89001 bytes).
+Output written on progress-report.pdf (4 pages, 89436 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
