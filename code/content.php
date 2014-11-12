@@ -100,19 +100,16 @@ if ($question < $max) {
         $t_achiever += $row['achiever'];
         $score += $row['value'];
     }
-    echo $t_achiever;
     $current_user = new user($_SESSION['user']);
     //$current_user->update_killer($killer);
     //$current_user->update_explorer($explorer);
     //$current_user->update_socialiser($socialiser);
-    echo '|', $t_achiever, '|';
-    $current_user->update_achiever($achiever);
-    echo '|', $t_achiever, '|';
+    $current_user->update_achiever($t_achiever);
     //$current_user->update_score($score);
 
     //Set module as complete
     database::query("UPDATE ds_class SET complete = 1 WHERE F_userid = $user");
 
     //Redirect to review page
-    //header('Location: review.php');
+    header('Location: review.php');
 }

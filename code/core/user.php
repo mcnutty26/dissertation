@@ -16,8 +16,11 @@ class user {
     private $achiever = 0.0;
     private $islecturer = false;
     private $score = 0.0;
-
-    private $decay_constant = 0.75;
+    private $decay_constant = 0.0;
+    public static $MASK_KILLER = 0b1000;
+    public static $MASK_EXPLORER = 0b0100;
+    public static $MASK_SOCIALISER = 0b0010;
+    public static $MASK_ACHIEVER = 0b0001;
 
     function __construct($uname) {
         global $id;
@@ -28,6 +31,7 @@ class user {
         global $achiever;
         global $islecturer;
         global $score;
+        global $decay_constant;
 
         $user_info = database::query("SELECT * FROM ds_user WHERE name='$uname' LIMIT 1");
         if ($user_info) {
@@ -42,6 +46,7 @@ class user {
                 $score = $row['score'];
             }
         }
+        $decay_constant = 1 / 0.5;
     }
 
     function get_id() {
@@ -76,14 +81,41 @@ class user {
         global $score;
         return $score;
     }
+    function get_dominant() {
+        /*
+         * Returns a binary value indicating all of the personality types this user currently has
+         * $mask & 0b1000 -> killer
+         * $mask & 0b0100 -> explorer
+         * $mask & 0b0010 -> socialiser
+         * $mask & 0b0001 -> achiever
+         */
+        global $killer;
+        global $explorer;
+        global $socialiser;
+        global $achiever;
+        $mask = 0b0000;
+        $max = round(max($killer, $explorer, $socialiser, $achiever), 2);
+        if (round($killer, 2) == $max) {
+            $mask = $mask | self::$MASK_KILLER;
+        }
+        if (round($explorer, 2) == $max) {
+            $mask = $mask | self::$MASK_EXPLORER;
+        }
+        if (round($socialiser, 2) == $max) {
+            $mask = $mask| self::$MASK_SOCIALISER;
+        }
+        if (round($achiever, 2) == $max) {
+            $mask = $mask | self::$MASK_ACHIEVER;
+        }
+        return $mask;
+    }
 
     function update_killer($value) {
         global $id;
         global $killer;
+        global $decay_constant;
         if ($killer != 0) {
-            global $decay_constant;
-            $delta = pow($decay_constant, -1);
-            $killer = (($value * $delta) + $killer) / ($delta + 1);
+            $killer = (($value * $decay_constant) + $killer) / ($decay_constant+ 1);
         } else {
             $killer = $value;
         }
@@ -92,10 +124,9 @@ class user {
     function update_explorer($value) {
         global $id;
         global $explorer;
+        global $decay_constant;
         if ($explorer != 0) {
-            global $decay_constant;
-            $delta = pow($decay_constant, -1);
-            $explorer = (($value * $delta) + $explorer) / ($delta + 1);
+            $explorer = (($value * $decay_constant) + $explorer) / ($decay_constant + 1);
         } else {
             $explorer = $value;
         }
@@ -104,36 +135,31 @@ class user {
     function update_socialiser($value) {
         global $id;
         global $socialiser;
+        global $decay_constant;
         if ($socialiser != 0) {
-            global $decay_constant;
-            $delta = pow($decay_constant, -1);
-            $socialiser = (($value * $delta) + $socialiser) / ($delta + 1);
+            $socialiser = (($value * $decay_constant) + $socialiser) / ($decay_constant + 1);
         } else {
             $socialiser = $value;
         }
         database::query("UPDATE ds_user SET socialiser = $socialiser WHERE userid = $id");
     }
     function update_achiever($value) {
-        echo '!', $value, '!';
         global $id;
         global $achiever;
+        global $decay_constant;
         if ($achiever != 0) {
-            global $decay_constant;
-            $delta = pow($decay_constant, -1);
-            $achiever = (($value * $delta) + $achiever) / ($delta + 1);
+            $achiever = (($value * $decay_constant) + $achiever) / ($decay_constant + 1);
         } else {
             $achiever = $value;
         }
-        echo $value, $achiever, $id;
         database::query("UPDATE ds_user SET achiever = $achiever WHERE userid = $id");
     }
     function update_score($value) {
         global $id;
         global $score;
+        global $decay_constant;
         if ($score != 0) {
-            global $decay_constant;
-            $delta = pow($decay_constant, -1);
-            $score = (($value * $delta) + $score) / ($delta + 1);
+            $score = (($value * $decay_constant) + $score) / ($decay_constant + 1);
         } else {
             $score = $value;
         }
