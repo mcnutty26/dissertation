@@ -11,6 +11,7 @@ session_start();
 $current_user = new user($_SESSION['user']);
 $mask = $current_user->get_dominant();
 $user = $_SESSION['user'];
+$userid = $current_user->get_id();
 $module = $_SESSION['module'];
 
 //Display stats for this user, depending on what type of bartle personality they are
@@ -29,5 +30,16 @@ if (($mask & user::$MASK_ACHIEVER) == user::$MASK_ACHIEVER) {
 
 if (isset($_SESSION['module'])) {
     //Display stats for the last module opened
-
+    $query = "
+      SELECT SUM(value)
+      FROM ds_result AS r
+      INNER JOIN ds_answer AS a ON r.F_answerid = a.answerid
+      INNER JOIN ds_content AS c ON a.F_contentid = c.contentid
+      WHERE r.F_userid = $userid
+      AND c.F_moduleid = $module";
+    $query2 = "
+      SELECT SUM(value)
+      FROM ds_result AS r
+      INNER JOIN ds_content as c ON r.F_contentid = c.contentid
+      WHERE c.F_moduleid = $module";
 }

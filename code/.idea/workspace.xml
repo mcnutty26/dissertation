@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18704157" vertical-offset="0" max-vertical-offset="818">
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="748">
               <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
               <folding />
             </state>
@@ -38,7 +38,7 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="493">
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="493">
               <caret line="12" column="57" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="57" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
@@ -50,7 +50,7 @@
       <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-27.461538" vertical-offset="1105" max-vertical-offset="2941">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="2941">
               <caret line="107" column="49" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
               <folding>
                 <marker date="1415464838368" expanded="true" signature="855:904" placeholder="SELECT * FRO..ds_user..." />
@@ -67,7 +67,7 @@
       <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.73077" vertical-offset="1122" max-vertical-offset="2040">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2040">
               <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
@@ -119,7 +119,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.384615" vertical-offset="15" max-vertical-offset="867">
+            <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="867">
               <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
@@ -133,13 +133,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="review.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="review.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/review.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="663">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5195599" vertical-offset="0" max-vertical-offset="867">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
+                <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
+                <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
+                <marker date="1415788525694" expanded="true" signature="836:1063" placeholder="SELECT SUM(v..ds_result..." />
+                <marker date="1415788525694" expanded="true" signature="836:1070" placeholder="SELECT SUM(v..ds_result..." />
+                <marker date="1415788525694" expanded="true" signature="1095:1229" placeholder="SELECT SUM(v..ds_result..." />
+                <marker date="1415788525694" expanded="true" signature="1095:1230" placeholder="SELECT SUM(v..ds_result..." />
               </folding>
             </state>
           </provider>
@@ -160,8 +166,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/content.php" />
         <option value="$PROJECT_DIR$/core/user.php" />
-        <option value="$PROJECT_DIR$/review.php" />
         <option value="$PROJECT_DIR$/core/database.php" />
+        <option value="$PROJECT_DIR$/review.php" />
       </list>
     </option>
   </component>
@@ -198,7 +204,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,6 +238,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,15 +268,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="212b9c83-0d46-46e0-b399-d26650279d6a" server_name="codd">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="212b9c83-0d46-46e0-b399-d26650279d6a" server_name="codd">
       <method />
     </configuration>
     <list size="0" />
@@ -306,13 +312,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -344,6 +350,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
+            <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
+            <marker date="1415788525694" expanded="true" signature="836:1063" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1415788525694" expanded="true" signature="836:1070" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1415788525694" expanded="true" signature="1095:1229" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1415788525694" expanded="true" signature="1095:1230" placeholder="SELECT SUM(v..ds_result..." />
           </folding>
         </state>
       </provider>
@@ -450,6 +462,12 @@
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
+            <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
+            <marker date="1415788525694" expanded="true" signature="836:1063" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1415788525694" expanded="true" signature="836:1070" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1415788525694" expanded="true" signature="1095:1229" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1415788525694" expanded="true" signature="1095:1230" placeholder="SELECT SUM(v..ds_result..." />
           </folding>
         </state>
       </provider>
@@ -556,6 +574,12 @@
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
+            <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
+            <marker date="1415788525694" expanded="true" signature="836:1063" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1415788525694" expanded="true" signature="836:1070" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1415788525694" expanded="true" signature="1095:1229" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1415788525694" expanded="true" signature="1095:1230" placeholder="SELECT SUM(v..ds_result..." />
           </folding>
         </state>
       </provider>
@@ -623,6 +647,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
+            <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
+            <marker date="1415788525694" expanded="true" signature="836:1063" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1415788525694" expanded="true" signature="836:1070" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1415788525694" expanded="true" signature="1095:1229" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1415788525694" expanded="true" signature="1095:1230" placeholder="SELECT SUM(v..ds_result..." />
           </folding>
         </state>
       </provider>
@@ -968,18 +998,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.384615" vertical-offset="15" max-vertical-offset="867">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2040">
+          <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1415289768720" expanded="true" signature="521:686" placeholder="SELECT m.F_m..ds_class..." />
-            <marker date="1415289768720" expanded="true" signature="521:688" placeholder="SELECT m.F_m..ds_class..." />
-            <marker date="1415289768720" expanded="true" signature="521:720" placeholder="SELECT m.F_m..ds_class..." />
-            <marker date="1415289768720" expanded="true" signature="521:754" placeholder="SELECT F_mod..ds_class..." />
-            <marker date="1415289768720" expanded="true" signature="521:816" placeholder="SELECT m.F_m..." />
+            <marker date="1415461957803" expanded="true" signature="384:484" placeholder="INSERT INTO ..." />
+            <marker date="1415461957803" expanded="true" signature="656:727" placeholder="SELECT TOP 1..." />
+            <marker date="1415461957803" expanded="true" signature="656:728" placeholder="SELECT TOP 1..." />
+            <marker date="1415461957803" expanded="true" signature="656:787" placeholder="SELECT quest..ds_question..." />
+            <marker date="1415461957803" expanded="true" signature="979:1473" placeholder="SELECT c.con..ds_content..." />
+            <marker date="1415461957803" expanded="true" signature="1665:1775" placeholder="SELECT * FRO..ds_content..." />
+            <marker date="1415461957803" expanded="true" signature="1665:1843" placeholder="SELECT * FRO..ds_content..." />
+            <marker date="1415461957803" expanded="true" signature="2096:2180" placeholder="SELECT * FRO..ds_answer..." />
+            <marker date="1415461957803" expanded="true" signature="2651:3038" placeholder="SELECT kille..ds_user..." />
+            <marker date="1415461957803" expanded="true" signature="2651:3039" placeholder="SELECT kille..ds_user..." />
+            <marker date="1415461957803" expanded="true" signature="2651:3074" placeholder="SELECT kille..ds_user..." />
+            <marker date="1415461957803" expanded="true" signature="2651:3075" placeholder="SELECT a.kil..ds_user..." />
+            <marker date="1415461957803" expanded="true" signature="3776:3826" placeholder="UPDATE ds_cl..." />
+            <marker date="1415461957803" expanded="true" signature="3776:3900" placeholder="UPDATE ds_cl..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="493">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="57" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="2941">
+          <caret line="107" column="49" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+          <folding>
+            <marker date="1415464838368" expanded="true" signature="855:904" placeholder="SELECT * FRO..ds_user..." />
+            <marker date="1415464838368" expanded="true" signature="3331:3382" placeholder="UPDATE ds_us..." />
+            <marker date="1415464838368" expanded="true" signature="3716:3771" placeholder="UPDATE ds_us..." />
+            <marker date="1415464838368" expanded="true" signature="4117:4176" placeholder="UPDATE ds_us..." />
+            <marker date="1415464838368" expanded="true" signature="4510:4565" placeholder="UPDATE ds_us..." />
+            <marker date="1415464838368" expanded="true" signature="4881:4930" placeholder="UPDATE ds_us..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="748">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,70 +1079,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.73077" vertical-offset="1122" max-vertical-offset="2040">
-          <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
+        <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="867">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1415461957803" expanded="true" signature="384:484" placeholder="INSERT INTO ..." />
-            <marker date="1415461957803" expanded="true" signature="656:727" placeholder="SELECT TOP 1..." />
-            <marker date="1415461957803" expanded="true" signature="656:728" placeholder="SELECT TOP 1..." />
-            <marker date="1415461957803" expanded="true" signature="656:787" placeholder="SELECT quest..ds_question..." />
-            <marker date="1415461957803" expanded="true" signature="979:1473" placeholder="SELECT c.con..ds_content..." />
-            <marker date="1415461957803" expanded="true" signature="1665:1775" placeholder="SELECT * FRO..ds_content..." />
-            <marker date="1415461957803" expanded="true" signature="1665:1843" placeholder="SELECT * FRO..ds_content..." />
-            <marker date="1415461957803" expanded="true" signature="2096:2180" placeholder="SELECT * FRO..ds_answer..." />
-            <marker date="1415461957803" expanded="true" signature="2651:3038" placeholder="SELECT kille..ds_user..." />
-            <marker date="1415461957803" expanded="true" signature="2651:3039" placeholder="SELECT kille..ds_user..." />
-            <marker date="1415461957803" expanded="true" signature="2651:3074" placeholder="SELECT kille..ds_user..." />
-            <marker date="1415461957803" expanded="true" signature="2651:3075" placeholder="SELECT a.kil..ds_user..." />
-            <marker date="1415461957803" expanded="true" signature="3776:3826" placeholder="UPDATE ds_cl..." />
-            <marker date="1415461957803" expanded="true" signature="3776:3900" placeholder="UPDATE ds_cl..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="493">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="57" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.461538" vertical-offset="1105" max-vertical-offset="2941">
-          <caret line="107" column="49" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
-          <folding>
-            <marker date="1415464838368" expanded="true" signature="855:904" placeholder="SELECT * FRO..ds_user..." />
-            <marker date="1415464838368" expanded="true" signature="3331:3382" placeholder="UPDATE ds_us..." />
-            <marker date="1415464838368" expanded="true" signature="3716:3771" placeholder="UPDATE ds_us..." />
-            <marker date="1415464838368" expanded="true" signature="4117:4176" placeholder="UPDATE ds_us..." />
-            <marker date="1415464838368" expanded="true" signature="4510:4565" placeholder="UPDATE ds_us..." />
-            <marker date="1415464838368" expanded="true" signature="4881:4930" placeholder="UPDATE ds_us..." />
+            <marker date="1415289768720" expanded="true" signature="521:686" placeholder="SELECT m.F_m..ds_class..." />
+            <marker date="1415289768720" expanded="true" signature="521:688" placeholder="SELECT m.F_m..ds_class..." />
+            <marker date="1415289768720" expanded="true" signature="521:720" placeholder="SELECT m.F_m..ds_class..." />
+            <marker date="1415289768720" expanded="true" signature="521:754" placeholder="SELECT F_mod..ds_class..." />
+            <marker date="1415289768720" expanded="true" signature="521:816" placeholder="SELECT m.F_m..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/review.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="663">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5195599" vertical-offset="0" max-vertical-offset="867">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
+            <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
+            <marker date="1415788525694" expanded="true" signature="836:1063" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1415788525694" expanded="true" signature="836:1070" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1415788525694" expanded="true" signature="1095:1229" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1415788525694" expanded="true" signature="1095:1230" placeholder="SELECT SUM(v..ds_result..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18704157" vertical-offset="0" max-vertical-offset="818">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
