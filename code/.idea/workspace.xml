@@ -28,7 +28,7 @@
       <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="748">
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="748">
               <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
               <folding />
             </state>
@@ -93,7 +93,7 @@
       <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-62.346153" vertical-offset="28" max-vertical-offset="1802">
+            <state vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="1802">
               <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
@@ -119,7 +119,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="867">
+            <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="867">
               <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
@@ -136,11 +136,10 @@
       <file leaf-file-name="review.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/review.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5195599" vertical-offset="0" max-vertical-offset="867">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.5829346" vertical-offset="0" max-vertical-offset="1254">
+              <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
-                <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
                 <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
                 <marker date="1415788525694" expanded="true" signature="836:1063" placeholder="SELECT SUM(v..ds_result..." />
                 <marker date="1415788525694" expanded="true" signature="836:1070" placeholder="SELECT SUM(v..ds_result..." />
@@ -204,6 +203,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,7 +238,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,15 +267,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="212b9c83-0d46-46e0-b399-d26650279d6a" server_name="codd">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="212b9c83-0d46-46e0-b399-d26650279d6a" server_name="codd">
       <method />
     </configuration>
     <list size="0" />
@@ -298,7 +297,6 @@
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -310,15 +308,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -350,7 +349,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
             <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
             <marker date="1415788525694" expanded="true" signature="836:1063" placeholder="SELECT SUM(v..ds_result..." />
             <marker date="1415788525694" expanded="true" signature="836:1070" placeholder="SELECT SUM(v..ds_result..." />
@@ -463,7 +461,6 @@
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
             <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
-            <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
             <marker date="1415788525694" expanded="true" signature="836:1063" placeholder="SELECT SUM(v..ds_result..." />
             <marker date="1415788525694" expanded="true" signature="836:1070" placeholder="SELECT SUM(v..ds_result..." />
             <marker date="1415788525694" expanded="true" signature="1095:1229" placeholder="SELECT SUM(v..ds_result..." />
@@ -575,7 +572,6 @@
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
             <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
-            <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
             <marker date="1415788525694" expanded="true" signature="836:1063" placeholder="SELECT SUM(v..ds_result..." />
             <marker date="1415788525694" expanded="true" signature="836:1070" placeholder="SELECT SUM(v..ds_result..." />
             <marker date="1415788525694" expanded="true" signature="1095:1229" placeholder="SELECT SUM(v..ds_result..." />
@@ -647,7 +643,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
             <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
             <marker date="1415788525694" expanded="true" signature="836:1063" placeholder="SELECT SUM(v..ds_result..." />
             <marker date="1415788525694" expanded="true" signature="836:1070" placeholder="SELECT SUM(v..ds_result..." />
@@ -1049,7 +1044,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="748">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="748">
           <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding />
         </state>
@@ -1057,7 +1052,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-62.346153" vertical-offset="28" max-vertical-offset="1802">
+        <state vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="1802">
           <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
@@ -1081,7 +1076,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="867">
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="867">
           <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
@@ -1096,11 +1091,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/review.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5195599" vertical-offset="0" max-vertical-offset="867">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.5829346" vertical-offset="0" max-vertical-offset="1254">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
             <marker date="1415788525694" expanded="true" signature="836:1017" placeholder="SELECT value..ds_answer..." />
             <marker date="1415788525694" expanded="true" signature="836:1063" placeholder="SELECT SUM(v..ds_result..." />
             <marker date="1415788525694" expanded="true" signature="836:1070" placeholder="SELECT SUM(v..ds_result..." />
