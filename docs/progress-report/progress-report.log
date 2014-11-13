@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.24)  13 NOV 2014 14:35
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.24)  13 NOV 2014 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -52,96 +52,112 @@ File: xetex.def 2014/07/25 v4.03 LaTeX color/graphics driver for XeTeX (RRM/JK)
 (./progress-report.aux)
 \openout1 = `progress-report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 7.
+(Font)              <12> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 7.
+(Font)              <8> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 7.
+(Font)              <6> on input line 8.
  [1
 
 ]
 File: ../img/usage-graph.png Graphic file (type QTm)
  <use  "../img/usage-graph.png" >
-Overfull \hbox (5.10582pt too wide) in paragraph at lines 16--17
+Overfull \hbox (5.10582pt too wide) in paragraph at lines 18--19
 [][] 
  []
 
 [1]
 File: ../img/database.png Graphic file (type QTm)
- <use  "../img/database.png" > (../spec/Spec-include.tex [2] [3] [4]
-[5]
+ <use  "../img/database.png" >
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 40.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
- [6] [7])
-Overfull \hbox (13.5562pt too wide) in paragraph at lines 45--71
+(Font)              <5> on input line 40.
+ [2] [3] (../spec/Spec-include.tex [4]
+[5] [6] [7])
+Overfull \hbox (13.5562pt too wide) in paragraph at lines 68--94
 [] 
  []
 
 
-Overfull \hbox (245.56958pt too wide) in paragraph at lines 72--74
-\OT1/cmr/m/it/10 2009 - 2014\OT1/cmr/m/n/10 . [im-age on-line] Avail-able at: $
-\OMS/cmsy/m/n/10 h$\OT1/cmr/m/n/10 http://www.google.com/trends/explore#q=gamif
-ication&date=1%2F2009%2072m&cmpt=q$\OMS/cmsy/m/n/10 i$
+Overfull \hbox (69.13995pt too wide) in paragraph at lines 98--100
+$\OMS/cmsy/m/n/10 h$\OT1/cmr/m/n/10 http://www.google.com/trends/explore#q=gami
+fication&date=1%2F2009%2072m&cmpt=q$\OMS/cmsy/m/n/10 i$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
+
+ []
+
+[8]
+Overfull \hbox (47.50076pt too wide) in paragraph at lines 103--105
+$\OMS/cmsy/m/n/10 h$\OT1/cmr/m/n/10 https://iversity.org/en/courses/gamificatio
+n-design-online-course$\OMS/cmsy/m/n/10 i$ \OT1/cmr/m/n/10 [Ac-cessed 18/03/201
+4]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
 
-Overfull \hbox (170.55074pt too wide) in paragraph at lines 75--77
-\OT1/cmr/m/n/10 Iversity, 2014. \OT1/cmr/m/it/10 Gam-i-fi-ca-tion De-sign On-li
-ne Course\OT1/cmr/m/n/10 . [on-line] Avail-able at: $\OMS/cmsy/m/n/10 h$\OT1/cm
-r/m/n/10 https://iversity.org/en/courses/gamification-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
-
- []
-
-
-Overfull \hbox (86.1582pt too wide) in paragraph at lines 78--80
+Overfull \hbox (86.1582pt too wide) in paragraph at lines 106--108
 \OT1/cmr/m/it/10 ment\OT1/cmr/m/n/10 . [on-line] Avail-able at: $\OMS/cmsy/m/n/
 10 h$\OT1/cmr/m/n/10 http://scottnicholson.com/pubs/gamificationtechniquesclass
 room.pdf$\OMS/cmsy/m/n/10 i$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-[8]
-Overfull \hbox (101.80663pt too wide) in paragraph at lines 81--82
+
+Overfull \hbox (101.80663pt too wide) in paragraph at lines 109--111
 \OMS/cmsy/m/n/10 h$\OT1/cmr/m/n/10 http://0-www.palgraveconnect.com.pugwash.lib
 .warwick.ac.uk/pc/doifinder/10.1057/9781137331465$\OMS/cmsy/m/n/10 i$
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+
+ []
+
+
+Overfull \hbox (28.87985pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/it/10 Stu-dent Learn-ing\OT1/cmr/m/n/10 . [on-line] Avail-able at $\
+OMS/cmsy/m/n/10 h$\OT1/cmr/m/n/10 http://files.eric.ed.gov/fulltext/EJ982840.pd
+f$\OMS/cmsy/m/n/10 i$
+ []
+
 [9] (./progress-report.aux) ) 
 Here is how much of TeX's memory you used:
- 623 strings out of 495656
- 7689 string characters out of 6187192
+ 624 strings out of 495656
+ 7707 string characters out of 6187192
  59806 words of memory out of 5000000
- 3866 multiletter control sequences out of 15000+600000
+ 3867 multiletter control sequences out of 15000+600000
  8241 words of font info for 29 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 25i,6n,19p,894b,206s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,6n,19p,814b,208s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on progress-report.pdf (10 pages).

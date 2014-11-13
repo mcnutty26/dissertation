@@ -2,7 +2,8 @@
 \usepackage{graphicx}
 \author{William Seymour}
 \title{Dissertation Progress Review}
-\date{\today}
+\date{\today \\ (Word count: 1000)}
+
 \begin{document}
 \maketitle
 
@@ -12,35 +13,57 @@ The project aims to explore how gamification and analytics can be used in the de
 In addition to the study of gamification, the project also seeks to provide an example of how analytics can be used to support lecturers and allow them to better use their time when teaching in a higher education context. This will be achieved by suggesting topics and delivery methods for guided one to one or seminar style tuition in an attempt to reinforce the progress made by students online. It will also be possible to match students who share learning styles and strength/weakness pairings in specific subject areas.
 
 Construction of a web platform capable of the aforementioned functionality is a daunting undertaking, and the research required for it to be effective in it's aims will be substantial. Taking on a project in an exciting and relatively new field is proving to be both stimulating and rewarding.
+
 \begin{figure}
 	\includegraphics{../img/usage-graph.png}
 	\caption{Usage of the term `gamification' by month as a proportion of the total number of google searches for gamification, from 2009 to the present day (Google 2014)}
 	\label{usage}
 \end{figure}
-\section*{Background Research}
-Before the start of term I took a MOOC entitled gamification design (Iversity, 2014), which ran over several months and included a vast array of references and resources. In addition to this, a number of other sources of information have been identified. Of particular note are those concerned with gamification in the context of higher education (Nicholson, S., 2013) (Niman, N., 2014) given that it would appear that comparatively less work has been done in this sector of the education system.
 
+\section*{Background Research}
+Before the start of term I took a MOOC entitled gamification design (Iversity, 2014), which ran over several months and included a vast array of references and resources. In addition to this, a number of other sources of information have been identified. Of particular note are those concerned with gamification in the context of higher education (Nicholson, 2013) (Niman, 2014) given that it would appear that comparatively less work has been done in this sector of the education system. Most of the work I have done so far focusses on gamification in a broader sense in order to gain a sound understanding of the topic as whole, before diving into a more in depth study of the facets specific to the project over the coming months.
+
+It is worth studying the use of gamification in other fields, such as marketing, in order to gain additional insight into why it can be so effective, and to identify techniques which could be brought across into gamification in education. Game based marketing typically employs gamification techniques such as social networking elements and leaderboards, similar to those proposed for the project. They often find that instead of incremental gains, customer attraction and retention increases exponentially (Zichermann and Linder, 2010). 
+
+It is also important not to forget research carried out on the `flipped classroom' model which the project follows. This is where students consume lecture material in their own time outside of school or university, instead using time spent in the classroom to ask questions and complete assessments usually done at home. Such systems often incorporate online testing and analytics like those in the project. The techniques being used to generate `significant increases in student learning and achievement' (Fulton, 2012) are being adapted for use on the aforementioned web platform, with the aim of allowing lecturers to use their time with students more effectively.
 
 \section*{Technical content}
-Over the past eight weeks, work has been progressing largely according to the time line set forth in the specification. The core of the platform has been completed, including 
-\section*{Progress}
-I realised fairly early into the term that the timetable I had submitted as part of the specification was a bit more demanding than was necessary. While it achieved its objective in that it encouraged me to work hard from the start of the project, I am currently a week behind schedule after not having enough time available to complete all the work I had hoped to. In terms of the core of the application - the components required to facilitate the gamification features - development has finished, and these features are ready to use. This will allow me to begin researching and developing the areas that are linked to each Bartle personality type. A brief explanation of these personality types is given in appendix I. The web platform uses a database to store course content as well as the relationship between elements of the system, as shown in figure \ref{db}.
+Over the past eight weeks, work has been progressing largely according to the time line set forth in the specification. The core of the platform has been completed, including the following high level features. Figure \ref{db} contains an overview of the database which serves the project. It uses MySQL, and is currently hosted by the University's Computing Society.
+
+\subsection*{User accounts}
+In addition to an ID number and a username, those using the system also have persistent statistics stored and associated with their profile. This currently comprises information on their Bartle personality type, as derived from answers given to questions from course content. These values are used to generate a mask containing the users dominant personality types. Profile data is updated at the end of each module based on the answers given. A time weighted average is taken of the new scores and existing data according to a time decay constant defined in the user class. This value determines how quickly data decays in importance, or inversely, how much more relevant new data is than old data.
+
+\subsection*{Content creation}
 
 \begin{figure}
 	\includegraphics[width=\textwidth]{../img/database.png}
-	\caption{Diagram of the current project database. Arrows denote oreign key relationships.}
+	\caption{Diagram of the current project database. Arrows denote foreign key relationships. Foreign key fields are prefixed with `F\_' and have the field they reference appended after the `-$\rangle$'.}
 	\label{db}
 \end{figure}
+
+\section*{Progress}
+I realised fairly early into the term that the timetable I had submitted as part of the specification was a bit more demanding than was necessary. While it achieved its objective in that it encouraged me to work hard from the start of the project, I am currently a week behind schedule after not having enough time available to complete all the work I had hoped to. In terms of the core of the application - the components required to facilitate the gamification features - development has finished, and these features are ready to use. This will allow me to begin researching and developing the areas that are linked to each Bartle personality type. A brief explanation of these personality types is given in appendix I. 
+
+In addition to development, I have also been researching the wider usage and implementation of gamification. This has allowed me to draw up 
+
 \section*{Next Steps}
+The next steps for the project involve far more thorough research into the different personality types in the context of creating a gamified experience. This will focus on how to engineer functionality that best caters to each Bartle type, as well as when and how to employ them for maximum effect. 
+
 \section*{Appraisal}
 There was an error in the original timetable submitted in that the time set aside for writing this report was scheduled for after the due date. This, in addition to the scheduling issue mentioned above, has been rectified in a revised timetable contained in appendix II.
+
 \section*{Ethics}
 As described in appendix I, ethical consent will have to be obtained for the user feedback testing planned for week five of term two. This approval still needs to be sought. However, as the activities proposed are eligible for devolved consent this will not take long, and will be completed by the beginning of term two.
+
 \section*{Project Management}
+
 \section*{Conclusion}
+
 \section*{Appendices}
+
 \subsection*{Appendix I - Project Specification}
 \input{../spec/Spec-include}
+
 \subsection*{Appendix II - Revised Timetable}
 \begin{tabular}{|c|c|c|}
 	\hline Term/Week & Tasks & Changed from v1 \\ 
@@ -68,15 +91,26 @@ As described in appendix I, ethical consent will have to be obtained for the use
 	\hline Easter Holiday & Report & No \\
 	\hline 
 \end{tabular}
+
 \section*{Bibliography}
-Google, 2014. \textit{Google Trends- Web Search interest: gamification - Worldwide, 2009 - 2014}. [image online] Available at: $\langle$http://www.google.com/trends/explore\#q=gamification\&date=1\%2F2009\%2072m\&cmpt=q$\rangle$ [Accessed 09/11/2014].
+Google, 2014. \textit{Google Trends- Web Search interest: gamification - Worldwide, 2009 - 2014}. [image online] Available at: 
+
+\noindent $\langle$http://www.google.com/trends/explore\#q=gamification\&date=1\%2F2009\%2072m\&cmpt=q$\rangle$ [Accessed 09/11/2014].
 \newline
 
-\noindent Iversity, 2014. \textit{Gamification Design Online Course}. [online] Available at: $\langle$https://iversity.org/en/courses/gamification-design-online-course$\rangle$ [Accessed 18/03/2014].
+\noindent Iversity, 2014. \textit{Gamification Design Online Course}. [online] Available at: 
+
+\noindent $\langle$https://iversity.org/en/courses/gamification-design-online-course$\rangle$ [Accessed 18/03/2014].
 \newline
 
 \noindent Nicholson, S., 2013. \textit{Exploring Gamification Techniques for Classroom Management}. [online] Available at: $\langle$http://scottnicholson.com/pubs/gamificationtechniquesclassroom.pdf$\rangle$ [Accessed 21/10/2014].
 \newline
 
 \noindent Niman N., 2014. \textit{The Gamification of Higher Education}. [online] Available at: $\langle$http://0-www.palgraveconnect.com.pugwash.lib.warwick.ac.uk/pc/doifinder/10.1057/9781137331465$\rangle$ [Accessed: 13 November 2014].
+\newline
+
+\noindent Zichermann, G. and Linder, J., 2010. \textit{Game-Based Marketing}. New Jersey: Wiley.
+\newline
+
+\noindent Fulton, K., 2012. \textit{Upside Down and Inside Out: Flip Your Classroom to Improve Student Learning}. [online] Available at $\langle$http://files.eric.ed.gov/fulltext/EJ982840.pdf$\rangle$ [Accessed: 13 November 2014].
 \end{document}
