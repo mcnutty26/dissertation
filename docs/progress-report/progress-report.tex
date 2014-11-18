@@ -8,7 +8,7 @@
 \maketitle
 
 \section*{Introduction}
-The project aims to explore how gamification and analytics can be used in the design of educational software. Gamification is a fairly young field of study, the term having only really gained popularity in late 2010 as shown in figure \ref{usage} (Google 2014).
+The project aims to explore how gamification and analytics can be used in the design of educational software. Gamification is a fairly young field of study, the term having only really gained popularity in late 2010 as shown in figure \ref{usage} (Google 2014). Its recent discovery has meant that far less has been done to incorporate developments and discoveries on gamification into the current education system. 
 
 In addition to the study of gamification, the project also seeks to provide an example of how analytics can be used to support lecturers and allow them to better use their time when teaching in a higher education context. This will be achieved by suggesting topics and delivery methods for guided one to one or seminar style tuition in an attempt to reinforce the progress made by students online. It will also be possible to match students who share learning styles and strength/weakness pairings in specific subject areas.
 
@@ -27,13 +27,19 @@ It is worth studying the use of gamification in other fields, such as marketing,
 
 It is also important not to forget research carried out on the `flipped classroom' model which the project follows. This is where students consume lecture material in their own time outside of school or university, instead using time spent in the classroom to ask questions and complete assessments usually done at home. Such systems often incorporate online testing and analytics like those in the project. The techniques being used to generate `significant increases in student learning and achievement' (Fulton, 2012) are being adapted for use on the aforementioned web platform, with the aim of allowing lecturers to use their time with students more effectively.
 
-\section*{Technical content}
-Over the past eight weeks, work has been progressing largely according to the time line set forth in the specification. The core of the platform has been completed, including the following high level features. Figure \ref{db} contains an overview of the database which serves the project. It uses MySQL, and is currently hosted by the University's Computing Society.
+While not all of the research for the project has bee completed, taking a look at the development timeline revealed that it was more appropriate to include research for the four personality types within the timeframe allotted for their development. In this way the research can better inform the programming. However, it would be foolish to just delay this research completely. A preliminary list of sources relevant to catering for each personality type has been compiled containing documents which will form the bulk of this research. By preprocessing them in this way it is hoped that later analysis can be completed swiftly.
 
-\subsection*{User accounts}
+\section*{Technical Content}
+Over the past eight weeks, work has been progressing largely according to the time line set forth in the specification. The core of the platform has been completed, including the following high level features. Figure \ref{db} contains an overview of the database which serves the project. It uses MySQL, and is currently hosted by the University's Computing Society. An overview of the classes used in the software is given in figure \ref{classes}. Database development uses phpmyadmin as installed on the Computing Society's server, which was chosen over the mysql command line interface (CLI) because it was easier to use without any prior experience, and the extra features that the CLI offers are either not required or can be exposed via running SQL commands through phpmyadmin. PHP development is done using JetBrains PHP Storm, a powerful development environment used extensively in industry. Having already had some experience using PHP Storm, it was the logical choice given how its features allow for quicker and less error prone development.
+
+\subsection*{User Accounts}
 In addition to an ID number and a username, those using the system also have persistent statistics stored and associated with their profile. This currently comprises information on their Bartle personality type, as derived from answers given to questions from course content. These values are used to generate a mask containing the users dominant personality types. Profile data is updated at the end of each module based on the answers given. A time weighted average is taken of the new scores and existing data according to a time decay constant defined in the user class. This value determines how quickly data decays in importance, or inversely, how much more relevant new data is than old data.
 
-\subsection*{Content creation}
+\subsection*{Content Creation}
+There is currently basic functionality allowing the creation and deletion of content and structural database elements. The logic for this page is mainly concerned with selecting and inserting database elements correctly. If there is enough time towards the end of the project, these could be improved, but they are currently sufficient to demonstrate the other features of the software.
+
+\subsection*{Content Delivery}
+This page presents users with questions from the module they selected. Once a question has been answered, the response chosen is logged in the database, and the user is presented with the next question in the module for which they have not given an answer, or, if that was the only remaining unanswered question, the module review page. This page shows the users persistent statistics, as well as their performance on the last module they took.
 
 \begin{figure}
 	\includegraphics[width=\textwidth]{../img/database.png}
@@ -41,21 +47,27 @@ In addition to an ID number and a username, those using the system also have per
 	\label{db}
 \end{figure}
 
-\section*{Progress}
-I realised fairly early into the term that the timetable I had submitted as part of the specification was a bit more demanding than was necessary. While it achieved its objective in that it encouraged me to work hard from the start of the project, I am currently a week behind schedule after not having enough time available to complete all the work I had hoped to. In terms of the core of the application - the components required to facilitate the gamification features - development has finished, and these features are ready to use. This will allow me to begin researching and developing the areas that are linked to each Bartle personality type. A brief explanation of these personality types is given in appendix I. 
+\begin{figure}
+	\includegraphics[width=\textwidth]{../img/classes.png}
+	\caption{An overview of the classes used in the software.}
+	\label{classes}
+\end{figure}
 
-In addition to development, I have also been researching the wider usage and implementation of gamification. This has allowed me to draw up 
+\section*{Progress and Next Steps}
+I realised fairly early into the term that the timetable I had submitted as part of the specification was a bit more demanding than was necessary. While it achieved its objective in that it encouraged me to work hard from the start of the project, I am currently a week behind schedule after not having enough time available to complete all the work I had hoped to. In terms of the core of the application - the components required to facilitate the gamification features - development has finished, and these features are ready to use. This will allow me to begin researching and developing the areas that are linked to each Bartle personality type. A brief explanation of these personality types is given in appendix I. In addition to development, I have also been researching the wider usage and implementation of gamification. A selection of these resources are referenced in the background research section.
 
-\section*{Next Steps}
-The next steps for the project involve far more thorough research into the different personality types in the context of creating a gamified experience. This will focus on how to engineer functionality that best caters to each Bartle type, as well as when and how to employ them for maximum effect. 
+After the four Bartle areas have been covered, the product will be thoroughly tested for bugs, and user feedback sought from a small focus group. Any major bugs will be fixed during this time, and any minor ones logged to be worked on should there be spare time towards the end of the project. In the focus group, a small number of people from the target demographic (undergraduate students) will be given a number of modules and asked to complete them. This data will be analysed in terms of assessing how accurately the software tracks a students user type, and how effective the tools targeted at each user were. Finally, the presentation will be delivered and the report compiled. 
 
 \section*{Appraisal}
-There was an error in the original timetable submitted in that the time set aside for writing this report was scheduled for after the due date. This, in addition to the scheduling issue mentioned above, has been rectified in a revised timetable contained in appendix II.
+There was an error in the original timetable submitted in that the time set aside for writing this report was scheduled for after the due date. This, in addition to the scheduling issue mentioned above, has been rectified in a revised timetable contained in appendix II. Having a more aspirational timeline has  On reflection, I am glad that I took the time to fully assess the data that would need to be stored in the database, as once the database structure is determined it is very costly to change. As such, being able to leave it alone has saved me valuable time. The scope of the project is large, and in order to ensure its completion I have had to distil the core elements down to their simplest form in order to develop and integrate them in the allotted time. To this end, the project as it stands appears quite bare bones, but I feel that this is acceptable given that the project is more of a gamification/split classroom prototype than an exercise in rigorous software development.
 
 \section*{Ethics}
 As described in appendix I, ethical consent will have to be obtained for the user feedback testing planned for week five of term two. This approval still needs to be sought. However, as the activities proposed are eligible for devolved consent this will not take long, and will be completed by the beginning of term two.
 
 \section*{Project Management}
+In terms of project management, I have been following a variant of the incremental build model, as identified in appendix I. This has been working well, and has allowed me to timetable software development more accurately than if a more popular agile methodology had been used. The use of GitHub as a source and document control tool has been extremely useful, and it's use as a backup location has already proved invaluable once. 
+
+TODO: Add more to this section.
 
 \section*{Conclusion}
 
