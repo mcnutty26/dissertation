@@ -1,57 +1,72 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.24)  20 NOV 2014 23:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.27)  21 NOV 2014 12:56
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **progress-report.tex
-(./progress-report.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 2 languages loaded.
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/base/report.cls
+
+(C:\Users\William\Documents\dissertation\docs\progress-report\progress-report.t
+ex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/base/size10.clo
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@chapter=\count81
-\c@section=\count82
-\c@subsection=\count83
-\c@subsubsection=\count84
-\c@paragraph=\count85
-\c@subparagraph=\count86
-\c@figure=\count87
-\c@table=\count88
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: xetex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(d:/Program Files/texlive/2014/texmf-dist/tex/xelatex/xetex-def/xetex.def
-File: xetex.def 2014/07/25 v4.03 LaTeX color/graphics driver for XeTeX (RRM/JK)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(./progress-report.aux)
-\openout1 = `progress-report.aux'.
-
+(C:\Users\William\Documents\dissertation\docs\progress-report\progress-report.a
+ux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
@@ -64,6 +79,20 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen106
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
+\everyMPtoPDFconversion=\toks16
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -72,93 +101,122 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 8.
  [1
 
-] [1]
-File: ../img/usage-graph.png Graphic file (type QTm)
- <use  "../img/usage-graph.png" >
-Overfull \hbox (5.10582pt too wide) in paragraph at lines 27--28
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [1]
+<../img/usage-graph.png, id=13, 350.05782pt x 191.21437pt>
+File: ../img/usage-graph.png Graphic file (type png)
+
+<use ../img/usage-graph.png>
+Package pdftex.def Info: ../img/usage-graph.png used on input line 27.
+(pdftex.def)             Requested size: 350.05695pt x 191.2139pt.
+
+Overfull \hbox (5.05695pt too wide) in paragraph at lines 27--28
 [][] 
  []
 
-[2]
-File: ../img/database.png Graphic file (type QTm)
- <use  "../img/database.png" >
+[2 <C:/Users/William/Documents/dissertation/docs/img/usage-graph.png>]
+<../img/database.png, id=19, 555.07375pt x 819.06pt>
+File: ../img/database.png Graphic file (type png)
+ <use ../img/database.png>
+Package pdftex.def Info: ../img/database.png used on input line 45.
+(pdftex.def)             Requested size: 345.0pt x 509.08673pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 46.
-File: ../img/classes.png Graphic file (type QTm)
- <use  "../img/classes.png" > [3] [4] [5]
-[6] (../spec/Spec-include.tex [7] [8] [9] [10])
-Overfull \hbox (13.5562pt too wide) in paragraph at lines 76--102
+
+<../img/classes.png, id=20, 504.88625pt x 467.7475pt>
+File: ../img/classes.png Graphic file (type png)
+ <use ../img/classes.png>
+Package pdftex.def Info: ../img/classes.png used on input line 51.
+(pdftex.def)             Requested size: 345.0pt x 319.62714pt.
+
+[3] [4 <C:/Users/William/Documents/dissertation/docs/img/database.png>]
+[5 <C:/Users/William/Documents/dissertation/docs/img/classes.png>] [6]
+(C:\Users\William\Documents\dissertation\docs\spec\Spec-include.tex [7]
+[8] [9] [10])
+Overfull \hbox (13.5562pt too wide) in paragraph at lines 78--104
 [] 
  []
 
 [11]
-Overfull \hbox (69.13995pt too wide) in paragraph at lines 119--121
+Overfull \hbox (69.13995pt too wide) in paragraph at lines 121--123
 $\OMS/cmsy/m/n/10 h$\OT1/cmr/m/n/10 http://www.google.com/trends/explore#q=gami
 fication&date=1%2F2009%2072m&cmpt=q$\OMS/cmsy/m/n/10 i$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
 
  []
 
 
-Overfull \hbox (47.50076pt too wide) in paragraph at lines 124--126
+Overfull \hbox (47.50076pt too wide) in paragraph at lines 126--128
 $\OMS/cmsy/m/n/10 h$\OT1/cmr/m/n/10 https://iversity.org/en/courses/gamificatio
 n-design-online-course$\OMS/cmsy/m/n/10 i$ \OT1/cmr/m/n/10 [Ac-cessed 18/03/201
 4]. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Overfull \hbox (86.1582pt too wide) in paragraph at lines 127--129
+Overfull \hbox (86.1582pt too wide) in paragraph at lines 129--131
 \OT1/cmr/m/it/10 ment\OT1/cmr/m/n/10 . [on-line] Avail-able at: $\OMS/cmsy/m/n/
 10 h$\OT1/cmr/m/n/10 http://scottnicholson.com/pubs/gamificationtechniquesclass
 room.pdf$\OMS/cmsy/m/n/10 i$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
 
  []
 
 
-Overfull \hbox (101.80663pt too wide) in paragraph at lines 130--132
-\OMS/cmsy/m/n/10 h$\OT1/cmr/m/n/10 http://0-www.palgraveconnect.com.pugwash.lib
-.warwick.ac.uk/pc/doifinder/10.1057/9781137331465$\OMS/cmsy/m/n/10 i$
+Overfull \hbox (101.80663pt too wide) in paragraph at lines 132--134
+$\OMS/cmsy/m/n/10 h$\OT1/cmr/m/n/10 http://0-www.palgraveconnect.com.pugwash.li
+b.warwick.ac.uk/pc/doifinder/10.1057/9781137331465$\OMS/cmsy/m/n/10 i$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--135
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
 
-Overfull \hbox (28.87985pt too wide) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
+
+ []
+
+
+Overfull \hbox (28.87985pt too wide) in paragraph at lines 138--139
 \OT1/cmr/m/it/10 Stu-dent Learn-ing\OT1/cmr/m/n/10 . [on-line] Avail-able at $\
 OMS/cmsy/m/n/10 h$\OT1/cmr/m/n/10 http://files.eric.ed.gov/fulltext/EJ982840.pd
 f$\OMS/cmsy/m/n/10 i$
  []
 
-[12] (./progress-report.aux) ) 
+[12]
+(C:\Users\William\Documents\dissertation\docs\progress-report\progress-report.a
+ux) ) 
 Here is how much of TeX's memory you used:
- 627 strings out of 495656
- 7745 string characters out of 6187192
- 60806 words of memory out of 5000000
- 3869 multiletter control sequences out of 15000+600000
- 8241 words of font info for 29 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 25i,6n,19p,1213b,206s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 1175 strings out of 493921
+ 15986 string characters out of 3144869
+ 71383 words of memory out of 3000000
+ 4500 multiletter control sequences out of 15000+200000
+ 8241 words of font info for 29 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 27i,6n,19p,1214b,215s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on progress-report.pdf (13 pages, 235072 bytes).
+PDF statistics:
+ 80 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on progress-report.pdf (13 pages).
