@@ -15,6 +15,7 @@ $userid = $current_user->get_id();
 $module = $_SESSION['module'];
 
 //Display stats for this user, depending on what type of bartle personality they are
+echo "You have completed this module<br><br>";
 echo "Your dominant Bartle personality type is: ";
 if (($mask & user::$MASK_KILLER) == user::$MASK_KILLER) {
     echo 'KILLER';
@@ -61,4 +62,12 @@ if (isset($_SESSION['module'])) {
         $total = $row['val'];
     }
     echo "<br>Your score for this module was $total / $max <br>";
+    echo '<form action="discuss.php" method="post">
+              <input type="hidden" name="choice" value=' . $module . '>
+              <input type="submit" value="Discuss this module with others">
+              </form>';
+    echo '<form action="core/reset.php" method="post">
+              <input type="hidden" name="module" value=' . $module . '>
+              <input type="submit" value="Take this module again">
+              </form>';
 }

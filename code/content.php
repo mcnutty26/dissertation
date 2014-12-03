@@ -80,6 +80,11 @@ if ($question < $max) {
         }
         echo '<input type="submit" value="Submit">';
         echo '</form>';
+        //Chat plugin
+        echo '<form action="discuss.php" method="post">
+              <input type="hidden" name="choice" value=' . $module . '>
+              <input type="hidden" name="choice2" value=' . $current_question . '>
+              <input type="submit" value="Discuss this question with others">';
     }
 
 } else {
