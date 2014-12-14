@@ -6,7 +6,7 @@
  * Time: 20:50
  */
 
-require 'core/user.php';
+require_once 'core/user.php';
 
 //Process actions
 if (isset($_POST['newM'])) {

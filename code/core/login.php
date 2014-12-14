@@ -6,7 +6,7 @@
  * Time: 14:55
  */
 
-require 'database.php';
+require_once 'database.php';
 
 session_start();
 if (isset($_POST['name'])) {

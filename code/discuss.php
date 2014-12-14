@@ -5,7 +5,7 @@
  * Date: 29/11/2014
  * Time: 15:40
  */
-require "core/user.php";
+require_once "core/user.php";
 session_start();
 $current_user = new user($_SESSION['user']);
 $user = $_SESSION['user'];

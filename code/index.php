@@ -6,7 +6,7 @@
  * Time: 14:55
  */
 
-require './core/user.php';
+require_once './core/user.php';
 session_start();
 
 if (!isset($_SESSION['user'])) {

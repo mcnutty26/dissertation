@@ -6,7 +6,7 @@
  * Time: 13:31
  */
 
-require 'core/user.php';
+require_once 'core/user.php';
 session_start();
 $current_user = new user($_SESSION['user']);
 $mask = $current_user->get_dominant();

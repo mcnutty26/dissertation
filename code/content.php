@@ -6,7 +6,7 @@
  * Time: 11:31
  */
 
-require 'core/user.php';
+require_once 'core/user.php';
 
 session_start();
 if (isset($_POST['module'])) {

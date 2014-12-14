@@ -6,7 +6,7 @@
  * Time: 17:33
  */
 
-require "database.php";
+require_once "database.php";
 session_start();
 
 $module = $_POST['module'];
