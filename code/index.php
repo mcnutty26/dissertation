@@ -9,12 +9,15 @@
 require_once './core/user.php';
 session_start();
 
+require 'core/header.php';
+
 if (!isset($_SESSION['user'])) {
     header('Location: core/login.php');
 }
 
 $current_user = new user($_SESSION['user']);
 $_SESSION['userid'] = $current_user->get_id();
+
 echo $current_user->get_name();
 
 if ($current_user->get_lecturer() == 1) { ?>
@@ -43,3 +46,5 @@ if ($current_user->get_lecturer() == 1) { ?>
 <input name="out" id="out" type="hidden" value="OUT">
 <input type="submit" value="Logout">
 </form>
+
+<? require 'core/footer.php'; ?>

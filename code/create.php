@@ -7,7 +7,12 @@
  */
 
 require_once 'core/user.php';
+session_start();
+if (new user($_SESSION['user']) != true) {
+    http_redirect('index.php');
+}
 
+require 'core/header.php';
 //Process actions
 if (isset($_POST['newM'])) {
     $newName = database::escape($_POST['newM']);
@@ -98,3 +103,4 @@ if ($_POST['action'] == 'content') {
     }
 
 }
+require 'core/footer.php';

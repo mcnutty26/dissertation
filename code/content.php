@@ -7,8 +7,10 @@
  */
 
 require_once 'core/user.php';
-
 session_start();
+
+require 'core/header.php';
+
 if (isset($_POST['module'])) {
     $_SESSION['module'] = database::escape($_POST['module']);
 }
@@ -118,3 +120,5 @@ if ($question < $max) {
     //Redirect to review page
     header('Location: review.php');
 }
+
+require 'core/footer.php';
