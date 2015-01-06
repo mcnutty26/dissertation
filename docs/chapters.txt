@@ -1,0 +1,36 @@
+Defining gamification
+  -MOOC introduction
+  -Deterding et al: From Game Design Elements to Gamefulness:
+    Defining “Gamification”
+  -OED
+    
+Defining analytics in this context
+
+How gamification works (practical examples)
+
+Why gamification works (operant conditioning etc.)
+
+Current gamification/analytics in primary/secondary education
+
+How higher education differs in terms of aims
+
+How gamification/analytics can be tailored to higher education
+
+Current gamification/analytics in higher education
+
+Arguments against gamification/analytics in higher education
+
+Designing a software solution
+
+The solution developed
+
+Focus group aims/results
+
+Focus group analysis
+
+Analysis of the software with regards to design and focus group
+
+Improvements to the software
+
+The future of gamification/analytics in higher education
+
