@@ -6,6 +6,8 @@
  * Time: 14:55
  */
 
+$core = 1;
+require 'header.php';
 require 'database.php';
 
 session_start();
@@ -22,3 +24,5 @@ if (isset($_POST['out'])) {
 <input type="text" placeholder="Username" name="name" id="name">
 <input type="submit" value="Submit">
 </form>
+
+<? require 'footer.php';

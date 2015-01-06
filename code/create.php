@@ -74,15 +74,15 @@ if ($_POST['action'] == 'content') {
     $result = database::query("SELECT * FROM ds_module");
     //$result2 = database::query("SELECT * FROM ds_content WHERE F_moduleid =" . )
     if ($result) {
-        echo '<table><thead><tr><td>Module ID</td><td>Name</td><td>Content</td><td>Edit?</td></tr></thead>';
+        echo '<table><thead><tr><td>Module ID</td><td>Name</td><td>Content</td><td>Edit?</td><td>Class stats</td></tr></thead>';
         while($row = mysqli_fetch_array($result)) {
-            echo '<tr><td>' . $row['moduleid'] . '</td><td>' . $row['name'] . '</td><td>TODO</td><td><form action="create.php" method="post"><input type="hidden" name="action" value="content"><input type="hidden" name="module" value="' . $row['moduleid'] . '"><input type="submit" value="Edit"></form></td></tr>';
+            echo '<tr><td>' . $row['moduleid'] . '</td><td>' . $row['name'] . '</td><td>TODO</td><td><form action="create.php" method="post"><input type="hidden" name="action" value="content"><input type="hidden" name="module" value="' . $row['moduleid'] . '"><input type="submit" value="Edit"></form></td><td><form action="dashboard.php" method="post"><input type="hidden" name="module" value="' . $row['moduleid'] . '"><input type="submit" value="Stats"></form></td></tr>';
         }
         echo '<tr><form action="create.php" method="post"><td>-</td><td><input type="text" name="newM" placeholder="New Module Name"></td><td>None ... yet!</td><td><input type="submit" value="Save"></td></form></tr>';
         echo '</table>';
     }
 
-    echo 'Available Users:';
+    echo '<br /> Available Users:';
     $result2 = database::query("SELECT * FROM ds_user WHERE islecturer = 0");
     if ($result2) {
         echo '<table><thead><tr><td>User ID</td><td>Name</td><td>Classes</td><td>Add to class?</td><td>View?</td></tr></thead>';

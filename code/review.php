@@ -73,4 +73,4 @@ if (isset($_SESSION['module'])) {
               <input type="submit" value="Take this module again">
               </form>';
 }
-require 'core/header.php';
+require 'core/footer.php';

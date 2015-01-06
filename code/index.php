@@ -22,9 +22,6 @@ if ($current_user->get_lecturer() == 1) { ?>
     <form action="create.php" method="post">
         <input type="submit" value="Create and administer content">
     </form>
-    <form action="dashboard.php" method="post">
-        <input type="submit" value="View statistics on classes">
-    </form>
 <? } else {
     $query =    "SELECT F_moduleid, m.name
                  FROM ds_class AS c

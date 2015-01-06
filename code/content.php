@@ -98,21 +98,21 @@ if ($question < $max) {
               WHERE u.userid = $user
               AND m.moduleid = $module";
     $result = database::query($query);
-    $killer = $socialiser = $explorer = $t_achiever = $score = 0.0;
+    $t_killer = $t_socialiser = $t_explorer = $t_achiever = $t_score = 0.0;
     while($row = mysqli_fetch_array($result)) {
-        $killer += $row['killer'];
-        $explorer += $row['explorer'];
-        $socialiser += $row['socialiser'];
+        $t_killer += $row['killer'];
+        $t_explorer += $row['explorer'];
+        $t_socialiser += $row['socialiser'];
         $t_achiever += $row['achiever'];
-        $score += $row['value'];
+        $t_score += $row['value'];
     }
     $current_user = new user($_SESSION['user']);
-    //$current_user->update_killer($killer);
-    //$current_user->update_explorer($explorer);
-    //$current_user->update_socialiser($socialiser);
+    $current_user->update_killer($t_killer);
+    $current_user->update_explorer($t_explorer);
+    $current_user->update_socialiser($t_socialiser);
     $current_user->update_achiever($t_achiever);
-    //$current_user->update_score($score);
-
+    $current_user->update_score($t_score);
+    echo $t_score;
     //Set module as complete
     database::query("UPDATE ds_class SET complete = 1 WHERE F_userid = $user");
 

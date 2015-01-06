@@ -7,7 +7,11 @@
  */
 ?>
 <head>
-    <link rel="stylesheet" href="static/base.css">
+    <? if (isset($core)) {
+        ?><link rel="stylesheet" href="../static/base.css"><?
+    } else {
+        ?><link rel="stylesheet" href="static/base.css"><?
+    } ?>
 </head>
 <body>
     <div id="page">

@@ -8,3 +8,15 @@
     border-radius: 25px;
     padding: 10px;
 }
+
+table, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.bold {
+    font-weight: bold;
+}
