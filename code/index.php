@@ -10,8 +10,6 @@ require './core/user.php';
 require 'core/header.php';
 session_start();
 
-require 'core/header.php';
-
 if (!isset($_SESSION['user'])) {
     header('Location: core/login.php');
 }

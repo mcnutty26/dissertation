@@ -9,7 +9,6 @@
 require_once 'core/user.php';
 require 'core/header.php';
 
-require 'core/header.php';
 //Process actions
 if (isset($_POST['newM'])) {
     $newName = database::escape($_POST['newM']);

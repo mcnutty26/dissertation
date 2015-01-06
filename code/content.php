@@ -11,8 +11,6 @@ require 'core/header.php';
 
 session_start();
 
-require 'core/header.php';
-
 if (isset($_POST['module'])) {
     $_SESSION['module'] = database::escape($_POST['module']);
 }
