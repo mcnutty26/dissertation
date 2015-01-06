@@ -7,7 +7,7 @@
  */
 
 require_once 'core/user.php';
-require 'header.php';
+require 'core/header.php';
 
 session_start();
 $current_user = new user($_SESSION['user']);
@@ -32,7 +32,12 @@ echo '<table><thead><tr><td>User</td><td>Score</td><td>Relative</td></tr></thead
 while($row = mysqli_fetch_array($result)) {
     $t_name = $row['name'];
     $t_score = $row['score'];
-    echo "<tr><td>$t_name</td><td>$t_score</td><td>" . ($t_score / $u_score) * 100 . "&#37;</td>";
+    $output = "<td>$t_name</td><td>$t_score</td><td>" . ($t_score / $u_score) * 100 . "&#37;</td></tr>";
+    if ($t_name === $user) {
+        echo '<tr class="bold">' . $output;
+    } else {
+        echo '<tr>' . $output;
+    }
 }
 echo '</table>';
-require 'footer.php';
+require 'core/footer.php';
