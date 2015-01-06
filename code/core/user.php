@@ -5,7 +5,7 @@
  * Date: 19/10/2014
  * Time: 14:49
  */
-require 'database.php';
+require_once 'database.php';
 
 class user {
     private $id = 0;

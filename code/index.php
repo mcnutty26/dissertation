@@ -10,12 +10,15 @@ require './core/user.php';
 require 'core/header.php';
 session_start();
 
+require 'core/header.php';
+
 if (!isset($_SESSION['user'])) {
     header('Location: core/login.php');
 }
 
 $current_user = new user($_SESSION['user']);
 $_SESSION['userid'] = $current_user->get_id();
+
 echo $current_user->get_name();
 
 if ($current_user->get_lecturer() == 1) { ?>

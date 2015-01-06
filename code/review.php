@@ -10,6 +10,9 @@ require 'core/user.php';
 require 'core/header.php';
 
 session_start();
+
+require 'core/header.php';
+
 $current_user = new user($_SESSION['user']);
 $mask = $current_user->get_dominant();
 $user = $_SESSION['user'];
