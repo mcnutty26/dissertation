@@ -7,6 +7,8 @@
  */
 
 require 'core/user.php';
+require 'core/header.php';
+
 session_start();
 $current_user = new user($_SESSION['user']);
 $mask = $current_user->get_dominant();
@@ -71,3 +73,4 @@ if (isset($_SESSION['module'])) {
               <input type="submit" value="Take this module again">
               </form>';
 }
+require 'core/header.php';

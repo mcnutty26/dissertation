@@ -6,6 +6,8 @@
  * Time: 15:40
  */
 require "core/user.php";
+require 'core/header.php';
+
 session_start();
 $current_user = new user($_SESSION['user']);
 $user = $_SESSION['user'];
@@ -131,4 +133,5 @@ if (!isset($_POST['choice'])) { //The user just landed on this page
         <input type="hidden" name="choice2" value="<? echo $_POST['choice2']; ?>">
         <input type="submit" value="Post">
     </form>
-<? } ?>
+<? }
+require 'core/footer.php';?>

@@ -7,6 +7,7 @@
  */
 
 require 'core/user.php';
+require 'core/header.php';
 
 session_start();
 if (isset($_POST['module'])) {
@@ -118,3 +119,4 @@ if ($question < $max) {
     //Redirect to review page
     header('Location: review.php');
 }
+require 'core/footer.php';

@@ -7,6 +7,7 @@
  */
 
 require './core/user.php';
+require 'core/header.php';
 session_start();
 
 if (!isset($_SESSION['user'])) {
@@ -18,9 +19,12 @@ $_SESSION['userid'] = $current_user->get_id();
 echo $current_user->get_name();
 
 if ($current_user->get_lecturer() == 1) { ?>
-<form action="create.php" method="post">
-    <input type="submit" value="Create and administer content">
-</form>
+    <form action="create.php" method="post">
+        <input type="submit" value="Create and administer content">
+    </form>
+    <form action="dashboard.php" method="post">
+        <input type="submit" value="View statistics on classes">
+    </form>
 <? } else {
     $query =    "SELECT F_moduleid, m.name
                  FROM ds_class AS c
@@ -43,3 +47,4 @@ if ($current_user->get_lecturer() == 1) { ?>
 <input name="out" id="out" type="hidden" value="OUT">
 <input type="submit" value="Logout">
 </form>
+<? require 'core/footer.php'; ?>

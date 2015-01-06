@@ -15,37 +15,25 @@ $user = $_SESSION['userid'];
 echo $module;
 echo $user;
 
-$query = "CREATE TABLE #answers
-          (
-            id INT
-          );
-
-          INSERT INTO #answers
-          SELECT answerid
-          FROM ds_content AS c
-          INNER JOIN ds_answer AS a ON c.contentid = a.F_contentid
-          INNER JOIN ds_result AS r ON a.answerid = r.F_answerid
-          WHERE r.F_userid = $user
-          AND c.F_moduleid = $module;
-
-          DELETE
-          FROM ds_answer
-          WHERE answerid IN
-          (
-            SELECT answerid
-            FROM #answers
-          );
-          ";
+$query = "DELETE r
+          FROM ds_result AS r
+          INNER JOIN ds_answer as a ON r.F_answerid = a.answerid
+          INNER JOIN ds_content AS c ON a.F_contentid = c.contentid
+          INNER JOIN ds_module AS m ON c.F_moduleid = m.moduleid
+          INNER JOIN ds_class AS l ON m.moduleid = l.F_moduleid
+          INNER JOIN ds_user AS u ON l. F_userid = u.userid
+          WHERE u.userid = $user
+          AND m.moduleid = $module";
 
 database::query($query);
 
-$query = "UPDATE ds_class
+$query2 = "UPDATE ds_class
           SET complete = 0
           WHERE F_userid = $user
           AND F_moduleid = $module";
 
-database::query($query);
+database::query($query2);
 
 $_SESSION['module'] = $module;
-//header('Location: ../content.php');
+header('Location: ../content.php');
 ?>
