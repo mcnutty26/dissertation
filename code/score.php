@@ -7,6 +7,8 @@
  */
 
 require_once 'core/user.php';
+require 'header.php';
+
 session_start();
 $current_user = new user($_SESSION['user']);
 $mask = $current_user->get_dominant();
@@ -33,3 +35,4 @@ while($row = mysqli_fetch_array($result)) {
     echo "<tr><td>$t_name</td><td>$t_score</td><td>" . ($t_score / $u_score) * 100 . "&#37;</td>";
 }
 echo '</table>';
+require 'footer.php';

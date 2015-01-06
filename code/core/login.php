@@ -7,7 +7,7 @@
  */
 
 $core = 1;
-require 'header.php';
+require_once 'header.php';
 require 'database.php';
 
 session_start();

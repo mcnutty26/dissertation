@@ -6,7 +6,7 @@
  * Time: 13:52
  */
 
-require 'core/user.php';
+require_once 'core/user.php';
 require 'core/header.php';
 
 $module = $_POST['module'];

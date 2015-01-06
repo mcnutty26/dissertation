@@ -6,7 +6,7 @@
  * Time: 20:50
  */
 
-require 'core/user.php';
+require_once 'core/user.php';
 require 'core/header.php';
 
 require 'core/header.php';
