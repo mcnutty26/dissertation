@@ -1,6 +1,10 @@
-\contentsline {section}{\numberline {0.1}Abstract}{1}
-\contentsline {section}{\numberline {0.2}Introduction}{1}
-\contentsline {section}{\numberline {0.3}Definitions}{1}
-\contentsline {subsection}{\numberline {0.3.1}Gamification}{1}
-\contentsline {subsection}{\numberline {0.3.2}Analytics}{2}
-\contentsline {section}{\numberline {0.4}Conclusion}{2}
+\contentsline {section}{\numberline {1}Abstract}{2}
+\contentsline {section}{\numberline {2}Key words}{2}
+\contentsline {section}{\numberline {3}Introduction}{2}
+\contentsline {section}{\numberline {4}Background}{3}
+\contentsline {section}{\numberline {5}Definitions}{3}
+\contentsline {subsection}{\numberline {5.1}Gamification}{3}
+\contentsline {subsection}{\numberline {5.2}Analytics}{5}
+\contentsline {section}{\numberline {6}Legal, Social, Ethical and Professional Issues}{5}
+\contentsline {section}{\numberline {7}Conclusion and Further Work}{5}
+\contentsline {section}{\numberline {8}Background Texts}{5}
