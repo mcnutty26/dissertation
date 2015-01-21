@@ -7,11 +7,15 @@
 \usepackage{cite}
 \usepackage{graphicx}
 \usepackage{url}
+\usepackage{fullpage}
+\usepackage{microtype}
 
 \begin{document}
 \maketitle
 \clearpage
 \tableofcontents
+\listoffigures
+\listoftables
 
 \section{Abstract}
 Gamification and analytics are becoming increasingly popular in many facets of everyday life. They are making a big impact in primary and secondary education, driven by the increased use of internet enabled devices in the classroom. This project looks at how this can be translated to higher education, and what role the traditional gamification personality types might have in this field.
@@ -48,7 +52,7 @@ An early example of the power of gamification can be seen in Orkut, the social n
 	\label{orkut-brazil}
 \end{figure}
 
-\subsubsection{Case Study: ABC}
+\subsubsection{Case Study: TODO}
 
 \begin{figure}
 	\includegraphics{../img/usage-graph.png}
@@ -70,6 +74,29 @@ The other component to the project is analytics, with a focus on online learning
 Tracking and comparing different sets of statistics in this way shows correlations that might otherwise be missed. Singling out these links is the key to effective improvement of higher education. It is not required for the purposes of this definition that the analysis be automated and carried out by the system itself. In many small scale implementations, such as the one used for this project, the resources available preclude the development of such an advanced piece of software. Indeed, implementing a prototype smart learning platform would be financially expensive for many institutions, and excluding them would have a negative impact on the data that could be obtained.
 
 In the research carried out for this report, the correlation between Bartle's gamer personality types and individual learning styles was assessed, with the view of recommending how they might fit in to a more optimal model of gamified higher education. The software developed for the project uses preliminary content with pre-defined Bartle weighting to gauge a users gamer type. As required by the paragraph above, this can be combined with other data in order to answer the questions set forth by the project. It does not matter that the data in question is collected offline.
+
+\section{Literature Review}
+Before continuing it is important to undertake a review of previous and current literature in the field, in order to properly frame the underwritten findings and analysis. This will begin by broadly assessing past research in the field of gamification as a whole before moving on to the more specific field of higher education. Also included will be an assessment of papers relating to Bartle's gamer types and how they might be linked with learning styles.
+
+\subsection{Gamification}
+Scholars have been writing about games and their relationship with sociology for centuries, and this review will begin by examining Man, Play and Games by Caillois \cite{caillois1961man}. Caillois begins by attempting to pin down what exactly he means by a game, and how they can be classified. He concurs with the view expressed above in that this is a difficult task given the wide diversity of games. While most of the book focuses on more traditional games and forms of play, of particular interest is the chapter on the corruption of games in the then modern world. By beginning to draw parallels between the behaviours exhibited in games and the behaviours exhibited in real life, his work can help us to understand which areas of our subject matter might be more easily gamified, and the potential pitfalls we should aim to avoid if this is not done with a due amount of care. Table \ref{table:corruption} shows the relationships Caillois claims exists between play types and where they can be found.
+
+No study relating to gamification would be complete without an assessment of `Hearts, clubs, diamonds, spades: Players who suit MUDs' by Bartle \cite{bartle1996hearts}. Written in 1996, it introduces the concept of four gamer personality types which allow players to be classified and catered for accordingly. While the paper lays the groundwork for classifying users by their observed behaviours in-game, its approach is not very granular, and is often quite a blunt way of grouping people.
+
+\begin{table}
+\begin{tabular}{|p{2.5cm}|p{4.1cm}|p{4.1cm}|p{4.1cm}|}
+	\hline  & Cultural Forms & Institutional Forms & Corruption \\ 
+	\hline AGON (Compettition) & Sports & Economic compettion and competitive examinations & Violence, Will to power and Trickery \\ 
+	\hline ALEA (Chance) & Lotteries and Casinos & Speculation on the stock market & Superstition, astrology, etc. \\ 
+	\hline MIMICRY (Simulation) & Carnival, Theatre, Cinema and Hero worship & Uniforms and Ceremonial etiquette & Alienation and Split personality \\ 
+	\hline ILINX (Vertigo) & Mountain climbing, Skiing, Tightrope walking and Speed & Professions requiring control of vertigo & Alcoholism and Drugs \\ 
+	\hline 
+\end{tabular}
+\caption{Caillois's mapping of play types to social life \cite{caillois1961man}}
+\label{table:corruption}
+\end{table}
+
+\subsection{Higher Education}
 
 \section{Primary and Secondary Education}
 
