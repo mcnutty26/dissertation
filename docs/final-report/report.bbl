@@ -1,9 +1,17 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{iversitymooc}
+Gamification design online course.
 
 \bibitem{bartle1996hearts}
 Richard Bartle.
 \newblock Hearts, clubs, diamonds, spades: Players who suit muds.
 \newblock {\em Journal of MUD research}, 1(1):19, 1996.
+
+\bibitem{bartle2005play}
+Richard Bartle.
+\newblock Virtual worlds: Why people play.
+\newblock {\em Massively Multiplayer Game Development 2}, 2005.
 
 \bibitem{caillois1961man}
 Roger Caillois and Meyer Barash.
@@ -25,9 +33,15 @@ Sebastian Deterding, Dan Dixon, Rilla Khaled, and Lennart Nacke.
 \newblock In {\em Proceedings of the 15th International Academic MindTrek
   Conference: Envisioning Future Media Environments}, pages 9--15. ACM, 2011.
 
+\bibitem{freq-fly}
+The Economist.
+\newblock {\em Fly me to the moon}.
+\newblock 2012.
+\newblock \url{http://www.economist.com/node/1112721 [Accessed 22/01/2015]}.
+
 \bibitem{fragoso2006wtf}
 Suely Fragoso.
-\newblock Wtf a crazy brazilian invasion.
+\newblock W{T}{F} a crazy {B}razilian invasion.
 \newblock {\em Proceedings of CATaC}, pages 255--274, 2006.
 
 \bibitem{usage}
@@ -35,7 +49,7 @@ Google.
 \newblock Relative interest in gamification between 2009 and 2014.
 \newblock
   \url{http://www.google.com/trends/explore#q=gamification&date=1%2F2009%2072m&cmpt=q}
-  Accessed [09/11/2014].
+  [Accessed 09/11/2014].
 
 \bibitem{kapp2012gamification}
 Karl~M Kapp.
@@ -47,6 +61,18 @@ Karl~M Kapp.
 Andrew~K Przybylski, C~Scott Rigby, and Richard~M Ryan.
 \newblock A motivational model of video game engagement.
 \newblock {\em Review of General Psychology}, 14(2):154, 2010.
+
+\bibitem{schoenau2011player}
+Henrik Schoenau-Fog.
+\newblock The player engagement process--an exploration of continuation desire
+  in digital games.
+\newblock In {\em Think Design Play: Digital Games Research Conference}, 2011.
+
+\bibitem{sheldon2008manipulating}
+Kennon~M Sheldon and Vincent Filak.
+\newblock Manipulating autonomy, competence, and relatedness support in a
+  game-learning context: New evidence that all three needs matter.
+\newblock {\em British Journal of Social Psychology}, 47(2):267--283, 2008.
 
 \bibitem{zichermann2010game}
 Gabe Zichermann and Joselin Linder.

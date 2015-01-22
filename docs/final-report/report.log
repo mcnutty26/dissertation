@@ -1,218 +1,288 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.27)  21 JAN 2015 12:36
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.24)  22 JAN 2015 21:46
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **report.tex
-(C:\Users\William\Documents\dissertation\docs\final-report\report.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+(./report.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 2 languages loaded.
+(d:/Program Files/texlive/2014/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(d:/Program Files/texlive/2014/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
+(d:/Program Files/texlive/2014/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 373.
 Package: cite 2010/09/10  v 5.3
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(d:/Program Files/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(d:/Program Files/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(d:/Program Files/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(d:/Program Files/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(d:/Program Files/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: xetex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+(d:/Program Files/texlive/2014/texmf-dist/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2014/07/25 v4.03 LaTeX color/graphics driver for XeTeX (RRM/JK)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+(d:/Program Files/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\preprint\fullpage.sty"
+(d:/Program Files/texlive/2014/texmf-dist/tex/latex/preprint/fullpage.sty
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip43
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
+(d:/Program Files/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks15
+\verbatim@line=\toks16
+\verbatim@in@stream=\read1
+)
+(d:/Program Files/texlive/2014/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
-\MT@toks=\toks15
+\MT@toks=\toks17
 \MT@count=\count88
 LaTeX Info: Redefining \textls on input line 766.
 \MT@outer@kern=\dimen105
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
 \MT@listname@count=\count89
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
-File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 915.
-LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip44
+(d:/Program Files/texlive/2014/texmf-dist/tex/latex/microtype/microtype-xetex.d
+ef
+File: microtype-xetex.def 2013/05/23 v2.5a Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 254.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
+ (d:/Program Files/texlive/2014/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
-))
-(C:\Users\William\Documents\dissertation\docs\final-report\report.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+)) (./report.aux)
+\openout1 = `report.aux'.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count90
-\scratchdimen=\dimen106
-\scratchbox=\box26
-\nofMPsegments=\count91
-\nofMParguments=\count92
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count93
-\MPscratchDim=\dimen107
-\MPnumerator=\count94
-\makeMPintoPDFobject=\count95
-\everyMPtoPDFconversion=\toks17
-)
-LaTeX Info: Redefining \microtypecontext on input line 13.
-Package microtype Info: Generating PDF output.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Info: Redefining \microtypecontext on input line 14.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+
+(d:/Program Files/texlive/2014/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <14.4> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
- [1
+(Font)              <7> on input line 15.
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\William\Documents\dissertation\docs\final-report\report.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
-)
-\tf@toc=\write3
+[1
 
-(C:\Users\William\Documents\dissertation\docs\final-report\report.lof [2
+] (./report.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 5.
+ [2
 
 ])
+\tf@toc=\write3
+\openout3 = `report.toc'.
+
+ (./report.lof)
 \tf@lof=\write4
+\openout4 = `report.lof'.
 
-(C:\Users\William\Documents\dissertation\docs\final-report\report.lot)
+ (./report.lot)
 \tf@lot=\write5
- [3]
-[4] <../img/orkut-brazil.jpg, id=19, 405.76593pt x 179.16937pt>
-File: ../img/orkut-brazil.jpg Graphic file (type jpg)
+\openout5 = `report.lot'.
 
-<use ../img/orkut-brazil.jpg>
-Package pdftex.def Info: ../img/orkut-brazil.jpg used on input line 50.
-(pdftex.def)             Requested size: 405.76494pt x 179.16893pt.
+ [3] [4]
+File: ../img/usage-graph.png Graphic file (type QTm)
 
-<../img/usage-graph.png, id=20, 350.05782pt x 191.21437pt>
-File: ../img/usage-graph.png Graphic file (type png)
-
-<use ../img/usage-graph.png>
-Package pdftex.def Info: ../img/usage-graph.png used on input line 58.
-(pdftex.def)             Requested size: 350.05695pt x 191.2139pt.
- [5] [6 <C:/Users/William/Documents/dissertation/docs/img/orkut-brazil.jpg> <C:
-/Users/William/Documents/dissertation/docs/img/usage-graph.png>] [7]
-Underfull \hbox (badness 2368) in paragraph at lines 93--93
-[]\OT1/cmr/m/n/10 (+20) Mountain climb-ing, Ski-
+<use  "../img/usage-graph.png" > [5] [6]
+File: ../img/orkut-brazil.jpg Graphic file (type QTm)
+ <use  "../img/orkut-brazil.jpg" >
+Overfull \hbox (71.2649pt too wide) in paragraph at lines 57--58
+[][] 
  []
 
-(C:\Users\William\Documents\dissertation\docs\final-report\report.bbl [8]
+File: ../img/flyer.png Graphic file (type QTm)
+<use  "../img/flyer.png" > [7] [8] [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]\OT1/cmr/m/n/12 AGON
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+\OT1/cmr/m/n/12 (Com-pet-ti-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 95--95
+[]\OT1/cmr/m/n/12 Economic com-pet-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+[]\OT1/cmr/m/n/12 ALEA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+[]\OT1/cmr/m/n/12 Speculation on the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]\OT1/cmr/m/n/12 MIMICRY
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\OT1/cmr/m/n/12 (Sim-u-la-
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 97--98
+[]\OT1/cmr/m/n/12 Alienation and Split
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]\OT1/cmr/m/n/12 ILINX
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]\OT1/cmr/m/n/12 Mountain climb-ing,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\OT1/cmr/m/n/12 Ski-ing, Tightrope
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]\OT1/cmr/m/n/12 Professions re-quir-ing
+ []
+
+File: ../img/fog.png Graphic file (type QTm)
+<use  "../img/fog.png" > [11] [12] [13] [14]
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--21
-$\OT1/cmtt/m/n/10 1 / Facebook-[]Blasts-[]into-[]Top-[]Position-[]in-[]Brazilia
-n-[]Social-[]Networking-[]Market$ \OT1/cmr/m/n/10 (+20) [Ac-cessed
+ (./bartle-questions.tex
+Overfull \hbox (10.60173pt too wide) in paragraph at lines 154--1
+\OT1/cmr/m/n/12 As writ-ten by Er-win An-dreasen and Bran-don Downey. Re-trieve
+d from $\OT1/cmtt/m/n/12 http : / / www . andreasen .
  []
 
-[9]) [10] (C:\Users\William\Documents\dissertation\docs\final-report\report.aux
-) ) 
-Here is how much of TeX's memory you used:
- 2943 strings out of 493921
- 45460 string characters out of 3144869
- 135725 words of memory out of 3000000
- 6154 multiletter control sequences out of 15000+200000
- 10620 words of font info for 69 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 30i,9n,35p,1377b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on report.pdf (10 pages, 203654 bytes).
-PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 12811 words of extra memory for PDF output out of 14400 (max. 10000000)
+[15] [16]
+Overfull \hbox (6.02896pt too wide) in paragraph at lines 50--50
+[]\OT1/cmtt/m/n/12 +E Try a variety of weapons and magic against it, until you 
+find its weakness.[] 
+ []
 
+
+Overfull \hbox (102.97652pt too wide) in paragraph at lines 55--55
+[]\OT1/cmtt/m/n/12 +S A bard, who's a good friend of yours and who's great for 
+entertaining you and your friends[] 
+ []
+
+[17]
+Overfull \hbox (86.304pt too wide) in paragraph at lines 92--92
+[]\OT1/cmtt/m/n/12 +E Someone who can run from any two points in the world, and
+ really knows their way around.[] 
+ []
+
+[18]
+Overfull \hbox (188.19156pt too wide) in paragraph at lines 158--158
+[]\OT1/cmtt/m/n/12 +K A wand with 3 charges of a spell that lets you control ot
+her players, against their will. (charm person)[] 
+ []
+
+) (./report.bbl [19]
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+[]\OT1/cmr/m/n/12 comScore.  \OT1/cmr/m/it/12 Face-book Blasts into Top Po-si-t
+ion in Brazil-ian So-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+\OT1/cmr/m/it/12 cial Net-work-ing Mar-ket Fol-low-ing Year of Tremen-dous Grow
+th\OT1/cmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+\OT1/cmr/m/n/12 2012.  $\OT1/cmtt/m/n/12 http : / / www . comscore . com / Insi
+ghts / Press-[]Releases / 2012 / 1 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+\OT1/cmtt/m/n/12 Facebook-[]Blasts-[]into-[]Top-[]Position-[]in-[]Brazilian-[]S
+ocial-[]Networking-[]Market$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--53
+\OT1/cmtt/m/n/12 com / trends / explore # q = gamification & date = 1 % 2F2009 
+% 2072m & cmpt = q$ \OT1/cmr/m/n/12 [Ac-cessed
+ []
+
+) [20] [21] [22] (./report.aux) ) 
+Here is how much of TeX's memory you used:
+ 2151 strings out of 495656
+ 33716 string characters out of 6187192
+ 117490 words of memory out of 5000000
+ 5349 multiletter control sequences out of 15000+600000
+ 9324 words of font info for 33 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 30i,9n,35p,1903b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on report.pdf (22 pages).

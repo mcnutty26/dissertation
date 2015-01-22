@@ -1,5 +1,5 @@
-\documentclass{article}
-\title{CS310 Final Report \\ The Use of Gamification and Analytics in Higher Education}
+\documentclass[12pt]{article}
+\title{CS310 Final Report \\ The Role of Bartle's Gamer Types in Higher Education}
 \author{William Seymour, Third Year Computer Science \\ Supervisor: Mike Joy}
 \date{\today}
 \linespread{1.3}
@@ -8,6 +8,7 @@
 \usepackage{graphicx}
 \usepackage{url}
 \usepackage{fullpage}
+\usepackage{verbatim}
 \usepackage{microtype}
 
 \begin{document}
@@ -32,6 +33,12 @@ Gamifications recent discovery has meant that far less has been done to incorpor
 \subsection{What is Gamification?}
 It seems an obvious fact of life that work is dull, and play is fun. Many attempts have been made to change this, but they have largely been met with little success. Over the past few years, gamification has been slowly blurring the lines of what is considered to be `work' by moving it towards practises and behaviours that would normally be associated with play. This has all come out of a field of study which is fairly young, the term having only really gained popularity in late 2010, as shown in figure \ref{usagegraph}. Coupled with the advanced user tracking and analytics offered by modern technology, it has begun to dominate the way in which we interact electronically, with services like Facebook and Foursquare being prime examples.
 
+\begin{figure}[p]
+	\includegraphics{../img/usage-graph.png}
+	\caption{Usage of the term `gamification' by month as a proportion of the total number of Google searches for gamification, from 2009 to the present day \cite{usage}.}
+	\label{usagegraph}
+\end{figure}
+
 At its core, it is the idea of taking the elements which have made traditional games provided fun and entertainment for all of human history, and using them to transform everyday tasks which many find less interesting. While the results so far of gamified experiences are very promising, with many use cases reporting exponential increases in customer attraction and retention \cite{zichermann2010game}, there are some ethical questions raised due to the fact that gamification often takes the form of operant conditioning \cite{kapp2012gamification}. While manipulating users in order to stimulate learning is often lauded as being virtuous, using it to sell products and make a profit might not. This will be explored more in section \ref{sec:issues}.
 
 \subsection{How does it work?}
@@ -39,79 +46,100 @@ The success of gamification in driving engagement has underlying roots in psycho
 
 As mentioned above, a key part of the psychology behind gamification is that of operant conditioning. Introduced as a concept by B.F. Skinner, it focuses on conditioning organisms to perform tasks that they would not normally undertake. In his experiments, Skinner would place pigeons in boxes and reward them with food whenever they pushed a button in their cage. If every push of the button resulted in a reward, the birds would stop pecking as soon as the food stopped being dispensed. He found that when rewards were awarded on a semi random basis, the animals would continue to peck at the buttons long after the food was gone \cite{kapp2012gamification}. This form of conditioning is used to great effect in many forms of gambling, and is the reason gamblers will continue to insert coins into machines in the hope that they might get that elusive win. Indeed, it seems counterintuitive that reducing the frequency of rewards might actually increase uptake by users. It turns out that chasing a win or payoff with slim odds is for more exciting than completing an action with a known reward. In fact, it may well be that the act of achieving a rare reward is motivation in itself, even if there is no real world value attached to it. Thus operant conditioning is used to keep users playing even after the activity has ceased to be fun.
 
-\subsection{High profile usage of gamification}
+\subsection{High profile usages of gamification}
 As gamification expands more and more into everyday life, each sector is asking the question of how they can keep up. To a certain extent, a change of thinking is required. Increasingly it is becoming a question of why should people be expected to stop having fun in order to learn, watch an advertisement or communicate? \cite{zichermann2010game} Or, put more bluntly, why would they? The rise of gamification has meant that other forms of experience are less effective than they once were, just by virtue of the new competition. What follows are a pair of case studies of gamification employed by high profile organisations to serve as a practical example of what exactly gamification and analytics mean in the context of the modern day, and proof of how effective they can be when used to their full potential.
 
 \subsubsection{Case Study: Orkut}
 
-An early example of the power of gamification can be seen in Orkut, the social networking site which was developed by Google in early 2004. Orkut was different from other social networks available at the time in that users had profiles operating on three different levels. Information provided by users was divided up into personal, professional and social, but more interestingly, Orkut would provide a list of demographics about the current user population \cite{fragoso2006wtf}. It was one such demographic that began a completely unexpected phenomenon in Brazil. In an attempt to climb to the top of the perceived leaderboard, blogs and posts started appearing all over Brazillian internet sites urging others to join \cite{zichermann2010game}.  By June 2004 the number of Brazillian users had surpassed those from the United States to take the top spot on the usage demographics. What had begun as an interesting statistic had motivated thousands of people to become invested in a product to such an extent that Orkuts domination of the Brazilian social network scene did not end until December 2012 when Facebook finally wrested the crown from the Google network \cite{1_comscore_2012}.
+An early example of the power of gamification can be seen in Orkut, the social networking site which was developed by Google in early 2004. Orkut was different from other social networks available at the time in that users had profiles operating on three different levels. Information provided by users was divided up into personal, professional and social, with the aim of having users connect on different levels. More interestingly in terms of gamification, Orkut would provide a real time list of demographics about the current user population \cite{fragoso2006wtf}. It was one such demographic, usage by country, that began a completely unexpected phenomenon in Brazil. In an attempt to climb to the top of what many began to perceive as a leaderboard, blogs and social media posts started appearing all over Brazilian internet sites urging others to join \cite{zichermann2010game}. By June 2004 the number of Brazilian users had surpassed those from the United States to take the top spot on the usage demographics, and went on to continue climbing rapidly. What had begun as an interesting statistic had motivated thousands of people to become invested in a product to such an extent that Orkut's domination of the Brazilian social network scene did not end until December 2012 when Facebook finally wrested the crown from the Google network \cite{1_comscore_2012}. It is important to note that the engagement driven by gamification was long lasting: Orkut continued to be dominated by Brazilian users even though the initial challenge had ended. Persistent usage over localised surges is key to successful analysis of gamification applications.
 
-\begin{figure}
+\begin{figure}[p]
 	\includegraphics{../img/orkut-brazil.jpg}
 	\caption{Orkut usage by country, shown for the top ten nations among the user population. Data from May 2004 to January 2006 \cite{fragoso2006wtf}.}
 	\label{orkut-brazil}
 \end{figure}
 
-\subsubsection{Case Study: TODO}
+\subsubsection{Case Study: Frequent Flyer Programs}
+Since their introduction by airlines in the 1980s, frequent flyer programs have become incredibly popular. What makes them interesting from a gamification perspective is the degree of long term loyalty and engagement they inspire in their users. It is not unheard of for customers to take flight options that are longer and less efficient, or indeed entirely superfluous, with the sole intent of accruing extra air miles with their chosen carrier. They skilfully employ various game elements in order to persuade customers to keep coming back time and again. The giving of status is ubiquitous among frequent flyer programs, and is something that many are keen to chase. In fact, given that the number of air miles being redeemed is not growing at the same rate as air mile acquisition, as shown in figure \ref{freq-flyer}, it could be suggested that for many, status is in fact the end goal and not the means as one might at first assume. Zichermann and Linder even go as far as to directly compare such programs to massively multiplayer online games, pointing out the similarity between experience points leading to an increase in level and air miles leading to an increase in status. From the perspective of an involved airline, loyalty schemes are very good for business. Most of the rewards conferred by elite status in a frequent flyer program, such as an airline lounge or expedited boarding, require little or no money to be spent on the part of an airline. More recently, the impact of air miles schemes has expanded to influence almost all parts of everyday life, with points commonly being offered for airline branded credit cards and bookings at partnered hotels. This has all resulted in frequent flyer programs becoming the leading revenue stream for many airlines, reporting higher profits and creating entire virtual economies \cite{zichermann2010game}.
 
-\begin{figure}
-	\includegraphics{../img/usage-graph.png}
-	\caption{Usage of the term `gamification' by month as a proportion of the total number of Google searches for gamification, from 2009 to the present day \cite{usage}.}
-	\label{usagegraph}
+\begin{figure}[p]
+	\includegraphics{../img/flyer.png}
+	\caption{Total air miles rewarded and redeemed from 1990 to 2001 \cite{freq-fly}.}
+	\label{freq-flyer}
 \end{figure}
 
 \section{Definitions}
-It is important to define some of the key terms that will be used in this report. Terms like gamification and analytics are often bandied around by lots of different parties who all mean similar but subtly different things. Indeed, the way in which these terms have been used thus far has been somewhat unclear. For the remainder of the document, the undermentioned should be referred to as a definitive explanation of what is meant by the following technical terms:
+Before continuing it is important to define some of the key terms that will be used in this report. Words like gamification and analytics are often bandied around by lots of different parties who all mean similar but subtly different things. Indeed, the way in which these terms have been used thus far has been somewhat vague. For the remainder of the document, the undermentioned should be referred to as a definitive explanation of what is meant by the following technical terms.
 
 \subsection{Gamification}
-A commonly accepted definition of gamification is that it is `the use of game design elements in non-game contexts' \cite{deterding2011game}. This is a good in that it makes clear the distinction between games and gamified activities, but what exactly counts as either can often be left unclear. This is difficult as it is near impossible to pin down where one stops and the other begins, and is likely to increase as game elements are further incorporated into everyday activities. Indeed, this seems to suggest that rigorously defining what is and is not a game is of less value than originally anticipated. Here, a game [man, play and games put on hold].
+A commonly accepted definition of gamification put forward by Detarding, et al. \cite{deterding2011game} and supported by Manrique \cite{iversitymooc} is that it is (broadly) ``the use of game design elements in non-game contexts''. This is a good explanation in that it makes clear the distinction between games and gamified activities, but what exactly counts as either can often be left unclear. This is difficult as it is near impossible to pin down where one stops and the other begins, and this problem is likely to increase as game elements are further incorporated into everyday activities. Indeed, this seems to suggest that rigorously defining what is and is not a game is of less value than originally anticipated. Here, a game is best held to refer to experiences that are labelled as games. While this might seem self evident, the majority of the gamified experiences from which we wish to differentiate them do not label themselves as games. It follows that a non game context is often one in which the users have little or no understanding that they are participating in a game, often because they are passively playing, whereas games as defined above generally require more active involvement.
 
-Game elements also need to be outlined in a little more depth. For the purposes of this project, they will be taken to mean those elements of game systems which compel users to play because they are engaging or fun. Alternatively put, the focus is on the mechanics that make games interesting and keep users coming back as opposed to graphical techniques or the platforms they reside on. Beyond this, further definition carries the risk of splitting hairs, and does not add much to the discussion.
+Game elements also need to be outlined in a little more depth. For the purposes of this project, they will be taken to mean those elements of game systems which compel users to play because they are engaging or fun. Alternatively put, the focus is on the mechanics that make games interesting and keep users coming back as opposed to graphical techniques or the platforms they reside on. The reasoning for this is that these features are not easily ported to other contexts and the ones in which they are shared are of no relevance to the report. If a non game context begins to feature such things as controller support or complex 3D rendering, one would be hard pressed to justify it as such. For the latter point mentioned above, films are a good example of a field which shares many elements with the graphical techniques employed by modern games but has nothing inherently to do with gamification.
 
 \subsection{Analytics}
-The other component to the project is analytics, with a focus on online learning platforms. In this context analytics refers to feedback systems which collect data on various facets of the learning process. Crucially, they must provide information which can then be used to improve the process further and better understand the dynamics of class makeup and teaching styles, under analysis by either the system itself or a human analyst. This is to provide some differentiation from software which merely reports back statistics such as student or class scores, with no extra dimension by which the effectiveness of the setup as a whole can be bettered. 
+The other component to the project is analytics, with a focus on online learning platforms. In this context analytics refers to feedback systems which collect data on various facets of the learning process. Crucially, they must provide information which can then be used to improve the process further and better understand the dynamics of class makeup and teaching styles, under analysis by either the system itself or a human analyst. This is to provide some differentiation from software which merely reports back statistics such as student or class scores, with no extra dimension by which the effectiveness of the setup as a whole can be bettered. It does not matter if some of the data is collected offline.
 
-Tracking and comparing different sets of statistics in this way shows correlations that might otherwise be missed. Singling out these links is the key to effective improvement of higher education. It is not required for the purposes of this definition that the analysis be automated and carried out by the system itself. In many small scale implementations, such as the one used for this project, the resources available preclude the development of such an advanced piece of software. Indeed, implementing a prototype smart learning platform would be financially expensive for many institutions, and excluding them would have a negative impact on the data that could be obtained.
+Tracking and comparing different sets of statistics in this way shows correlations that might otherwise be missed. Singling out these links is the key to effective improvement of higher education. It is not required for the purposes of this definition that the analysis be automated and carried out by the system itself. In many small scale implementations, such as the one used for this project, the resources available preclude the development of such an advanced piece of software. Indeed, implementing a prototype smart learning platform would be too expensive for many institutions, and excluding them would have a negative impact on the data that could be obtained.
 
-In the research carried out for this report, the correlation between Bartle's gamer personality types and individual learning styles was assessed, with the view of recommending how they might fit in to a more optimal model of gamified higher education. The software developed for the project uses preliminary content with pre-defined Bartle weighting to gauge a users gamer type. As required by the paragraph above, this can be combined with other data in order to answer the questions set forth by the project. It does not matter that the data in question is collected offline.
+\subsection{Gamer and Personality Types}
 
 \section{Literature Review}
 Before continuing it is important to undertake a review of previous and current literature in the field, in order to properly frame the underwritten findings and analysis. This will begin by broadly assessing past research in the field of gamification as a whole before moving on to the more specific field of higher education. Also included will be an assessment of papers relating to Bartle's gamer types and how they might be linked with learning styles.
 
-\subsection{Gamification}
-Scholars have been writing about games and their relationship with sociology for centuries, and this review will begin by examining Man, Play and Games by Caillois \cite{caillois1961man}. Caillois begins by attempting to pin down what exactly he means by a game, and how they can be classified. He concurs with the view expressed above in that this is a difficult task given the wide diversity of games. While most of the book focuses on more traditional games and forms of play, of particular interest is the chapter on the corruption of games in the then modern world. By beginning to draw parallels between the behaviours exhibited in games and the behaviours exhibited in real life, his work can help us to understand which areas of our subject matter might be more easily gamified, and the potential pitfalls we should aim to avoid if this is not done with a due amount of care. Table \ref{table:corruption} shows the relationships Caillois claims exists between play types and where they can be found.
+\subsection{Games and Gamification}
+Scholars have been writing about games and their relationship with sociology for centuries, and this review will begin by examining Man, Play and Games by Caillois \cite{caillois1961man}. Caillois begins by attempting to pin down what exactly he means by a game, and how they can be classified. He concurs with the view expressed above in that this is a difficult task given the wide diversity of games. While most of the book focuses on more traditional games and forms of play, of particular interest is the chapter on the corruption of games in the then modern world. By beginning to draw parallels between the behaviours exhibited in games and the behaviours exhibited in real life, his work can help us to understand which areas of our subject matter might be more easily gamified, and the potential pitfalls we should aim to avoid if this is not done with a due amount of care. While this may seem a little extreme at first glance, the stories of addiction resulting from various online multiplayer and mobile games are enough to warrant more care being taken to monitor the situation than otherwise might be the case. While the examples he presents with regards to the engaging nature of games are often quite antiquated, it does serve to show how little the underlying relationship between humans and games has changed. While the manifestations of agon, alea, mimicry and ilinix have changed markedly over the last fifty years, they still very much exist today. Table \ref{table:corruption} shows the relationships Caillois claims exists between play types and where they can be found.
 
-No study relating to gamification would be complete without an assessment of `Hearts, clubs, diamonds, spades: Players who suit MUDs' by Bartle \cite{bartle1996hearts}. Written in 1996, it introduced the first real model of gamer personality types which allow players to be grouped based on the habits and tendancies they exhibit while playing games. and catered for accordingly. While the paper lays the groundwork for classifying users by their observed behaviours in-game, its approach is not very granular, and is often quite a blunt way of grouping people.
+\begin{table}[p]
+	\begin{tabular}{|p{2.0cm}|p{4.2cm}|p{4.2cm}|p{4.2cm}|}
+		\hline - & Cultural Forms & Institutional Forms & Corruption \\ 
+		\hline AGON (Compettition) & Sports & Economic compettion and competitive examinations & Violence, Will to power and Trickery \\ 
+		\hline ALEA (Chance) & Lotteries and Casinos & Speculation on the stock market & Superstition, astrology, etc. \\ 
+		\hline MIMICRY (Simulation) & Carnival, Theatre, Cinema and Hero worship & Uniforms and Ceremonial etiquette & Alienation and Split personality \\ 
+		\hline ILINX (Vertigo) & Mountain climbing, Skiing, Tightrope walking and Speed & Professions requiring control of vertigo & Alcoholism and Drugs \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caillois's mapping of play types to social life \cite{caillois1961man}. In this context, vertigo refers to ``an attempt to momentarily destroy the stability of perception and inflict a kind of voluptuous panic upon an otherwise lucid mind''.}
+	\label{table:corruption}
+\end{table}
 
+A more modern interpretation on what makes games, specifically digital games, engaging is offered by Schoenau-Fog \cite{schoenau2011player}. By presenting a survey on what drives the `continuation desire' in players, that is to say the desire they have to pursue the continuation of a game experience, it is possible to better understand what compels the modern game user. The results of the questionnaire can be seen in figure \ref{fog}. Understanding the engagement categories is key to the creation of effective gamified experiences, and it is interesting to see how they fit in with the play types identified by Callois \cite{caillois1961man}. These categories have a strong basis in psychology, and mesh well with the values of autonomy, competence and relatedness purported by self determination theory that Sheldon and Filak have shown to be unique and basic human psychological needs \cite{sheldon2008manipulating}. However, the Objectives, Activity, Accomplishment and Affect framework Schoenau puts forward is not very rigorous. Though it is informed by analysis of the survey responses it adds little to the way that people interact with games, and its only real use is as a basis for the player engagement process later on in the paper.
 
-\begin{table}
-\begin{tabular}{|p{2.5cm}|p{4.1cm}|p{4.1cm}|p{4.1cm}|}
-	\hline  & Cultural Forms & Institutional Forms & Corruption \\ 
-	\hline AGON (Compettition) & Sports & Economic compettion and competitive examinations & Violence, Will to power and Trickery \\ 
-	\hline ALEA (Chance) & Lotteries and Casinos & Speculation on the stock market & Superstition, astrology, etc. \\ 
-	\hline MIMICRY (Simulation) & Carnival, Theatre, Cinema and Hero worship & Uniforms and Ceremonial etiquette & Alienation and Split personality \\ 
-	\hline ILINX (Vertigo) & Mountain climbing, Skiing, Tightrope walking and Speed & Professions requiring control of vertigo & Alcoholism and Drugs \\ 
+\begin{figure}[p]
+	\includegraphics[width=0.75\textwidth]{../img/fog.png}
+	\caption{Categories of player engagement rank-ordered: ``What in a game makes you want to continue playing?'' \cite{schoenau2011player}.}
+	\label{fog}
+\end{figure}
+
+No study relating to gamification would be complete without an assessment of `Hearts, clubs, diamonds, spades: Players who suit MUDs' b Richard Bartle \cite{bartle1996hearts}. Written in 1996 it introduced the first real model of gamer personality types, shown in table \ref{table:cards}, which allow players to be grouped based on the habits and tenancies they exhibit while playing games. Such a model allows users to catered for according to their preferences, as well as allowing game designers to take a more rigorous approach to balancing the behaviours seen in their games.  One weakness in the paper which Bartle himself acknowledges is that in not being qualified as a psychologist he is unable to provide an in-depth scientific background to his findings. While the paper lays the groundwork for classifying users by their observed behaviours in-game, its approach is not very granular, and can often be quite a blunt way of grouping people. Bartle did expand this model in his 2005 paper, Virtual Worlds: Why People Play, but this was partly to address the changing of players over time, and the only extra distinctions offered are explicit (acting first) and implicit (thinking first) variants of the four presented in the aforementioned 1996 paper \cite{bartle2005play}. That said, his work has formed the basis for how many identify the ways in which people play games, and has been very influential in the design of gameified systems.
+
+\begin{table}[p]
+\begin{tabular}{|c|c|c|}
+	\hline - & Acting & Interacting \\ 
+	\hline Players & Killers & Socialisers \\ 
+	\hline World & Achievers & Explorers \\ 
 	\hline 
 \end{tabular}
-\caption{Caillois's mapping of play types to social life \cite{caillois1961man}}
-\label{table:corruption}
+\caption{Bartle's four gamer types \cite{bartle1996hearts}.}
+\label{table:cards}
 \end{table}
+
+[Gamification of higher education]
 
 \subsection{Higher Education}
 
-\section{Primary and Secondary Education}
+\section{Gamified Primary and Secondary Education}
 
-\section{How is Higher Education Different?}
+\section{How Higher Education is Different}
 
-\section{Higher Education}
+\section{Bartle's Gamer Types}
 
-\section{Bartle Personality Types}
+\section{Focus Group}
 
-\section{Methodology}
+\subsection{Methodology}
 
-\section{Findings}
+\subsection{Findings}
 
-\section{Evaluation}
+\subsection{Evaluation}
 
 \section{Conclusion and Further Work}
 
@@ -119,6 +147,14 @@ No study relating to gamification would be complete without an assessment of `He
 \label{sec:issues}
 
 \section{Background Texts}
+[Please understand me]
+
+\section{Appendicies}
+\subsection{Appendix I: Bartle Test Questions}
+As written by Erwin Andreasen and Brandon Downey. Retrieved from \url{http://www.andreasen.org/bartle/questions-en.dat} on 22/01/2015.
+\linespread{1.0}
+\input{bartle-questions}
+\linespread{1.3}
 
 \bibliography{references}
 \bibliographystyle{plain}

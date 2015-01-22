@@ -1,25 +1,28 @@
 \contentsline {section}{\numberline {1}Abstract}{3}
-\contentsline {section}{\numberline {2}Key words}{3}
-\contentsline {section}{\numberline {3}Introduction}{3}
+\contentsline {section}{\numberline {2}Key words}{4}
+\contentsline {section}{\numberline {3}Introduction}{4}
 \contentsline {section}{\numberline {4}Background}{4}
 \contentsline {subsection}{\numberline {4.1}What is Gamification?}{4}
-\contentsline {subsection}{\numberline {4.2}How does it work?}{4}
-\contentsline {subsection}{\numberline {4.3}High profile usage of gamification}{5}
-\contentsline {subsubsection}{\numberline {4.3.1}Case Study: Orkut}{5}
-\contentsline {subsubsection}{\numberline {4.3.2}Case Study: TODO}{5}
-\contentsline {section}{\numberline {5}Definitions}{5}
-\contentsline {subsection}{\numberline {5.1}Gamification}{7}
-\contentsline {subsection}{\numberline {5.2}Analytics}{7}
-\contentsline {section}{\numberline {6}Literature Review}{7}
-\contentsline {subsection}{\numberline {6.1}Gamification}{8}
-\contentsline {subsection}{\numberline {6.2}Higher Education}{9}
-\contentsline {section}{\numberline {7}Primary and Secondary Education}{9}
-\contentsline {section}{\numberline {8}How is Higher Education Different?}{9}
-\contentsline {section}{\numberline {9}Higher Education}{9}
-\contentsline {section}{\numberline {10}Bartle Personality Types}{9}
-\contentsline {section}{\numberline {11}Methodology}{9}
-\contentsline {section}{\numberline {12}Findings}{9}
-\contentsline {section}{\numberline {13}Evaluation}{9}
-\contentsline {section}{\numberline {14}Conclusion and Further Work}{9}
-\contentsline {section}{\numberline {15}Legal, Social, Ethical and Professional Issues}{9}
-\contentsline {section}{\numberline {16}Background Texts}{9}
+\contentsline {subsection}{\numberline {4.2}How does it work?}{5}
+\contentsline {subsection}{\numberline {4.3}High profile usages of gamification}{6}
+\contentsline {subsubsection}{\numberline {4.3.1}Case Study: Orkut}{6}
+\contentsline {subsubsection}{\numberline {4.3.2}Case Study: Frequent Flyer Programs}{7}
+\contentsline {section}{\numberline {5}Definitions}{9}
+\contentsline {subsection}{\numberline {5.1}Gamification}{9}
+\contentsline {subsection}{\numberline {5.2}Analytics}{10}
+\contentsline {subsection}{\numberline {5.3}Gamer and Personality Types}{10}
+\contentsline {section}{\numberline {6}Literature Review}{10}
+\contentsline {subsection}{\numberline {6.1}Games and Gamification}{10}
+\contentsline {subsection}{\numberline {6.2}Higher Education}{15}
+\contentsline {section}{\numberline {7}Gamified Primary and Secondary Education}{15}
+\contentsline {section}{\numberline {8}How Higher Education is Different}{15}
+\contentsline {section}{\numberline {9}Bartle's Gamer Types}{15}
+\contentsline {section}{\numberline {10}Focus Group}{15}
+\contentsline {subsection}{\numberline {10.1}Methodology}{15}
+\contentsline {subsection}{\numberline {10.2}Findings}{15}
+\contentsline {subsection}{\numberline {10.3}Evaluation}{15}
+\contentsline {section}{\numberline {11}Conclusion and Further Work}{15}
+\contentsline {section}{\numberline {12}Legal, Social, Ethical and Professional Issues}{15}
+\contentsline {section}{\numberline {13}Background Texts}{15}
+\contentsline {section}{\numberline {14}Appendicies}{15}
+\contentsline {subsection}{\numberline {14.1}Appendix I: Bartle Test Questions}{15}
