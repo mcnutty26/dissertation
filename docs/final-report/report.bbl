@@ -1,8 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{iversitymooc}
-Gamification design online course.
-
 \bibitem{bartle1996hearts}
 Richard Bartle.
 \newblock Hearts, clubs, diamonds, spades: Players who suit muds.
@@ -12,6 +9,11 @@ Richard Bartle.
 Richard Bartle.
 \newblock Virtual worlds: Why people play.
 \newblock {\em Massively Multiplayer Game Development 2}, 2005.
+
+\bibitem{block2010five}
+Jack Block.
+\newblock The five-factor framing of personality and beyond: Some ruminations.
+\newblock {\em Psychological Inquiry}, 21(1):2--25, 2010.
 
 \bibitem{caillois1961man}
 Roger Caillois and Meyer Barash.
@@ -39,6 +41,18 @@ The Economist.
 \newblock 2012.
 \newblock \url{http://www.economist.com/node/1112721 [Accessed 22/01/2015]}.
 
+\bibitem{eysenck1992four}
+Hans~J Eysenck.
+\newblock Four ways five factors are not basic.
+\newblock {\em Personality and individual differences}, 13(6):667--673, 1992.
+
+\bibitem{mb-freq}
+Center for Applications~of Psychological~Type.
+\newblock Estimated frequencies of the types in the united states population.
+\newblock Online, Date unknown.
+\newblock \url{http://www.capt.org/mbti-assessment/estimated-frequencies.htm}
+  [Accessed 27/01/2015].
+
 \bibitem{fragoso2006wtf}
 Suely Fragoso.
 \newblock W{T}{F} a crazy {B}razilian invasion.
@@ -51,16 +65,46 @@ Google.
   \url{http://www.google.com/trends/explore#q=gamification&date=1%2F2009%2072m&cmpt=q}
   [Accessed 09/11/2014].
 
+\bibitem{iversitymooc}
+Victor~Manrique (iVersity).
+\newblock Gamification design online course.
+\newblock Online, May 2014.
+\newblock
+  \url{https://iversity.org/en/courses/gamification-design-online-course}
+  [Accessed 13/01/2015].
+
+\bibitem{jung1923psychological}
+Carl~Gustaw Jung.
+\newblock Psychological types.
+\newblock {\em New York}, 1923.
+
 \bibitem{kapp2012gamification}
 Karl~M Kapp.
 \newblock {\em The gamification of learning and instruction: game-based methods
   and strategies for training and education}.
 \newblock John Wiley \& Sons, 2012.
 
+\bibitem{keirsey1998please}
+David Keirsey.
+\newblock Please understand me ii: Temperament, character, intelligence author:
+  David keirsey, publisher: Prometheus nemesis book c.
+\newblock 1998.
+
 \bibitem{keirsey1984}
 David Keirsey and Marilyn Bates.
 \newblock {\em Please Remember Me: Character \& Temperament Types}.
 \newblock Prometheus Nemesis Book Company, fifth edition, 1984.
+
+\bibitem{lloyd2012myers}
+John~B Lloyd.
+\newblock The myers-briggs type indicator{\textregistered} and mainstream
+  psychology: analysis and evaluation of an unresolved hostility.
+\newblock {\em Journal of Beliefs \& Values}, 33(1):23--34, 2012.
+
+\bibitem{myers1995gifts}
+Isabel Myers-Briggs and Peter~B Myers.
+\newblock Gifts differing: Understanding personality type.
+\newblock {\em Davies-Black Publishing}, 1995.
 
 \bibitem{przybylski2010motivational}
 Andrew~K Przybylski, C~Scott Rigby, and Richard~M Ryan.
@@ -78,6 +122,13 @@ Kennon~M Sheldon and Vincent Filak.
 \newblock Manipulating autonomy, competence, and relatedness support in a
   game-learning context: New evidence that all three needs matter.
 \newblock {\em British Journal of Social Psychology}, 47(2):267--283, 2008.
+
+\bibitem{wiki-ffm}
+Wikipedia.
+\newblock Big five personality traits.
+\newblock Online, January 2015.
+\newblock \url{http://en.wikipedia.org/wiki/Big_Five_personality_traits}
+  [Accessed on 27/01/2015].
 
 \bibitem{zichermann2010game}
 Gabe Zichermann and Joselin Linder.
