@@ -12,8 +12,9 @@
 \contentsline {subsection}{\numberline {5.2}Analytics}{10}
 \contentsline {subsection}{\numberline {5.3}Gamer and Personality Types}{10}
 \contentsline {section}{\numberline {6}Literature Review}{10}
-\contentsline {subsection}{\numberline {6.1}Gamification and personality in general}{11}
-\contentsline {subsection}{\numberline {6.2}Narrowing the Scope: Higher Education}{15}
+\contentsline {subsection}{\numberline {6.1}Games and Gamification}{11}
+\contentsline {subsection}{\numberline {6.2}Psychological Profiling}{13}
+\contentsline {subsection}{\numberline {6.3}Gamification in Education}{15}
 \contentsline {section}{\numberline {7}Gamified Primary and Secondary Education}{17}
 \contentsline {section}{\numberline {8}How Higher Education is Different}{17}
 \contentsline {section}{\numberline {9}Bartle's Gamer Types}{17}
