@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.27)  28 JAN 2015 12:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.27)  28 JAN 2015 14:42
 entering extended mode
 **report.tex
 (C:\Users\William\Documents\dissertation\docs\final-report\report.tex
@@ -255,7 +255,7 @@ Package microtype Info: Loading generic settings for font family
 
 (C:\Users\William\Documents\dissertation\docs\final-report\bartle-questions.tex
 
-Overfull \hbox (4.01956pt too wide) in paragraph at lines 201--1
+Overfull \hbox (4.01956pt too wide) in paragraph at lines 217--1
 \OT1/cmr/m/n/12 (-20) As writ-ten by Er-win An-dreasen and Bran-don Downey. Re-
 trieved from $\OT1/cmtt/m/n/12 http : / / www . andreasen .$
  []
@@ -325,10 +325,10 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 ) [23]
 (C:\Users\William\Documents\dissertation\docs\final-report\report.aux) ) 
 Here is how much of TeX's memory you used:
- 3044 strings out of 493921
- 47209 string characters out of 3144869
- 137516 words of memory out of 3000000
- 6227 multiletter control sequences out of 15000+200000
+ 3045 strings out of 493921
+ 47220 string characters out of 3144869
+ 138525 words of memory out of 3000000
+ 6228 multiletter control sequences out of 15000+200000
  12100 words of font info for 81 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  30i,9n,35p,1903b,277s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -340,7 +340,7 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (23 pages, 266543 bytes).
+Output written on report.pdf (23 pages, 266994 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
