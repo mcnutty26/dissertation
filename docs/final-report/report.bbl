@@ -58,6 +58,12 @@ Suely Fragoso.
 \newblock W{T}{F} a crazy {B}razilian invasion.
 \newblock {\em Proceedings of CATaC}, pages 255--274, 2006.
 
+\bibitem{gilbert2009predicting}
+Eric Gilbert and Karrie Karahalios.
+\newblock Predicting tie strength with social media.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 211--220. ACM, 2009.
+
 \bibitem{usage}
 Google.
 \newblock Relative interest in gamification between 2009 and 2014.
@@ -97,14 +103,21 @@ Karl~M Kapp.
 
 \bibitem{keirsey1998please}
 David Keirsey.
-\newblock Please understand me ii: Temperament, character, intelligence author:
-  David keirsey, publisher: Prometheus nemesis book c.
-\newblock 1998.
+\newblock {\em Please Understand Me {II}: Temperament, Character, Intelligence
+  Author: David Keirsey}.
+\newblock Prometheus Nemesis Book Company, 1998.
 
 \bibitem{keirsey1984}
 David Keirsey and Marilyn Bates.
-\newblock {\em Please Remember Me: Character \& Temperament Types}.
+\newblock {\em Please Understand Me: Character \& Temperament Types}.
 \newblock Prometheus Nemesis Book Company, fifth edition, 1984.
+
+\bibitem{konertmodeling}
+Johannes Konert, Stefan G{\"o}bel, and Ralf Steinmetz.
+\newblock Modeling the player, learner and personality: Independency of the
+  models of bartle, kolb and neo-ffi (big5) and the implications for game based
+  learning.
+\newblock In {\em The 7th European Conference on Games Based Learning}, 2013.
 
 \bibitem{lloyd2012myers}
 John~B Lloyd.
@@ -116,6 +129,12 @@ John~B Lloyd.
 Isabel Myers-Briggs and Peter~B Myers.
 \newblock Gifts differing: Understanding personality type.
 \newblock {\em Davies-Black Publishing}, 1995.
+
+\bibitem{niman2014gamification}
+Neil~B Niman.
+\newblock {\em The Gamification of Higher Education: Developing a Game-Based
+  Business Strategy in a Disrupted Marketplace}.
+\newblock Palgrave Macmillan, 2014.
 
 \bibitem{przybylski2010motivational}
 Andrew~K Przybylski, C~Scott Rigby, and Richard~M Ryan.
