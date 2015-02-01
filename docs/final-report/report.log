@@ -1,74 +1,88 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.24)  29 JAN 2015 17:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.27)  1 FEB 2015 22:51
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **report.tex
-(./report.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 2 languages loaded.
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/base/report.cls
+(C:\Users\William\Documents\dissertation\docs\final-report\report.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/base/size12.clo
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@chapter=\count81
-\c@section=\count82
-\c@subsection=\count83
-\c@subsubsection=\count84
-\c@paragraph=\count85
-\c@subparagraph=\count86
-\c@figure=\count87
-\c@table=\count88
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/cite/cite.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 373.
 Package: cite 2010/09/10  v 5.3
 )
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: xetex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(d:/Program Files/texlive/2014/texmf-dist/tex/xelatex/xetex-def/xetex.def
-File: xetex.def 2014/07/25 v4.03 LaTeX color/graphics driver for XeTeX (RRM/JK)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/url/url.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/preprint/fullpage.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\preprint\fullpage.sty"
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip43
 )
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks15
 \verbatim@line=\toks16
 \verbatim@in@stream=\read1
 )
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/microtype/microtype.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks17
 \MT@count=\count89
@@ -77,19 +91,23 @@ LaTeX Info: Redefining \textls on input line 766.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
 \MT@listname@count=\count90
 
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/microtype/microtype-xetex.d
-ef
-File: microtype-xetex.def 2013/05/23 v2.5a Definitions specific to xetex (RS)
-LaTeX Info: Redefining \lsstyle on input line 254.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
+File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip44
 )
 Package microtype Info: Loading configuration file microtype.cfg.
- (d:/Program Files/texlive/2014/texmf-dist/tex/latex/microtype/microtype.cfg
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
-)) (d:/Program Files/texlive/2014/texmf-dist/tex/latex/titlesec/titlesec.sty
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box26
-\beforetitleunit=\skip44
-\aftertitleunit=\skip45
+\beforetitleunit=\skip45
+\aftertitleunit=\skip46
 \ttl@plus=\dimen106
 \ttl@minus=\dimen107
 \ttl@toksa=\toks18
@@ -97,55 +115,50 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen109
 \titlewidthfirst=\dimen110
 )
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/appendix/appendix.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count91
 \c@@ppsavesec=\count92
 \c@@ppsaveapp=\count93
 )
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
 Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
 
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count94
 \calc@Bcount=\count95
 \calc@Adimen=\dimen111
 \calc@Bdimen=\dimen112
-\calc@Askip=\skip46
-\calc@Bskip=\skip47
-LaTeX Info: Redefining \setlength on input line 75.
-LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count96
-\calc@Cskip=\skip48
+\calc@Cskip=\skip49
 )
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
 Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 
-(d:/Program Files/texlive/2014/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 
-(d:/Program Files/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(d:/Program Files/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-(d:/Program Files/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 ))
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -154,17 +167,15 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ))
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/pdfpages/ppxetex.def
-File: ppxetex.def 2013/08/25 v0.4v Pdfpages driver for XeTeX (AM)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box27
 \AM@toc@title=\toks19
 \c@AM@survey=\count97
 \AM@templatesizebox=\box28
 )
-(./report.aux)
-\openout1 = `report.aux'.
-
+(C:\Users\William\Documents\dissertation\docs\final-report\report.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
@@ -177,23 +188,48 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count98
+\scratchdimen=\dimen113
+\scratchbox=\box29
+\nofMPsegments=\count99
+\nofMParguments=\count100
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count101
+\MPscratchDim=\dimen114
+\MPnumerator=\count102
+\makeMPintoPDFobject=\count103
+\everyMPtoPDFconversion=\toks21
+)
 LaTeX Info: Redefining \microtypecontext on input line 18.
+Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of spacing.
-Package microtype Info: No adjustment of kerning.
-
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-\AtBeginShipoutBox=\box29
-File: ../img/dcslogo.png Graphic file (type QTm)
+\AtBeginShipoutBox=\box30
 
-<use  "../img/dcslogo.png" > [1
+<../img/dcslogo.png, id=1, 176.99458pt x 70.59708pt>
+File: ../img/dcslogo.png Graphic file (type png)
+ <use ../img/dcslogo.png>
+Package pdftex.def Info: ../img/dcslogo.png used on input line 28.
+(pdftex.def)             Requested size: 226.48395pt x 90.34131pt.
 
-] (./report.toc
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/William/Document
+s/dissertation/docs/img/dcslogo.png>]
+(C:\Users\William\Documents\dissertation\docs\final-report\report.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -204,20 +240,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ])
 \tf@toc=\write3
-\openout3 = `report.toc'.
 
- [3] (./report.lof)
+[3] (C:\Users\William\Documents\dissertation\docs\final-report\report.lof)
 \tf@lof=\write4
-\openout4 = `report.lof'.
 
- [4
+[4
 
-]
-(./report.lot)
+] (C:\Users\William\Documents\dissertation\docs\final-report\report.lot)
 \tf@lot=\write5
-\openout5 = `report.lot'.
 
- [5
+[5
 
 ] [1]
 Chapter 1.
@@ -229,86 +261,87 @@ Chapter 2.
 
 ] [4]
 Chapter 3.
-File: ../img/usage-graph.png Graphic file (type QTm)
-<use  "../img/usage-graph.png" > [5
+<../img/usage-graph.png, id=34, 350.05782pt x 191.21437pt>
+File: ../img/usage-graph.png Graphic file (type png)
+
+<use ../img/usage-graph.png>
+Package pdftex.def Info: ../img/usage-graph.png used on input line 71.
+(pdftex.def)             Requested size: 350.05695pt x 191.2139pt.
+ [5
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
-File: ../img/orkut-brazil.jpg Graphic file (type QTm)
+ [6 <C:/Users/William/Documents/dissertation/docs/img/usage-graph.png>]
+<../img/orkut-brazil.jpg, id=43, 405.76593pt x 179.16937pt>
+File: ../img/orkut-brazil.jpg Graphic file (type jpg)
 
-<use  "../img/orkut-brazil.jpg" >
-Overfull \hbox (88.05202pt too wide) in paragraph at lines 93--94
- [] 
- []
-
+<use ../img/orkut-brazil.jpg>
+Package pdftex.def Info: ../img/orkut-brazil.jpg used on input line 93.
+(pdftex.def)             Requested size: 405.76494pt x 179.16893pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-[8]
-File: ../img/flyer.png Graphic file (type QTm)
- <use  "../img/flyer.png" > [9]
+<../img/flyer.png, id=47, 188.20313pt x 182.18062pt>
+File: ../img/flyer.png Graphic file (type png)
+ <use ../img/flyer.png>
+Package pdftex.def Info: ../img/flyer.png used on input line 104.
+(pdftex.def)             Requested size: 188.20265pt x 182.18016pt.
+
+Underfull \vbox (badness 1383) has occurred while \output is active []
+
+ [8 <C:/Users/William/Documents/dissertation/docs/img/orkut-brazil.jpg>] [9 <C:
+/Users/William/Documents/dissertation/docs/img/flyer.png>]
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 120--120
-[]\OT1/cmr/m/n/12 AGON
+[]\OT1/cmr/m/n/12 (+20) AGON
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 120--120
-\OT1/cmr/m/n/12 (Com-pet-ti-
+\OT1/cmr/m/n/12 (+20) (Com-pet-ti-
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 120--120
-[]\OT1/cmr/m/n/12 Economic com-pet-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]\OT1/cmr/m/n/12 ALEA
+Underfull \hbox (badness 2726) in paragraph at lines 120--120
+[]\OT1/cmr/m/n/12 (+20) Economic com-pet-tion
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]\OT1/cmr/m/n/12 Speculation on the
+[]\OT1/cmr/m/n/12 (+20) ALEA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]\OT1/cmr/m/n/12 (+20) Speculation on the
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 122--122
-[]\OT1/cmr/m/n/12 MIMICRY
+[]\OT1/cmr/m/n/12 (+20) MIMICRY
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 122--122
-\OT1/cmr/m/n/12 (Sim-u-la-
+\OT1/cmr/m/n/12 (+20) (Sim-u-la-
  []
 
 
-Underfull \hbox (badness 6978) in paragraph at lines 122--123
-[]\OT1/cmr/m/n/12 Alienation and Split
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
-[]\OT1/cmr/m/n/12 ILINX
+Underfull \hbox (badness 4765) in paragraph at lines 122--123
+[]\OT1/cmr/m/n/12 (+20) Alienation and Split
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 123--123
-[]\OT1/cmr/m/n/12 Mountain climb-ing,
+[]\OT1/cmr/m/n/12 (+20) ILINX
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 123--123
-\OT1/cmr/m/n/12 Ski-ing, Tightrope
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
-[]\OT1/cmr/m/n/12 Professions re-quir-ing
+[]\OT1/cmr/m/n/12 (+20) Professions re-quir-ing
  []
 
 
@@ -318,92 +351,152 @@ Overfull \hbox (10.44205pt too wide) in paragraph at lines 118--126
 
 [10
 
-]
-File: ../img/fog.png Graphic file (type QTm)
- <use  "../img/fog.png" >
+] <../img/fog.png, id=59, 529.98pt x 691.08188pt>
+File: ../img/fog.png Graphic file (type png)
+ <use ../img/fog.png>
+Package pdftex.def Info: ../img/fog.png used on input line 135.
+(pdftex.def)             Requested size: 339.72592pt x 442.9974pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-[12]
+[12 <C:/Users/William/Documents/dissertation/docs/img/fog.png>]
 Overfull \hbox (16.96637pt too wide) in paragraph at lines 162--174
  [] 
  []
 
-[13] [14] [15]
-File: ../img/bartle-big5.png Graphic file (type QTm)
- <use  "../img/bartle-big5.png" > [16] [17]
+[13] [14] [15] <../img/bartle-big5.png, id=77, 586.44093pt x 630.10406pt>
+File: ../img/bartle-big5.png Graphic file (type png)
+
+<use ../img/bartle-big5.png>
+Package pdftex.def Info: ../img/bartle-big5.png used on input line 219.
+(pdftex.def)             Requested size: 452.9679pt x 486.69112pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+[17] [18 <C:/Users/William/Documents/dissertation/docs/img/bartle-big5.png>]
 Chapter 5.
-[18
-
-]
-Chapter 6.
-[19
-
-]
-Chapter 7.
-[20
-
-]
-Chapter 8.
-[21
-
-]
-Chapter 9.
-[22
-
-]
-Appendix A.
-File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
-<use  "../ethical-consent/delegated-approval.pdf" >
-File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
-
-<use  "../ethical-consent/delegated-approval.pdf" > [23
-
-]
-File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
-
-<use  "../ethical-consent/delegated-approval.pdf"  page1>
-
-Package pdfpages Warning: Erroneous page width of 0.0pt is corrected.
-
-
-Package pdfpages Warning: Erroneous page height of 0.0pt is corrected.
-
-File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
-<use  "../ethical-consent/delegated-approval.pdf"  page1>
-File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
-
-<use  "../ethical-consent/delegated-approval.pdf"  page1>
-File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
-
-<use  "../ethical-consent/delegated-approval.pdf"  page1>
-File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
-
-<use  "../ethical-consent/delegated-approval.pdf"  page1> [24]
-File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
-
-<use  "../ethical-consent/delegated-approval.pdf"  page2>
-File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
-
-<use  "../ethical-consent/delegated-approval.pdf"  page2>
-File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
-
-<use  "../ethical-consent/delegated-approval.pdf"  page2> [25]
-File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
-
-<use  "../ethical-consent/delegated-approval.pdf"  page3>
-File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
-
-<use  "../ethical-consent/delegated-approval.pdf"  page3>
-File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
-
-<use  "../ethical-consent/delegated-approval.pdf"  page3> [26]
-Appendix B.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-(./bartle-questions.tex [27
+[19
+
+] [20]
+Chapter 6.
+[21
+
+]
+Chapter 7.
+[22
+
+]
+Chapter 8.
+[23
+
+]
+Chapter 9.
+[24
+
+]
+Appendix A.
+
+<../ethical-consent/delegated-approval.pdf, id=108, 597.55246pt x 845.07718pt>
+File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
+
+<use ../ethical-consent/delegated-approval.pdf>
+Package pdftex.def Info: ../ethical-consent/delegated-approval.pdf used on inpu
+t line 256.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
+
+<use ../ethical-consent/delegated-approval.pdf>
+Package pdftex.def Info: ../ethical-consent/delegated-approval.pdf used on inpu
+t line 256.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+ [25
+
+]
+<../ethical-consent/delegated-approval.pdf, id=114, page=1, 597.55246pt x 845.0
+7718pt>
+File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
+ <use ../ethical-consent/delegated-approval.pdf, page 1>
+Package pdftex.def Info: ../ethical-consent/delegated-approval.pdf, page1 used 
+on input line 256.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
+
+<use ../ethical-consent/delegated-approval.pdf, page 1>
+Package pdftex.def Info: ../ethical-consent/delegated-approval.pdf, page1 used 
+on input line 256.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
+
+<use ../ethical-consent/delegated-approval.pdf, page 1>
+Package pdftex.def Info: ../ethical-consent/delegated-approval.pdf, page1 used 
+on input line 256.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
+
+<use ../ethical-consent/delegated-approval.pdf, page 1>
+Package pdftex.def Info: ../ethical-consent/delegated-approval.pdf, page1 used 
+on input line 256.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
+
+<use ../ethical-consent/delegated-approval.pdf, page 1>
+Package pdftex.def Info: ../ethical-consent/delegated-approval.pdf, page1 used 
+on input line 256.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [26 <C:/Users/William/Documents/dissertation/docs/ethical-consent/delegated-ap
+proval.pdf>]
+<../ethical-consent/delegated-approval.pdf, id=155, page=2, 597.55246pt x 845.0
+7718pt>
+File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
+ <use ../ethical-consent/delegated-approval.pdf, page 2>
+Package pdftex.def Info: ../ethical-consent/delegated-approval.pdf, page2 used 
+on input line 256.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
+
+<use ../ethical-consent/delegated-approval.pdf, page 2>
+Package pdftex.def Info: ../ethical-consent/delegated-approval.pdf, page2 used 
+on input line 256.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
+
+<use ../ethical-consent/delegated-approval.pdf, page 2>
+Package pdftex.def Info: ../ethical-consent/delegated-approval.pdf, page2 used 
+on input line 256.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [27 <C:/Users/William/Documents/dissertation/docs/ethical-consent/delegated-ap
+proval.pdf>]
+<../ethical-consent/delegated-approval.pdf, id=160, page=3, 597.55246pt x 845.0
+7718pt>
+File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
+ <use ../ethical-consent/delegated-approval.pdf, page 3>
+Package pdftex.def Info: ../ethical-consent/delegated-approval.pdf, page3 used 
+on input line 256.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
+
+<use ../ethical-consent/delegated-approval.pdf, page 3>
+Package pdftex.def Info: ../ethical-consent/delegated-approval.pdf, page3 used 
+on input line 256.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
+
+<use ../ethical-consent/delegated-approval.pdf, page 3>
+Package pdftex.def Info: ../ethical-consent/delegated-approval.pdf, page3 used 
+on input line 256.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [28 <C:/Users/William/Documents/dissertation/docs/ethical-consent/delegated-ap
+proval.pdf>]
+Appendix B.
+
+(C:\Users\William\Documents\dissertation\docs\final-report\bartle-questions.tex
+[29
 
 ]
 Overfull \hbox (22.81609pt too wide) in paragraph at lines 50--50
@@ -420,7 +513,7 @@ entertaining you and your friends[]
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+ [30]
 Overfull \hbox (103.09113pt too wide) in paragraph at lines 92--92
 []\OT1/cmtt/m/n/12 +E Someone who can run from any two points in the world, and
  really knows their way around.[] 
@@ -429,7 +522,7 @@ Overfull \hbox (103.09113pt too wide) in paragraph at lines 92--92
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
+ [31]
 Overfull \hbox (4.29108pt too wide) in paragraph at lines 154--154
 []\OT1/cmtt/m/n/12 +K An amulet that increases the damage you do against other 
 players by 10%.[] 
@@ -441,54 +534,70 @@ Overfull \hbox (204.97868pt too wide) in paragraph at lines 158--158
 her players, against their will. (charm person)[] 
  []
 
-) (./report.bbl [30]
+) [32]
+Appendix C.
+(C:\Users\William\Documents\dissertation\docs\final-report\report.bbl [33
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 24--31
-[]\OT1/cmr/m/n/12 comScore.  \OT1/cmr/m/it/12 Face-book Blasts into Top Po-si-t
-ion in Brazil-ian So-
+[]\OT1/cmr/m/n/12 (+20) comScore.  \OT1/cmr/m/it/12 (+20) Face-book Blasts into
+ Top Po-si-tion in Brazil-ian So-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--31
-\OT1/cmr/m/it/12 cial Net-work-ing Mar-ket Fol-low-ing Year of Tremen-dous Grow
-th\OT1/cmr/m/n/12 .
+\OT1/cmr/m/it/12 (+20) cial Net-work-ing Mar-ket Fol-low-ing Year of Tremen-dou
+s Growth\OT1/cmr/m/n/12 (+20) .
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--31
-\OT1/cmr/m/n/12 2012.  $\OT1/cmtt/m/n/12 http : / / www . comscore . com / Insi
-ghts / Press-[]Releases / 2012 / 1 /
+\OT1/cmr/m/n/12 (+20) 2012.  $\OT1/cmtt/m/n/12 http : / / www . comscore . com 
+/ Insights / Press-[]Releases / 2012 / 1 /$
  []
 
 
 Overfull \hbox (14.10985pt too wide) in paragraph at lines 24--31
-\OT1/cmtt/m/n/12 Facebook-[]Blasts-[]into-[]Top-[]Position-[]in-[]Brazilian-[]S
-ocial-[]Networking-[]Market$
+$\OT1/cmtt/m/n/12 Facebook-[]Blasts-[]into-[]Top-[]Position-[]in-[]Brazilian-[]
+Social-[]Networking-[]Market$
  []
 
-[31
+[34
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 68--73
-\OT1/cmtt/m/n/12 google . com / trends / explore # q = gamification & date = 1 
-% 2F2009 % 2072m & cmpt = q$
+Underfull \hbox (badness 1348) in paragraph at lines 68--73
+$\OT1/cmtt/m/n/12 com / trends / explore # q = gamification & date = 1 % 2F2009
+ % 2072m & cmpt = q$ \OT1/cmr/m/n/12 (+20) [Ac-cessed
  []
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 124.
 
-(d:/Program Files/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 124.
- [32])
-[33] (./report.aux) ) 
+ [35]) [36]
+(C:\Users\William\Documents\dissertation\docs\final-report\report.aux) ) 
 Here is how much of TeX's memory you used:
- 3982 strings out of 495656
- 59933 string characters out of 6187192
- 152234 words of memory out of 5000000
- 7129 multiletter control sequences out of 15000+600000
- 8406 words of font info for 30 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 38i,18n,42p,2226b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 4698 strings out of 493921
+ 70887 string characters out of 3144869
+ 172416 words of memory out of 3000000
+ 7840 multiletter control sequences out of 15000+200000
+ 11092 words of font info for 78 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 39i,18n,43p,2226b,461s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on report.pdf (41 pages, 785078 bytes).
+PDF statistics:
+ 232 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 11325 words of extra memory for PDF output out of 12000 (max. 10000000)
 
-Output written on report.pdf (38 pages).
