@@ -1,0 +1,19 @@
+Author=William Seymour
+Title=The Role of Bartle's Gamer Types in Higher Education
+PrintQuestionnaireId=0
+PrintSurveyId=1
+Pages=1
+PageSize=597.50793pt, 845.04694pt
+Duplex=True
+Style=code128
+CheckMode=checkcorrect
+GlobalID=csumas
+GlobalIDLabel=
+
+QObject-Head=1. Part One
+QObject-Choice=1.1. Some choices
+Answer-Choice=one with a very long text
+Box=Checkbox, 1, 42.98859pt, 585.84508pt, 9.95845pt, 9.95845pt, box
+Answer-Choice=one with a very long text
+Box=Checkbox, 1, 304.754pt, 585.84508pt, 9.95845pt, 9.95845pt, box
+
