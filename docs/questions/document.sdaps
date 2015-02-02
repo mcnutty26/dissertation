@@ -11,9 +11,14 @@ GlobalID=csumas
 GlobalIDLabel=
 
 QObject-Head=1. Part One
-QObject-Choice=1.1. Some choices
-Answer-Choice=one with a very long text
+QObject-Choice=1.1. When the phone rings do you
+Answer-Choice=hurry to get it first
 Box=Checkbox, 1, 42.98859pt, 585.84508pt, 9.95845pt, 9.95845pt, box
-Answer-Choice=one with a very long text
+Answer-Choice=hope someone else will answer
 Box=Checkbox, 1, 304.754pt, 585.84508pt, 9.95845pt, 9.95845pt, box
+QObject-Choice=1.2. Are you more
+Answer-Choice=observant than introspective
+Box=Checkbox, 1, 42.98859pt, 532.24402pt, 9.95845pt, 9.95845pt, box
+Answer-Choice=introspective than observant
+Box=Checkbox, 1, 304.754pt, 532.24402pt, 9.95845pt, 9.95845pt, box
 
