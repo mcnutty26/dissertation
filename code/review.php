@@ -40,10 +40,10 @@ $socialiser = $current_user->get_socialiser();
 $explorer = $current_user->get_explorer();
 $total = $socialiser + $killer + $achiever + $explorer;
 
-$achiever = round(($achiever / $total) * 100, 0);
-$killer = round(($killer / $total) * 100, 0);
-$socialiser = round(($socialiser / $total) * 100, 0);
-$explorer = round(($explorer / $total) * 100, 0);
+$achiever = round($achiever / database::getModuleDimensionMax($module, 'achiever'), 0);
+$killer = round($killer / database::getModuleDimensionMax($module, 'killer'), 0);
+$socialiser = round($socialiser / database::getModuleDimensionMax($module, 'socialiser'), 0);
+$explorer = round($explorer / database::getModuleDimensionMax($module, 'explorer'), 0);
 echo "Achiever: $achiever %<br>";
 echo "Killer: $killer %<br>";
 echo "Socialiser: $socialiser %<br>";
@@ -65,7 +65,8 @@ if (isset($_SESSION['module'])) {
         $total = $row['val'];
     }
     echo "<br>Your score for this module was $total / $max <br>";
-    echo '<form action="discuss.php" method="post">
+    echo "<br>Thank you for your time. You may now close this window to complete your participation.";
+    /*echo '<form action="discuss.php" method="post">
               <input type="hidden" name="choice" value=' . $module . '>
               <input type="submit" value="Discuss this module with others">
               </form>';
@@ -73,5 +74,6 @@ if (isset($_SESSION['module'])) {
               <input type="hidden" name="module" value=' . $module . '>
               <input type="submit" value="Take this module again">
               </form>';
+    */
 }
 require 'core/footer.php';

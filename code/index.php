@@ -17,7 +17,9 @@ if (!isset($_SESSION['user'])) {
 $current_user = new user($_SESSION['user']);
 $_SESSION['userid'] = $current_user->get_id();
 
-echo $current_user->get_name();
+echo 'You are logged in as ' . $current_user->get_name() . '<br><br>';
+echo 'Thank you for participating in this study. Please refrain from using the forward and back buttons in your browser whilst using this software.<br><br>';
+echo 'If you have any problems, please contact William Seymour at w.r.seymour&#64;warwick.ac.uk<br><br>';
 
 if ($current_user->get_lecturer() == 1) { ?>
     <form action="create.php" method="post">

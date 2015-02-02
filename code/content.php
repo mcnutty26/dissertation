@@ -83,10 +83,11 @@ if ($question < $max) {
         echo '<input type="submit" value="Submit">';
         echo '</form>';
         //Chat plugin
-        echo '<form action="discuss.php" method="post">
+        /*echo '<form action="discuss.php" method="post">
               <input type="hidden" name="choice" value=' . $module . '>
               <input type="hidden" name="choice2" value=' . $current_question . '>
               <input type="submit" value="Discuss this question with others">';
+        */
     }
 
 } else {
@@ -108,10 +109,10 @@ if ($question < $max) {
         $t_score += $row['value'];
     }
     $current_user = new user($_SESSION['user']);
-    $current_user->update_killer($t_killer);
-    $current_user->update_explorer($t_explorer);
-    $current_user->update_socialiser($t_socialiser);
-    $current_user->update_achiever($t_achiever);
+    $current_user->update_killer(($t_killer / database::getModuleDimensionMax($module, 'killer')) * 100);
+    $current_user->update_explorer(($t_explorer / database::getModuleDimensionMax($module, 'explorer')) * 100);
+    $current_user->update_socialiser(($t_socialiser / database::getModuleDimensionMax($module, 'socialiser')) * 100);
+    $current_user->update_achiever(($t_achiever / database::getModuleDimensionMax($module, 'achiever')) * 100);
     $current_user->update_score($t_score);
     echo $t_score;
     //Set module as complete
