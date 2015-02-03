@@ -19,7 +19,7 @@ $user = $_SESSION['userid'];
 
 //Process answers
 if (isset($_POST['answer'])) {
-    $answer = $_POST['answer'];
+    $answer = database::escape($_POST['answer']);
     $query =   "INSERT INTO ds_result
                 (F_userid, F_answerid)
                 VALUES ($user, $answer)";

@@ -40,10 +40,10 @@ $socialiser = $current_user->get_socialiser();
 $explorer = $current_user->get_explorer();
 $total = $socialiser + $killer + $achiever + $explorer;
 
-$achiever = round($achiever / database::getModuleDimensionMax($module, 'achiever'), 0);
-$killer = round($killer / database::getModuleDimensionMax($module, 'killer'), 0);
-$socialiser = round($socialiser / database::getModuleDimensionMax($module, 'socialiser'), 0);
-$explorer = round($explorer / database::getModuleDimensionMax($module, 'explorer'), 0);
+$achiever = round($achiever / database::getModuleDimensionMax($module, 'achiever'), 0)*10;
+$killer = round($killer / database::getModuleDimensionMax($module, 'killer'), 0)*10;
+$socialiser = round($socialiser / database::getModuleDimensionMax($module, 'socialiser'), 0)*10;
+$explorer = round($explorer / database::getModuleDimensionMax($module, 'explorer'), 0)*10;
 echo "Achiever: $achiever %<br>";
 echo "Killer: $killer %<br>";
 echo "Socialiser: $socialiser %<br>";
