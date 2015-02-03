@@ -266,7 +266,7 @@
         \begin{scope}[shift={($(\paperwidth, 0) + (-\edgerightmargin, \edgebottommargin)$)}]%
           \pgfmathsetbasenumberlength{4}%
           \pgfmathdectobase{\paddedpage}{\thepage}{10}% Yes, padding to 4 chars the hard way
-          \edef\barcodechars{\surveyid\paddedpage}%
+          \edef\barcodechars{QWERTY\paddedpage}%
           \node(barcode)[anchor=south east,outer sep=0,inner sep=0]{\qrcode[version=2,level=H,padding,height=10mm]{\barcodechars}};%
         \end{scope}
 
@@ -288,11 +288,7 @@
         % We unconditionally print this barcode, it is required for the recognition
         % process.
         \begin{scope}[shift={($(\paperwidth, 0) + (-\edgerightmargin, \edgebottommargin) + (-\barcodehpad, \barcodevpad)$)}]%
-          \pgfmathsetbasenumberlength{4}%
-          \pgfmathdectobase{\paddedpage}{\thepage}{10}% Yes, padding to 4 chars the hard way
-          \edef\barcodechars{\surveyid\paddedpage}%
-          \node(barcode)[anchor=south east,outer sep=0,inner sep=0]{\X=\barcodebarwidth\bcorr=\barcodebcorr\barheight=\barcodeheight\expandafter\code\expandafter{\barcodechars}};%
-          \node[below=1mm of barcode,distance=0,anchor=north,outer sep=0,inner sep=0]{\usekomafont{barcodefont}\surveyid\,\paddedpage};%
+          
         \end{scope}
 
         \ifstr{\globalid}{}{}{
@@ -539,7 +535,7 @@
     %---------------------------------------------------------------------------
     \if@sdaps@draft %
       \node [rotate=60,scale=10,text opacity=0.2,color=red]%
-      at (current page.center) {\textsc{\translate{draft}}};%
+      at (current page.center) {\textsc{\translate{}}};%
     \fi %
   \end{tikzpicture}%
 }
@@ -595,15 +591,8 @@
 
     \ifstr{#1}{noinfo}{}{
       \begin{info}
-        \translate{infotext}\\
-        \if@checkmode@checkcorrect
-          \begin{tabularx}{\textwidth}{llcX}
-              \translate{info-cross}: & \checkedbox &\quad & \translate{info-select} \\
-              \translate{info-correct}: & \correctedbox & & \translate{info-mark} \\
-          \end{tabularx}
-        \else
-          \PackageError{sdaps}{Sorry, there is no help text for the checkmode you have choosen right now! Please pass the noinfo optional argument to the questionnaire environment!}\@ehb %
-        \fi
+        %\translate{infotext}\\
+              Any data collected from you during the course of this study is confidential. It will be stored securely and destroyed at the end of the study. The information you provide will be anonymised and distributed as part of the final report. If you have any questions or concerns, please contact William Seymour at w.r.seymour@warwick.ac.uk.
       \end{info}
     }
 
