@@ -16,15 +16,20 @@
 \contentsline {section}{\numberline {4.1}Games and Gamification}{10}
 \contentsline {section}{\numberline {4.2}Psychological Profiling}{13}
 \contentsline {section}{\numberline {4.3}Gamification in Education}{15}
-\contentsline {chapter}{\numberline {5}Research Undertaken}{18}
-\contentsline {section}{\numberline {5.1}Methodology}{18}
-\contentsline {section}{\numberline {5.2}Testing Software}{18}
-\contentsline {section}{\numberline {5.3}Results}{19}
-\contentsline {section}{\numberline {5.4}Discussion}{19}
-\contentsline {chapter}{\numberline {6}Conclusion and Further Work}{20}
-\contentsline {chapter}{\numberline {7}Legal, Social, Ethical, and Professional Issues}{21}
-\contentsline {chapter}{\numberline {8}Author's Assessment of the Project}{22}
-\contentsline {chapter}{\numberline {9}Background Texts}{23}
-\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{24}
-\contentsline {chapter}{Appendix \numberline {B}Bartle Type Questions}{28}
-\contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Questions}{32}
+\contentsline {chapter}{\numberline {5}Testing Software}{18}
+\contentsline {section}{\numberline {5.1}Specification}{19}
+\contentsline {section}{\numberline {5.2}Requirements Analysis}{19}
+\contentsline {section}{\numberline {5.3}Code and Database Structure}{19}
+\contentsline {section}{\numberline {5.4}Review Against the Specification}{19}
+\contentsline {chapter}{\numberline {6}Research Undertaken}{20}
+\contentsline {section}{\numberline {6.1}Objectives and Rationale}{20}
+\contentsline {section}{\numberline {6.2}Methodology}{20}
+\contentsline {section}{\numberline {6.3}Results}{21}
+\contentsline {section}{\numberline {6.4}Discussion}{21}
+\contentsline {chapter}{\numberline {7}Conclusion and Further Work}{22}
+\contentsline {chapter}{\numberline {8}Legal, Social, Ethical, and Professional Issues}{23}
+\contentsline {chapter}{\numberline {9}Author's Assessment of the Project}{24}
+\contentsline {chapter}{\numberline {10}Background Texts}{25}
+\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{26}
+\contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{30}
+\contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Sorter II}{34}

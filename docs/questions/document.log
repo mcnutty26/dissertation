@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.24)  5 FEB 2015 13:43
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.24)  5 FEB 2015 16:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -46,7 +46,7 @@ File: xkeyval.tex 2014/05/25 v2.7 key=value parser (HA)
 \xargs@toksb=\toks18
 )
 Package scrbase Info: Unknown processing state.
-(scrbase)             Processing option `globalid='
+(scrbase)             Processing option `globalid=sample'
 (scrbase)             of member `.sdaps.cls' of family
 (scrbase)             `SDAPS' doesn't set
 (scrbase)             a valid state. This will be interpreted
@@ -1347,7 +1347,15 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Overfull \vbox (10.2pt too high) has occurred while \output is active []
 
- [1
+** Code 128 ** input: sample
+encoded: \startB ,83,65,77,80,76,69,14,\stop ,
+black-white: 21121411421212112441311111124222111411221412223123311120
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 377.
+
+
+(d:/Program Files/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+) [1
 
 
 ]
@@ -1759,6 +1767,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Overfull \vbox (10.2pt too high) has occurred while \output is active []
 
+** Code 128 ** input: sample
+encoded: \startB ,83,65,77,80,76,69,14,\stop ,
+black-white: 21121411421212112441311111124222111411221412223123311120
  [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2152,9 +2163,15 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Overfull \vbox (10.2pt too high) has occurred while \output is active []
 
+** Code 128 ** input: sample
+encoded: \startB ,83,65,77,80,76,69,14,\stop ,
+black-white: 21121411421212112441311111124222111411221412223123311120
  [3]
 Overfull \vbox (10.2pt too high) has occurred while \output is active []
 
+** Code 128 ** input: sample
+encoded: \startB ,83,65,77,80,76,69,14,\stop ,
+black-white: 21121411421212112441311111124222111411221412223123311120
  [4]
 
 AED: lastpage setting LastPage
@@ -2166,12 +2183,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 378.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 378.
  ) 
 Here is how much of TeX's memory you used:
- 24763 strings out of 495656
- 443524 string characters out of 6187192
- 609448 words of memory out of 5000000
- 27575 multiletter control sequences out of 15000+600000
- 16619 words of font info for 51 fonts, out of 8000000 for 9000
+ 24827 strings out of 495656
+ 444921 string characters out of 6187192
+ 611448 words of memory out of 5000000
+ 27634 multiletter control sequences out of 15000+600000
+ 17246 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 71i,13n,74p,449b,996s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,13n,74p,449b,1186s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on document.pdf (4 pages).

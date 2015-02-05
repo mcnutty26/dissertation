@@ -222,14 +222,7 @@ As mentioned before when discussing profiling literature, a 2013 study by Johann
 \end{center}
 \end{figure}
 
-\chapter{Research Undertaken}
-In this chapter the testing methodology is presented, along with detailed description and justification of the research methods and statistical analysis used. The aim of the work carried out as part of this project is to identify any potential correlation between Bartle gamer types and Keirsey temperaments with the aim of better understanding the human computer interaction that will arise as gamification becomes more prevalent in higher education. As the target demographic for higher education software, [twenty] students from the University of Warwick participated in the study. Afterwards the results of the study are detailed and discussed in the context of prior work by Konert et. al \cite{konertmodeling} and the implications for designing future educational software are conjectured.
-\section{Methodology}
-Participants were each given a login code for the online testing software, described below, and asked to fill out a series of profiling questionnaires. Questions for both the Bartle and Keirsey type sorters are attached in appendices \ref{sec:bartle} and \ref{sec:keirsey} respectively. The Bartle questions were sourced from the website of Erwin Andreasen [REF], and are the same ones used in the most popular online Bartle test which can be found at gamerDna [REF]. There does not exist an official set of Bartle test questions. The questions to used to categorise participants by Keirsey Temperament are from the Keirsey Temperament Sorter II \cite{keirsey1998please}. 
-
-The results returned by the testing software are used to calculate r and p values for [PEARSON]. Results that are significant at levels of 0.01 and 0.05 are marked accordingly.
-
-\section{Testing Software}
+\chapter{Testing Software}
 In order to facilitate efficient testing, a bespoke piece of software was engineered in PHP. The software is responsible for collecting data, storing it assigned to a username, and doing preliminary processing on the results. The database used is MySQL, and the data and application files are stored on a server operated by the University of Warwick Computing Society. The software can be found running online at \url{mcnutty.uwcs.co.uk/dissertation}.
 
 During development, data and code was insured against loss or corruption by hosting the project in a git repository on GitHub. This meant that copies of the project files existed on the GitHub servers, which are backed up on a regular basis, my own desktop computer, and my laptop. Any two of these sources could be rendered inaccessible and the project could continue with minimal disruption. The software development methodology followed was that of incremental builds. Each feature of the software is built, tested, and integrated separately. This was done to allow rapid development, and made sense given that research for each section of the program was being carried out in parallel with development.
@@ -237,7 +230,27 @@ During development, data and code was insured against loss or corruption by host
 When participants signed up for the study, they were assigned a random 6 digit alphanumeric string as a username. Upon signing in, session variables were set such that any data gathered subsequently would be associated with that username. Results for different question sets are entered sequentially, and the user can choose the order in which questionnaires are completed. When they have finished entering data for a profiling test, a synopsis of the results is presented. This is done in order to provide a layer of transparency to the profiling process, and it is often the case that users are genuinely interested in the results of their own tests.
 
 Once a result set has been collected, the software will calculate dimensional values for the relevant test as a percentage and store them in the database. That is to say that the sum of the survey responses that indicate affinity for a given type, say socialiser, are divided by the total number of responses that have responses which indicate affinity for the socialiser type. For the Keirsey Temperament sorter, the components of the different dichotomies are treated as if they were individual axes. As such, the Keirsey temperament of a participant can be calculated by reading off the dominant types, or the one with the higher percentage. Because the software was primarily developed to aid with administering the Bartle test it only supports four different dimensions. To get around this problem, the Keirsey Temperament sorter was divided up in to two sections. The first section contained questions relating to introversion/extraversion and intuition/sensing dichotomies and the second contained questions for thinking/feeling and judging/perceiving.
+\section{Specification}
+\section{Requirements Analysis}
+\section{Code and Database Structure}
+\section{Review Against the Specification}
+
+\chapter{Research Undertaken}
+In this chapter the objectives and methodology of the study are presented, along with a detailed statistical analysis and discussion of the results. The aim of the work carried out as part of this project is to identify any potential correlation between Bartle gamer types and Keirsey temperaments with the hope of better understanding the human computer interaction implications that arise as gamification becomes more prevalent in higher education. As the target demographic for higher education software [twenty] students, primarily from the University of Warwick, participated in the study. The response rate was [100]\%, providing a total of [twenty] complete sets of data. Delegated ethical approval was granted for the study, and the declaration pertaining to the approval can be found in appendix \ref{sec:bsrec}.
+
+\section{Objectives and Rationale}
+The aim if the study is to see if there is correlation between two different psychological profiling techniques, one used in a gaming context and one used in an educational context. As the gamification of different everyday life becomes more pronounced, it is important that we understand how this can be best used in education. By gaining a better understanding of human-computer interaction in this way, we can more effectively educate students with these techniques. There is already fairly widespread understanding of how to craft interactive experiences for gamers, and also for learners. The objective here was to inform how a project that combines the two might be leveraged to provide the most fulfilling experience.
+
+\section{Methodology}
+In order to ascertain the personality and gamer types of each of the participants, they were presented with a copy of the Keirsey Temperament Sorter II and the Bartle Test. Copies of the Keirsey Temperament Sorter and the Bartle test can be found in appendices \ref{sec:bartle} and \ref{sec:keirsey}. Each participant received a printed copy of the Keirsey Temperament Sorter, which was compiled with a modified version of the LDAPS \LaTeX class. LDAPS is an open source program which provides optical mark recognition for surveys and questionnaires. While the mark recognition features of SDAPS were not used, it provided an excellent framework with which to construct the document distributed to candidates. SDAPS is used under the LaTeX Project Public License, and a full unaltered version can be found at \url{http://sdaps.org}.
+
+The other half of the study was conducted online, using a specially written piece of testing software hosted on the servers of the University of Warwick Computing Society.
+
+
+
+
 \section{Results}
+The results returned by the testing software are used to calculate r and p values for [PEARSON]. Results that are significant at levels of 0.01 and 0.05 are marked accordingly.
 
 \section{Discussion}
 
@@ -253,17 +266,20 @@ Once a result set has been collected, the software will calculate dimensional va
 \begin{appendices}
 	
 \chapter{Declaration of Delegated Ethical Approval}
+\label{sec:bsrec}
 \includepdf[pages={-}]{../ethical-consent/delegated-approval.pdf}
 	
-\chapter{Bartle Type Questions}
+\chapter{Bartle Test Questions}
 \label{sec:bartle}
-As written by Erwin Andreasen and Brandon Downey. Retrieved from \url{http://www.andreasen.org/bartle/questions-en.dat} on 22/01/2015.
+Presented to study participants through the online testing platform, as written by Erwin Andreasen and Brandon Downey \cite{bartle-questions}.
 \linespread{1.0}
 \input{bartle-questions}
 \linespread{1.3}
 
-\chapter{Keirsey Termerament Questions}
+\chapter{Keirsey Termerament Sorter II}
 \label{sec:keirsey}
+Written by David Keirsey \cite{keirsey1998please} and presented on paper to study participants.
+\includepdf[pages={-}]{sample.pdf}
 \end{appendices}
 
 \bibliography{references}

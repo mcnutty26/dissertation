@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.24)  3 FEB 2015 23:31
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.24)  5 FEB 2015 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -337,23 +337,31 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[18
 
-] [19]
+Underfull \vbox (badness 4132) has occurred while \output is active []
+
+ [18
+
+]
+[19]
 Chapter 6.
 [20
 
-]
+] [21]
 Chapter 7.
-[21
-
-]
-Chapter 8.
 [22
 
 ]
-Chapter 9.
+Chapter 8.
 [23
+
+]
+Chapter 9.
+[24
+
+]
+Chapter 10.
+[25
 
 ]
 Appendix A.
@@ -361,7 +369,7 @@ File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 <use  "../ethical-consent/delegated-approval.pdf" >
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
-<use  "../ethical-consent/delegated-approval.pdf" > [24
+<use  "../ethical-consent/delegated-approval.pdf" > [26
 
 ]
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
@@ -383,7 +391,7 @@ File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 <use  "../ethical-consent/delegated-approval.pdf"  page1>
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
-<use  "../ethical-consent/delegated-approval.pdf"  page1> [25]
+<use  "../ethical-consent/delegated-approval.pdf"  page1> [27]
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
 <use  "../ethical-consent/delegated-approval.pdf"  page2>
@@ -392,7 +400,7 @@ File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 <use  "../ethical-consent/delegated-approval.pdf"  page2>
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
-<use  "../ethical-consent/delegated-approval.pdf"  page2> [26]
+<use  "../ethical-consent/delegated-approval.pdf"  page2> [28]
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
 <use  "../ethical-consent/delegated-approval.pdf"  page3>
@@ -401,98 +409,129 @@ File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 <use  "../ethical-consent/delegated-approval.pdf"  page3>
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
-<use  "../ethical-consent/delegated-approval.pdf"  page3> [27]
+<use  "../ethical-consent/delegated-approval.pdf"  page3> [29]
 Appendix B.
-(./bartle-questions.tex [28
+(./bartle-questions.tex [30
 
 ]
-Overfull \hbox (22.81609pt too wide) in paragraph at lines 50--50
+Overfull \hbox (22.81609pt too wide) in paragraph at lines 46--46
 []\OT1/cmtt/m/n/12 +E Try a variety of weapons and magic against it, until you 
 find its weakness.[] 
  []
 
 
-Overfull \hbox (119.76364pt too wide) in paragraph at lines 55--55
+Overfull \hbox (14.78859pt too wide) in paragraph at lines 51--51
 []\OT1/cmtt/m/n/12 +S A bard, who's a good friend of yours and who's great for 
-entertaining you and your friends[] 
+entertaining you[] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
-Overfull \hbox (103.09113pt too wide) in paragraph at lines 92--92
-[]\OT1/cmtt/m/n/12 +E Someone who can run from any two points in the world, and
- really knows their way around.[] 
- []
-
-
+ [31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
-Overfull \hbox (4.29108pt too wide) in paragraph at lines 154--154
+ [32]
+Overfull \hbox (4.29108pt too wide) in paragraph at lines 144--144
 []\OT1/cmtt/m/n/12 +K An amulet that increases the damage you do against other 
 players by 10%.[] 
  []
 
-
-Overfull \hbox (204.97868pt too wide) in paragraph at lines 158--158
-[]\OT1/cmtt/m/n/12 +K A wand with 3 charges of a spell that lets you control ot
-her players, against their will. (charm person)[] 
- []
-
-) [31]
+) [33]
 Appendix C.
-(./report.bbl [32
+File: sample.pdf Graphic file (type QTm)
+<use  "sample.pdf" >
+File: sample.pdf Graphic file (type QTm)
+ <use  "sample.pdf" > [34
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 24--31
+File: sample.pdf Graphic file (type QTm)
+ <use  "sample.pdf"  page1>
+
+Package pdfpages Warning: Erroneous page width of 0.0pt is corrected.
+
+
+Package pdfpages Warning: Erroneous page height of 0.0pt is corrected.
+
+File: sample.pdf Graphic file (type QTm)
+<use  "sample.pdf"  page1>
+File: sample.pdf Graphic file (type QTm)
+ <use  "sample.pdf"  page1>
+File: sample.pdf Graphic file (type QTm)
+
+<use  "sample.pdf"  page1>
+File: sample.pdf Graphic file (type QTm)
+ <use  "sample.pdf"  page1> [35]
+File: sample.pdf Graphic file (type QTm)
+
+<use  "sample.pdf"  page2>
+File: sample.pdf Graphic file (type QTm)
+ <use  "sample.pdf"  page2>
+File: sample.pdf Graphic file (type QTm)
+
+<use  "sample.pdf"  page2> [36]
+File: sample.pdf Graphic file (type QTm)
+ <use  "sample.pdf"  page3>
+File: sample.pdf Graphic file (type QTm)
+
+<use  "sample.pdf"  page3>
+File: sample.pdf Graphic file (type QTm)
+ <use  "sample.pdf"  page3> [37]
+File: sample.pdf Graphic file (type QTm)
+
+<use  "sample.pdf"  page4>
+File: sample.pdf Graphic file (type QTm)
+ <use  "sample.pdf"  page4>
+File: sample.pdf Graphic file (type QTm)
+
+<use  "sample.pdf"  page4> [38] (./report.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 31--38
 []\OT1/cmr/m/n/12 comScore.  \OT1/cmr/m/it/12 Face-book Blasts into Top Po-si-t
 ion in Brazil-ian So-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--31
+Underfull \hbox (badness 10000) in paragraph at lines 31--38
 \OT1/cmr/m/it/12 cial Net-work-ing Mar-ket Fol-low-ing Year of Tremen-dous Grow
 th\OT1/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--31
+Underfull \hbox (badness 10000) in paragraph at lines 31--38
 \OT1/cmr/m/n/12 2012.  $\OT1/cmtt/m/n/12 http : / / www . comscore . com / Insi
 ghts / Press-[]Releases / 2012 / 1 /
  []
 
 
-Overfull \hbox (14.10985pt too wide) in paragraph at lines 24--31
+Overfull \hbox (14.10985pt too wide) in paragraph at lines 31--38
 \OT1/cmtt/m/n/12 Facebook-[]Blasts-[]into-[]Top-[]Position-[]in-[]Brazilian-[]S
 ocial-[]Networking-[]Market$
  []
 
-[33
+[39
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 68--73
+Underfull \hbox (badness 10000) in paragraph at lines 75--80
 \OT1/cmtt/m/n/12 google . com / trends / explore # q = gamification & date = 1 
 % 2F2009 % 2072m & cmpt = q$
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 124.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 131.
 
 (d:/Program Files/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 124.
- [34])
-[35] (./report.aux) ) 
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
+ [40])
+[41] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 3984 strings out of 495656
- 59958 string characters out of 6187192
- 151252 words of memory out of 5000000
- 7131 multiletter control sequences out of 15000+600000
+ 3989 strings out of 495656
+ 60017 string characters out of 6187192
+ 151265 words of memory out of 5000000
+ 7134 multiletter control sequences out of 15000+600000
  8406 words of font info for 30 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,18n,42p,2253b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,18n,42p,2253b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.pdf (40 pages).
+Output written on report.pdf (46 pages).
