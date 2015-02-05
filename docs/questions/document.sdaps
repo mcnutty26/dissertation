@@ -7,7 +7,7 @@ PageSize=597.50793pt, 845.04694pt
 Duplex=False
 Style=code128
 CheckMode=checkcorrect
-GlobalID=ezjhdm
+GlobalID=jgkqomc
 GlobalIDLabel=
 
 QObject-Head=1. Keirsey Temperament Sorter II
@@ -31,7 +31,7 @@ Answer-Choice=firm than gentle
 Box=Checkbox, 1, 42.98859pt, 433.3335pt, 9.95845pt, 9.95845pt, box
 Answer-Choice=gentle than firm
 Box=Checkbox, 1, 42.98859pt, 419.7335pt, 9.95845pt, 9.95845pt, box
-QObject-Choice=1.5. Are you more confortable making
+QObject-Choice=1.5. Are you more comfortable making
 Answer-Choice=critical judgements
 Box=Checkbox, 1, 42.98859pt, 377.45364pt, 9.95845pt, 9.95845pt, box
 Answer-Choice=value judgements
