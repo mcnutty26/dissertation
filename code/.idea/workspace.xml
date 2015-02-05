@@ -28,31 +28,31 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="493">
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="493">
               <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2125" vertical-offset="0" max-vertical-offset="1836">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.230769" vertical-offset="51" max-vertical-offset="1921">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
-                <marker date="1420584480291" expanded="true" signature="263:311" placeholder="INSERT INTO ..." />
-                <marker date="1420584480291" expanded="true" signature="523:619" placeholder="INSERT INTO ..." />
-                <marker date="1420584480291" expanded="true" signature="1022:1196" placeholder="INSERT INTO ..." />
-                <marker date="1420584480291" expanded="true" signature="1309:1348" placeholder="DELETE FROM ..." />
-                <marker date="1420584480291" expanded="true" signature="1511:1578" placeholder="INSERT INTO ..." />
-                <marker date="1420584480291" expanded="true" signature="1684:1727" placeholder="INSERT INTO ..." />
-                <marker date="1420584480291" expanded="true" signature="1914:1958" placeholder="SELECT * FRO..ds_content..." />
-                <marker date="1420584480291" expanded="true" signature="3070:3114" placeholder="SELECT * FRO..ds_answer..." />
-                <marker date="1420584480291" expanded="true" signature="4539:4562" placeholder="SELECT * FRO..ds_module..." />
-                <marker date="1420584480291" expanded="true" signature="5624:5666" placeholder="SELECT * FRO..ds_user..." />
-                <marker date="1420584480291" expanded="true" signature="5912:6010" placeholder="SELECT m.nam..ds_class..." />
+                <marker date="1423134943914" expanded="true" signature="380:428" placeholder="INSERT INTO ..." />
+                <marker date="1423134943914" expanded="true" signature="660:756" placeholder="INSERT INTO ..." />
+                <marker date="1423134943914" expanded="true" signature="1195:1369" placeholder="INSERT INTO ..." />
+                <marker date="1423134943914" expanded="true" signature="1494:1533" placeholder="DELETE FROM ..." />
+                <marker date="1423134943914" expanded="true" signature="1712:1779" placeholder="INSERT INTO ..." />
+                <marker date="1423134943914" expanded="true" signature="1897:1940" placeholder="INSERT INTO ..." />
+                <marker date="1423134943914" expanded="true" signature="2147:2191" placeholder="SELECT * FRO..ds_content..." />
+                <marker date="1423134943914" expanded="true" signature="3348:3392" placeholder="SELECT * FRO..ds_answer..." />
+                <marker date="1423134943914" expanded="true" signature="4862:4885" placeholder="SELECT * FRO..ds_module..." />
+                <marker date="1423134943914" expanded="true" signature="5992:6034" placeholder="SELECT * FRO..ds_user..." />
+                <marker date="1423134943914" expanded="true" signature="6297:6395" placeholder="SELECT m.nam..ds_class..." />
               </folding>
             </state>
           </provider>
@@ -61,7 +61,7 @@
       <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1003">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="136" max-vertical-offset="1003">
               <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
@@ -87,7 +87,7 @@
       <file leaf-file-name="score.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/score.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="731">
+            <state vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="731">
               <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
               <folding>
                 <marker date="1420584267661" expanded="true" signature="406:477" placeholder="SELECT name,..ds_user..." />
@@ -99,8 +99,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="850">
-              <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
+            <state vertical-scroll-proportion="-6.423077" vertical-offset="37" max-vertical-offset="850">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding>
                 <marker date="1422876946876" expanded="true" signature="864:1063" placeholder="SELECT F_mod..ds_class..." />
               </folding>
@@ -111,8 +111,8 @@
       <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="2108">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state vertical-scroll-proportion="-9.692307" vertical-offset="1295" max-vertical-offset="2108">
+              <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
               <folding>
                 <marker date="1422982047483" expanded="true" signature="430:530" placeholder="INSERT INTO ..." />
                 <marker date="1422982047483" expanded="true" signature="702:833" placeholder="SELECT conte..ds_content..." />
@@ -130,13 +130,28 @@
       <file leaf-file-name="review.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/review.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.038462" vertical-offset="191" max-vertical-offset="1445">
-              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+            <state vertical-scroll-proportion="13.846154" vertical-offset="649" max-vertical-offset="1462">
+              <caret line="17" column="30" selection-start-line="8" selection-start-column="0" selection-end-line="17" selection-end-column="30" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
-                <marker date="1422982047487" expanded="true" signature="1737:1971" placeholder="SELECT SUM(v..ds_result..." />
-                <marker date="1422982047487" expanded="true" signature="2385:2555" placeholder="..." />
-                <marker date="1422982047487" expanded="true" signature="2612:2773" placeholder="..." />
+                <marker date="1423133443551" expanded="true" signature="1737:1971" placeholder="SELECT SUM(v..ds_result..." />
+                <marker date="1423133443551" expanded="true" signature="2390:2560" placeholder="..." />
+                <marker date="1423133443551" expanded="true" signature="2617:2778" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stats.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stats.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8925" vertical-offset="0" max-vertical-offset="884">
+              <caret line="42" column="134" selection-start-line="42" selection-start-column="134" selection-end-line="42" selection-end-column="134" />
+              <folding>
+                <element signature="e#6#86#0#PHP" expanded="true" />
+                <marker date="1423139631584" expanded="true" signature="306:313" placeholder="SELECT a.kil..ds_user..." />
+                <marker date="1423139631584" expanded="true" signature="306:612" placeholder="SELECT a.kil..ds_user..." />
+                <marker date="1423139631584" expanded="true" signature="671:1720" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -167,8 +182,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/review.php" />
         <option value="$PROJECT_DIR$/content.php" />
+        <option value="$PROJECT_DIR$/review.php" />
+        <option value="$PROJECT_DIR$/create.php" />
+        <option value="$PROJECT_DIR$/stats.php" />
       </list>
     </option>
   </component>
@@ -208,7 +225,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,36 +243,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,15 +283,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="212b9c83-0d46-46e0-b399-d26650279d6a" server_name="codd">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="212b9c83-0d46-46e0-b399-d26650279d6a" server_name="codd">
       <method />
     </configuration>
     <list size="0" />
@@ -338,13 +327,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -370,22 +359,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="49" max-vertical-offset="867">
-          <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/review.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1422982047487" expanded="true" signature="1737:1971" placeholder="SELECT SUM(v..ds_result..." />
-            <marker date="1422982047487" expanded="true" signature="2385:2555" placeholder="..." />
-            <marker date="1422982047487" expanded="true" signature="2612:2773" placeholder="..." />
+            <marker date="1423133443551" expanded="true" signature="1737:1971" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1423133443551" expanded="true" signature="2390:2560" placeholder="..." />
+            <marker date="1423133443551" expanded="true" signature="2617:2778" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -426,17 +408,17 @@
           <caret line="12" column="48" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="48" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1420584480291" expanded="true" signature="263:311" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="523:619" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1022:1196" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1309:1348" placeholder="DELETE FROM ..." />
-            <marker date="1420584480291" expanded="true" signature="1511:1578" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1684:1727" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1914:1958" placeholder="SELECT * FRO..ds_content..." />
-            <marker date="1420584480291" expanded="true" signature="3070:3114" placeholder="SELECT * FRO..ds_answer..." />
-            <marker date="1420584480291" expanded="true" signature="4539:4562" placeholder="SELECT * FRO..ds_module..." />
-            <marker date="1420584480291" expanded="true" signature="5624:5666" placeholder="SELECT * FRO..ds_user..." />
-            <marker date="1420584480291" expanded="true" signature="5912:6010" placeholder="SELECT m.nam..ds_class..." />
+            <marker date="1423134943914" expanded="true" signature="380:428" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="660:756" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1195:1369" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1494:1533" placeholder="DELETE FROM ..." />
+            <marker date="1423134943914" expanded="true" signature="1712:1779" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1897:1940" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="2147:2191" placeholder="SELECT * FRO..ds_content..." />
+            <marker date="1423134943914" expanded="true" signature="3348:3392" placeholder="SELECT * FRO..ds_answer..." />
+            <marker date="1423134943914" expanded="true" signature="4862:4885" placeholder="SELECT * FRO..ds_module..." />
+            <marker date="1423134943914" expanded="true" signature="5992:6034" placeholder="SELECT * FRO..ds_user..." />
+            <marker date="1423134943914" expanded="true" signature="6297:6395" placeholder="SELECT m.nam..ds_class..." />
           </folding>
         </state>
       </provider>
@@ -454,9 +436,9 @@
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1422982047487" expanded="true" signature="1737:1971" placeholder="SELECT SUM(v..ds_result..." />
-            <marker date="1422982047487" expanded="true" signature="2385:2555" placeholder="..." />
-            <marker date="1422982047487" expanded="true" signature="2612:2773" placeholder="..." />
+            <marker date="1423133443551" expanded="true" signature="1737:1971" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1423133443551" expanded="true" signature="2390:2560" placeholder="..." />
+            <marker date="1423133443551" expanded="true" signature="2617:2778" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -497,9 +479,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1422982047487" expanded="true" signature="1737:1971" placeholder="SELECT SUM(v..ds_result..." />
-            <marker date="1422982047487" expanded="true" signature="2385:2555" placeholder="..." />
-            <marker date="1422982047487" expanded="true" signature="2612:2773" placeholder="..." />
+            <marker date="1423133443551" expanded="true" signature="1737:1971" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1423133443551" expanded="true" signature="2390:2560" placeholder="..." />
+            <marker date="1423133443551" expanded="true" signature="2617:2778" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -510,17 +492,17 @@
           <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1420584480291" expanded="true" signature="263:311" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="523:619" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1022:1196" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1309:1348" placeholder="DELETE FROM ..." />
-            <marker date="1420584480291" expanded="true" signature="1511:1578" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1684:1727" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1914:1958" placeholder="SELECT * FRO..ds_content..." />
-            <marker date="1420584480291" expanded="true" signature="3070:3114" placeholder="SELECT * FRO..ds_answer..." />
-            <marker date="1420584480291" expanded="true" signature="4539:4562" placeholder="SELECT * FRO..ds_module..." />
-            <marker date="1420584480291" expanded="true" signature="5624:5666" placeholder="SELECT * FRO..ds_user..." />
-            <marker date="1420584480291" expanded="true" signature="5912:6010" placeholder="SELECT m.nam..ds_class..." />
+            <marker date="1423134943914" expanded="true" signature="380:428" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="660:756" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1195:1369" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1494:1533" placeholder="DELETE FROM ..." />
+            <marker date="1423134943914" expanded="true" signature="1712:1779" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1897:1940" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="2147:2191" placeholder="SELECT * FRO..ds_content..." />
+            <marker date="1423134943914" expanded="true" signature="3348:3392" placeholder="SELECT * FRO..ds_answer..." />
+            <marker date="1423134943914" expanded="true" signature="4862:4885" placeholder="SELECT * FRO..ds_module..." />
+            <marker date="1423134943914" expanded="true" signature="5992:6034" placeholder="SELECT * FRO..ds_user..." />
+            <marker date="1423134943914" expanded="true" signature="6297:6395" placeholder="SELECT m.nam..ds_class..." />
           </folding>
         </state>
       </provider>
@@ -560,17 +542,17 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1420584480291" expanded="true" signature="263:311" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="523:619" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1022:1196" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1309:1348" placeholder="DELETE FROM ..." />
-            <marker date="1420584480291" expanded="true" signature="1511:1578" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1684:1727" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1914:1958" placeholder="SELECT * FRO..ds_content..." />
-            <marker date="1420584480291" expanded="true" signature="3070:3114" placeholder="SELECT * FRO..ds_answer..." />
-            <marker date="1420584480291" expanded="true" signature="4539:4562" placeholder="SELECT * FRO..ds_module..." />
-            <marker date="1420584480291" expanded="true" signature="5624:5666" placeholder="SELECT * FRO..ds_user..." />
-            <marker date="1420584480291" expanded="true" signature="5912:6010" placeholder="SELECT m.nam..ds_class..." />
+            <marker date="1423134943914" expanded="true" signature="380:428" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="660:756" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1195:1369" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1494:1533" placeholder="DELETE FROM ..." />
+            <marker date="1423134943914" expanded="true" signature="1712:1779" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1897:1940" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="2147:2191" placeholder="SELECT * FRO..ds_content..." />
+            <marker date="1423134943914" expanded="true" signature="3348:3392" placeholder="SELECT * FRO..ds_answer..." />
+            <marker date="1423134943914" expanded="true" signature="4862:4885" placeholder="SELECT * FRO..ds_module..." />
+            <marker date="1423134943914" expanded="true" signature="5992:6034" placeholder="SELECT * FRO..ds_user..." />
+            <marker date="1423134943914" expanded="true" signature="6297:6395" placeholder="SELECT m.nam..ds_class..." />
           </folding>
         </state>
       </provider>
@@ -611,17 +593,17 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1420584480291" expanded="true" signature="263:311" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="523:619" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1022:1196" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1309:1348" placeholder="DELETE FROM ..." />
-            <marker date="1420584480291" expanded="true" signature="1511:1578" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1684:1727" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1914:1958" placeholder="SELECT * FRO..ds_content..." />
-            <marker date="1420584480291" expanded="true" signature="3070:3114" placeholder="SELECT * FRO..ds_answer..." />
-            <marker date="1420584480291" expanded="true" signature="4539:4562" placeholder="SELECT * FRO..ds_module..." />
-            <marker date="1420584480291" expanded="true" signature="5624:5666" placeholder="SELECT * FRO..ds_user..." />
-            <marker date="1420584480291" expanded="true" signature="5912:6010" placeholder="SELECT m.nam..ds_class..." />
+            <marker date="1423134943914" expanded="true" signature="380:428" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="660:756" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1195:1369" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1494:1533" placeholder="DELETE FROM ..." />
+            <marker date="1423134943914" expanded="true" signature="1712:1779" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1897:1940" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="2147:2191" placeholder="SELECT * FRO..ds_content..." />
+            <marker date="1423134943914" expanded="true" signature="3348:3392" placeholder="SELECT * FRO..ds_answer..." />
+            <marker date="1423134943914" expanded="true" signature="4862:4885" placeholder="SELECT * FRO..ds_module..." />
+            <marker date="1423134943914" expanded="true" signature="5992:6034" placeholder="SELECT * FRO..ds_user..." />
+            <marker date="1423134943914" expanded="true" signature="6297:6395" placeholder="SELECT m.nam..ds_class..." />
           </folding>
         </state>
       </provider>
@@ -662,17 +644,17 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1420584480291" expanded="true" signature="263:311" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="523:619" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1022:1196" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1309:1348" placeholder="DELETE FROM ..." />
-            <marker date="1420584480291" expanded="true" signature="1511:1578" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1684:1727" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1914:1958" placeholder="SELECT * FRO..ds_content..." />
-            <marker date="1420584480291" expanded="true" signature="3070:3114" placeholder="SELECT * FRO..ds_answer..." />
-            <marker date="1420584480291" expanded="true" signature="4539:4562" placeholder="SELECT * FRO..ds_module..." />
-            <marker date="1420584480291" expanded="true" signature="5624:5666" placeholder="SELECT * FRO..ds_user..." />
-            <marker date="1420584480291" expanded="true" signature="5912:6010" placeholder="SELECT m.nam..ds_class..." />
+            <marker date="1423134943914" expanded="true" signature="380:428" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="660:756" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1195:1369" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1494:1533" placeholder="DELETE FROM ..." />
+            <marker date="1423134943914" expanded="true" signature="1712:1779" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1897:1940" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="2147:2191" placeholder="SELECT * FRO..ds_content..." />
+            <marker date="1423134943914" expanded="true" signature="3348:3392" placeholder="SELECT * FRO..ds_answer..." />
+            <marker date="1423134943914" expanded="true" signature="4862:4885" placeholder="SELECT * FRO..ds_module..." />
+            <marker date="1423134943914" expanded="true" signature="5992:6034" placeholder="SELECT * FRO..ds_user..." />
+            <marker date="1423134943914" expanded="true" signature="6297:6395" placeholder="SELECT m.nam..ds_class..." />
           </folding>
         </state>
       </provider>
@@ -758,20 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1003">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1420582191879" expanded="true" signature="185:370" placeholder="SELECT * FRO..ds_user..." />
-            <marker date="1420582191879" expanded="true" signature="185:371" placeholder="SELECT useri..ds_user..." />
-            <marker date="1420582191879" expanded="true" signature="429:1862" placeholder="..." />
-            <marker date="1420582191879" expanded="true" signature="566:571" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/discuss.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="2431">
@@ -780,28 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/score.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="731">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-          <folding>
-            <marker date="1420584267661" expanded="true" signature="406:477" placeholder="SELECT name,..ds_user..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.6765068" vertical-offset="2128" max-vertical-offset="2941">
           <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="493">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -819,10 +769,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="493">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/score.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="731">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding>
+            <marker date="1420584267661" expanded="true" signature="406:477" placeholder="SELECT name,..ds_user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1003">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1420582191879" expanded="true" signature="185:370" placeholder="SELECT * FRO..ds_user..." />
+            <marker date="1420582191879" expanded="true" signature="185:371" placeholder="SELECT useri..ds_user..." />
+            <marker date="1420582191879" expanded="true" signature="429:1862" placeholder="..." />
+            <marker date="1420582191879" expanded="true" signature="566:571" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="51" max-vertical-offset="1921">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1423134943914" expanded="true" signature="380:428" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="660:756" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1195:1369" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1494:1533" placeholder="DELETE FROM ..." />
+            <marker date="1423134943914" expanded="true" signature="1712:1779" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="1897:1940" placeholder="INSERT INTO ..." />
+            <marker date="1423134943914" expanded="true" signature="2147:2191" placeholder="SELECT * FRO..ds_content..." />
+            <marker date="1423134943914" expanded="true" signature="3348:3392" placeholder="SELECT * FRO..ds_answer..." />
+            <marker date="1423134943914" expanded="true" signature="4862:4885" placeholder="SELECT * FRO..ds_module..." />
+            <marker date="1423134943914" expanded="true" signature="5992:6034" placeholder="SELECT * FRO..ds_user..." />
+            <marker date="1423134943914" expanded="true" signature="6297:6395" placeholder="SELECT m.nam..ds_class..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="850">
-          <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
+        <state vertical-scroll-proportion="-6.423077" vertical-offset="37" max-vertical-offset="850">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
             <marker date="1422876946876" expanded="true" signature="864:1063" placeholder="SELECT F_mod..ds_class..." />
           </folding>
@@ -831,21 +834,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/review.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.038462" vertical-offset="191" max-vertical-offset="1445">
-          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        <state vertical-scroll-proportion="13.846154" vertical-offset="649" max-vertical-offset="1462">
+          <caret line="17" column="30" selection-start-line="8" selection-start-column="0" selection-end-line="17" selection-end-column="30" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1422982047487" expanded="true" signature="1737:1971" placeholder="SELECT SUM(v..ds_result..." />
-            <marker date="1422982047487" expanded="true" signature="2385:2555" placeholder="..." />
-            <marker date="1422982047487" expanded="true" signature="2612:2773" placeholder="..." />
+            <marker date="1423133443551" expanded="true" signature="1737:1971" placeholder="SELECT SUM(v..ds_result..." />
+            <marker date="1423133443551" expanded="true" signature="2390:2560" placeholder="..." />
+            <marker date="1423133443551" expanded="true" signature="2617:2778" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="2108">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        <state vertical-scroll-proportion="-9.692307" vertical-offset="1295" max-vertical-offset="2108">
+          <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
           <folding>
             <marker date="1422982047483" expanded="true" signature="430:530" placeholder="INSERT INTO ..." />
             <marker date="1422982047483" expanded="true" signature="702:833" placeholder="SELECT conte..ds_content..." />
@@ -859,23 +862,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create.php">
+    <entry file="file://$PROJECT_DIR$/stats.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2125" vertical-offset="0" max-vertical-offset="1836">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8925" vertical-offset="0" max-vertical-offset="884">
+          <caret line="42" column="134" selection-start-line="42" selection-start-column="134" selection-end-line="42" selection-end-column="134" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1420584480291" expanded="true" signature="263:311" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="523:619" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1022:1196" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1309:1348" placeholder="DELETE FROM ..." />
-            <marker date="1420584480291" expanded="true" signature="1511:1578" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1684:1727" placeholder="INSERT INTO ..." />
-            <marker date="1420584480291" expanded="true" signature="1914:1958" placeholder="SELECT * FRO..ds_content..." />
-            <marker date="1420584480291" expanded="true" signature="3070:3114" placeholder="SELECT * FRO..ds_answer..." />
-            <marker date="1420584480291" expanded="true" signature="4539:4562" placeholder="SELECT * FRO..ds_module..." />
-            <marker date="1420584480291" expanded="true" signature="5624:5666" placeholder="SELECT * FRO..ds_user..." />
-            <marker date="1420584480291" expanded="true" signature="5912:6010" placeholder="SELECT m.nam..ds_class..." />
+            <marker date="1423139631584" expanded="true" signature="306:313" placeholder="SELECT a.kil..ds_user..." />
+            <marker date="1423139631584" expanded="true" signature="306:612" placeholder="SELECT a.kil..ds_user..." />
+            <marker date="1423139631584" expanded="true" signature="671:1720" placeholder="..." />
           </folding>
         </state>
       </provider>

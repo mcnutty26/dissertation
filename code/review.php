@@ -65,7 +65,8 @@ if (isset($_SESSION['module'])) {
         $total = $row['val'];
     }
     echo "<br>Your score for this module was $total / $max <br>";
-    echo "<br>Thank you for your time. You may now close this window to complete your participation.";
+    echo "<br>Thank you for your time. You may now close this window to complete your participation.<br>";
+
     /*echo '<form action="discuss.php" method="post">
               <input type="hidden" name="choice" value=' . $module . '>
               <input type="submit" value="Discuss this module with others">
