@@ -39,8 +39,8 @@ if ($current_user->get_lecturer() == 1) {
         $exp2 = ' ' . round($row['se'] * 100 / 18);
         $soc2 = ' ' . round($row['ss'] * 100 / 18);
 
-        echo '<tr><td>' . $row['us'] . '</td><td>' . $row['sk'] . $kil . '</td><td>' . $row['ss'] . $soc . '</td><td>' . $row['se'] . $exp . '</td><td>' . $row['sa']
-            . $ach . '</td><td>' . $row['sv'] . $val . '</td><td>' . $kil2 . '</td><td>' . $soc2 . '</td><td>' . $exp2 . '</td><td>' . $ach2 . '</td></tr>';
+        echo '<tr><td>' . $row['us'] . '</td><td>' . $row['sk'] . '</td><td>' . $row['ss'] . '</td><td>' . $row['se'] . '</td><td>' . $row['sa']
+            . '</td><td>' . $row['sv'] . '</td><td>' . $kil2 . '</td><td>' . $soc2 . '</td><td>' . $exp2 . '</td><td>' . $ach2 . '</td></tr>';
     }
     echo '</table>';
 }
