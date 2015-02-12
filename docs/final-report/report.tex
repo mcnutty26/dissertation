@@ -230,9 +230,51 @@ During development, data and code was insured against loss or corruption by host
 When participants signed up for the study, they were assigned a random 6 digit alphanumeric string as a username. Upon signing in, session variables were set such that any data gathered subsequently would be associated with that username. Results for different question sets are entered sequentially, and the user can choose the order in which questionnaires are completed. When they have finished entering data for a profiling test, a synopsis of the results is presented. This is done in order to provide a layer of transparency to the profiling process, and it is often the case that users are genuinely interested in the results of their own tests.
 
 Once a result set has been collected, the software will calculate dimensional values for the relevant test as a percentage and store them in the database. That is to say that the sum of the survey responses that indicate affinity for a given type, say socialiser, are divided by the total number of responses that have responses which indicate affinity for the socialiser type. For the Keirsey Temperament sorter, the components of the different dichotomies are treated as if they were individual axes. As such, the Keirsey temperament of a participant can be calculated by reading off the dominant types, or the one with the higher percentage. Because the software was primarily developed to aid with administering the Bartle test it only supports four different dimensions. To get around this problem, the Keirsey Temperament sorter was divided up in to two sections. The first section contained questions relating to introversion/extraversion and intuition/sensing dichotomies and the second contained questions for thinking/feeling and judging/perceiving.
-\section{Specification}
-\section{Requirements Analysis}
+
+\section{Stakeholder Analysis}
+Before trying to elicit requirements for the project it was important to determine the key stakeholders involved. This was done by examining existing systems as well as appropriate books on the subject. By considering all of the principal users of the system in this way it can be ensured that all of the required requirements are gathered, and those that are gathered are relevant to the use case of the software.
+
+\subsection{Students}
+In terms of contact hours, students are the primary users of the system. They use the software to participate in assignments and testing online. Students want easy to use testing solutions, with as little overhead as possible: exams are already stressful enough. If the software were to be expanded to include learning exercises as well then it would be prudent to prioritise the look and feel more, given that more time would be spent in non-test situations. Students also want a system which is transparent. To this end, instant feedback should be given wherever possible. It is assumed here that students are currently perusing an undergraduate degree, as the applications of such a piece of software for postgraduates is more limited.
+
+\subsection{Teaching Staff}
+Teaching staff will use this software to set exams and assignments for classes of students. Once the data has been collected, they will use the analysis it presents to them to inform the way they teach, through grading decisions and seminar assignments. The primary need of faculty staff is a system which provides the analysis they require with minimal effort. Above and beyond this, the software should be easy to use in order to increase its uptake in non-technical departments. Lecturers are also concerned with the security of the data held by such a system. This applies both to the availability of tests they have set - downtime disrupts deadlines - and the confidentiality of mark schemes and test results.
+
+\section{Requirements Identification}
+\subsection{Functional Requirements}
+The software should:
+\begin{itemize}
+	\item Store questions, users, and responses in a database
+	\item Perform statistical analysis on data collected, as specified by faculty staff
+	\item Report accurate figures on the data provided
+	\item Respond quickly to user input ($<$500ms)
+	\item Store mappings of answers to questions
+	\item Store mappings of questions to modules
+	\item Store mappings of users to modules
+\end{itemize}
+\subsection{Non-functional Requirements}
+The software should:
+\begin{itemize}
+	\item Keep user responses anonymous
+	\item Provide instant feedback to users
+	\item Provide a streamlined experience for students
+	\item Be accessible to non-technical staff
+	\item Have high availability to students
+	\item Maintain confidentiality of question and answer sets
+	\item Provide a method of verifying results and data are accurate
+\end{itemize}
+
 \section{Code and Database Structure}
+A diagram of the database structure can be found in figure \ref{database}. The fields present have been normalised as much as possible, and every table has only a single primary key. In terms of code structure, every script was classified as either core, static, or normal. Static code encompasses styling and Javascript libraries, whist core contains those files which are used to support the main scripts by exposing access to the database or handling user objects etc.
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{../img/database.png}
+		\caption{Structure of the application database.}
+		\label{database}
+	\end{center}
+\end{figure}
+
 \section{Review Against the Specification}
 
 \chapter{Research Undertaken}
