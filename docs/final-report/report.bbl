@@ -17,6 +17,11 @@ Richard Bartle.
 \newblock Virtual worlds: Why people play.
 \newblock {\em Massively Multiplayer Game Development 2}, 2005.
 
+\bibitem{bellonline}
+Maureen Bell.
+\newblock Online role-play: Anonymity, engagement and risk.
+\newblock {\em Educational Media International}, 38(4):251--260, 2001.
+
 \bibitem{block2010five}
 Jack Block.
 \newblock The five-factor framing of personality and beyond: Some ruminations.
@@ -26,6 +31,13 @@ Jack Block.
 Roger Caillois and Meyer Barash.
 \newblock {\em Man, Play, and Games}.
 \newblock Freedom Press, 1961.
+
+\bibitem{cho2012empirical}
+Daegon Cho, Soodong Kim, and Alessandro Acquisti.
+\newblock Empirical analysis of online anonymity and user behaviors: the impact
+  of real name policy.
+\newblock In {\em System Science (HICSS), 2012 45th Hawaii International
+  Conference on}, pages 3041--3050. IEEE, 2012.
 
 \bibitem{1_comscore_2012}
 comScore.

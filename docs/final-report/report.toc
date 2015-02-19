@@ -29,10 +29,10 @@
 \contentsline {section}{\numberline {6.1}Objectives and Rationale}{23}
 \contentsline {section}{\numberline {6.2}Methodology}{23}
 \contentsline {section}{\numberline {6.3}Results amd Discussion}{25}
-\contentsline {chapter}{\numberline {7}Conclusion and Further Work}{27}
-\contentsline {chapter}{\numberline {8}Legal, Social, Ethical, and Professional Issues}{28}
-\contentsline {chapter}{\numberline {9}Author's Assessment of the Project}{29}
-\contentsline {chapter}{\numberline {10}Background Texts}{30}
-\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{31}
-\contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{35}
-\contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Sorter II}{39}
+\contentsline {chapter}{\numberline {7}Conclusion and Further Work}{28}
+\contentsline {chapter}{\numberline {8}Legal, Social, Ethical, and Professional Issues}{29}
+\contentsline {chapter}{\numberline {9}Author's Assessment of the Project}{30}
+\contentsline {chapter}{\numberline {10}Background Texts}{31}
+\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{32}
+\contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{36}
+\contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Sorter II}{40}

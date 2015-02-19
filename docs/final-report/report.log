@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.24)  19 FEB 2015 17:51
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.24)  19 FEB 2015 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -365,21 +365,21 @@ Underfull \vbox (badness 3861) has occurred while \output is active []
 Missing character: There is no £ in font cmr12!
 File: ../img/results.png Graphic file (type QTm)
 
-<use  "../img/results.png" > [25] [26]
+<use  "../img/results.png" > [25] [26] [27]
 Chapter 7.
-[27
-
-]
-Chapter 8.
 [28
 
 ]
-Chapter 9.
+Chapter 8.
 [29
 
 ]
-Chapter 10.
+Chapter 9.
 [30
+
+]
+Chapter 10.
+[31
 
 ]
 Appendix A.
@@ -387,7 +387,7 @@ File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 <use  "../ethical-consent/delegated-approval.pdf" >
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
-<use  "../ethical-consent/delegated-approval.pdf" > [31
+<use  "../ethical-consent/delegated-approval.pdf" > [32
 
 ]
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
@@ -409,7 +409,7 @@ File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 <use  "../ethical-consent/delegated-approval.pdf"  page1>
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
-<use  "../ethical-consent/delegated-approval.pdf"  page1> [32]
+<use  "../ethical-consent/delegated-approval.pdf"  page1> [33]
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
 <use  "../ethical-consent/delegated-approval.pdf"  page2>
@@ -418,7 +418,7 @@ File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 <use  "../ethical-consent/delegated-approval.pdf"  page2>
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
-<use  "../ethical-consent/delegated-approval.pdf"  page2> [33]
+<use  "../ethical-consent/delegated-approval.pdf"  page2> [34]
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
 <use  "../ethical-consent/delegated-approval.pdf"  page3>
@@ -427,9 +427,9 @@ File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 <use  "../ethical-consent/delegated-approval.pdf"  page3>
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
-<use  "../ethical-consent/delegated-approval.pdf"  page3> [34]
+<use  "../ethical-consent/delegated-approval.pdf"  page3> [35]
 Appendix B.
-(./bartle-questions.tex [35
+(./bartle-questions.tex [36
 
 ]
 Overfull \hbox (22.81609pt too wide) in paragraph at lines 46--46
@@ -446,21 +446,21 @@ entertaining you[]
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
+ [37]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
+ [38]
 Overfull \hbox (4.29108pt too wide) in paragraph at lines 144--144
 []\OT1/cmtt/m/n/12 +K An amulet that increases the damage you do against other 
 players by 10%.[] 
  []
 
-) [38]
+) [39]
 Appendix C.
 File: sample.pdf Graphic file (type QTm)
 <use  "sample.pdf" >
 File: sample.pdf Graphic file (type QTm)
- <use  "sample.pdf" > [39
+ <use  "sample.pdf" > [40
 
 ]
 File: sample.pdf Graphic file (type QTm)
@@ -479,7 +479,7 @@ File: sample.pdf Graphic file (type QTm)
 
 <use  "sample.pdf"  page1>
 File: sample.pdf Graphic file (type QTm)
- <use  "sample.pdf"  page1> [40]
+ <use  "sample.pdf"  page1> [41]
 File: sample.pdf Graphic file (type QTm)
 
 <use  "sample.pdf"  page2>
@@ -487,14 +487,14 @@ File: sample.pdf Graphic file (type QTm)
  <use  "sample.pdf"  page2>
 File: sample.pdf Graphic file (type QTm)
 
-<use  "sample.pdf"  page2> [41]
+<use  "sample.pdf"  page2> [42]
 File: sample.pdf Graphic file (type QTm)
  <use  "sample.pdf"  page3>
 File: sample.pdf Graphic file (type QTm)
 
 <use  "sample.pdf"  page3>
 File: sample.pdf Graphic file (type QTm)
- <use  "sample.pdf"  page3> [42]
+ <use  "sample.pdf"  page3> [43]
 File: sample.pdf Graphic file (type QTm)
 
 <use  "sample.pdf"  page4>
@@ -502,46 +502,46 @@ File: sample.pdf Graphic file (type QTm)
  <use  "sample.pdf"  page4>
 File: sample.pdf Graphic file (type QTm)
 
-<use  "sample.pdf"  page4> [43] (./report.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 31--38
+<use  "sample.pdf"  page4> [44] (./report.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 43--50
 []\OT1/cmr/m/n/12 comScore.  \OT1/cmr/m/it/12 Face-book Blasts into Top Po-si-t
 ion in Brazil-ian So-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--38
+Underfull \hbox (badness 10000) in paragraph at lines 43--50
 \OT1/cmr/m/it/12 cial Net-work-ing Mar-ket Fol-low-ing Year of Tremen-dous Grow
 th\OT1/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--38
+Underfull \hbox (badness 10000) in paragraph at lines 43--50
 \OT1/cmr/m/n/12 2012.  $\OT1/cmtt/m/n/12 http : / / www . comscore . com / Insi
 ghts / Press-[]Releases / 2012 / 1 /
  []
 
 
-Overfull \hbox (14.10985pt too wide) in paragraph at lines 31--38
+Overfull \hbox (14.10985pt too wide) in paragraph at lines 43--50
 \OT1/cmtt/m/n/12 Facebook-[]Blasts-[]into-[]Top-[]Position-[]in-[]Brazilian-[]S
 ocial-[]Networking-[]Market$
  []
 
-[44
+[45
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 75--80
+Underfull \hbox (badness 10000) in paragraph at lines 87--92
 \OT1/cmtt/m/n/12 google . com / trends / explore # q = gamification & date = 1 
 % 2F2009 % 2072m & cmpt = q$
  []
 
-[45]) [46] (./report.aux) ) 
+[46]) [47] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 4000 strings out of 495656
- 60174 string characters out of 6187192
- 151308 words of memory out of 5000000
- 7143 multiletter control sequences out of 15000+600000
+ 4002 strings out of 495656
+ 60204 string characters out of 6187192
+ 151316 words of memory out of 5000000
+ 7145 multiletter control sequences out of 15000+600000
  8406 words of font info for 30 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,18n,42p,2253b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.pdf (51 pages).
+Output written on report.pdf (52 pages).
