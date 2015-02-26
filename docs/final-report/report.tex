@@ -16,10 +16,11 @@
 \titleformat{\subsection}{\normalfont\bf}{{\thesubsection}}{1em}{}
 
 \begin{document}
+\pagenumbering{roman}
 \begin{titlepage}
 \begin{center}
 \textsc{\LARGE CS310 Final Report:}\\[1.5cm]
-\textsc{\LARGE The Role of Bartle's Gamer Types in Higher Education}\\
+\textsc{\LARGE The Role of Bartle's Gamer Types in Gamified Higher Education}\\
 \vfill
 \large{William Seymour, Third Year Computer Science MEng}\\[0.2cm]
 \large{Supervisor: Dr Mike Joy}\\[0.7cm]
@@ -36,17 +37,25 @@ April 2015\\
 \abstract{Gamification and analytics are becoming increasingly popular in many facets of everyday life. They are making a big impact in primary and secondary education, driven by the increased use of internet enabled devices in the classroom. This project looks at how this can be translated to higher education, and what role the traditional gamification personality types might have in this field.}
 
 \chapter{Opening}
+\pagenumbering{arabic}
 \section{Introduction}
 Gamification has become an increasingly influential force in the marketing world over previous years. Indeed, game elements are now ubiquitous in modern applications, especially those that more social in nature. The benefit of integrating these same techniques into primary and secondary education was clear from the onset, but there has been less enthusiasm for their use in higher education. However, as the spread of gamification means that as more and more of the academic world adopts the same approaches, more work must be done to help understand how users will interact with these systems. This report will examine whether there is a correlation between a common method of categorising gamers and more traditional psychological profiling which can be used to help direct learning.
 
 In order to establish the context for the project, prior work on games, gamification and psychological profiling methods will be examined, followed by an in depth review on the current state of gamification in primary, secondary and tertiary education. With the project framed properly, the research undertaken will be presented, and the results discussed. This project aims to combine the works of computer scientists and psychologists to provide a better understanding of how we may augment our current models, with a particular focus on the uses in higher education. These technologies are already making an impact on the education sector, and it is important that it is understood how users will interact with these systems so that software being developed is more effective.
 
 \section{Key Words}
-Gamification, Psychological profiling, Higher education, User typology
+Gamification, Psychological profiling, Bartle types, Higher education, User typology.
+
+\section{Word Count}
+The document has a word count of 9,185.
 
 \section{Acknowledgements}
+I would like to thank a few people in particular for helping me navigate the vast quantities of papers and articles that have been published on gamification. I met Gautam Arora when I was working at NextJump during the summer of 2014, and it quickly became apparent that he had a comprehensive knowledge of the field and many years of practical experiences. Being able to discuss the ideas that have manifested themselves in this report greatly helped me to structure my thinking and focus on the specific area of gamification that I wished to investigate.
+
+Fellow Magic, the Gathering judge and senior editor at the Oxford University Press James Winward-Stuart also helped guide me with this work.
 
 \chapter{Definitions}
+\label{sec:define}
 Before continuing it is important to define some of the key terms that will be used in this report. Words like gamification and analytics are often bandied around by lots of different parties who all mean similar but subtly different things. Indeed, the way in which these terms have been used thus far has been somewhat vague. For the remainder of the report, the undermentioned should be referred to as a definitive explanation of what is meant by the following technical terms.
 
 \section{Gamification}
@@ -63,6 +72,7 @@ Tracking and comparing different sets of statistics in this way shows correlatio
 Throughout the report many references will be made to gamer and personality types. It is important to note that these metrics are not the same, and that they are not necessarily equivalent in any way. Gamer type will be used to refer to the four player types, Achiever, Explorer, Killer and Socialiser, identified by Bartle \cite{bartle1996hearts}, used to categorise the way in which players behave in games. Personality types will be used to refer to the four temperaments identified by Keirsey and Bates \cite{keirsey1998please} \cite{keirsey1984} which are used to group people according to the ways in which they think and act.
 
 \chapter{Background}
+\label{sec:background}
 \section{What is Gamification?}
 It seems an obvious fact of life that work is dull, and play is fun. Many attempts have been made to change this, but they have largely met with little success. Over recent years, gamification has been slowly blurring the lines of what is considered to be `work' by moving it towards practices and behaviours that would normally be associated with play. This has all come out of a field of study which is still fairly young, the term having only really gained popularity in late 2010, as shown in figure \ref{usagegraph}. Coupled with the advanced user tracking and analytics offered by modern technology, it has begun to dominate the way in which we interact electronically, with services like Facebook and Foursquare being prime examples.
 
@@ -108,6 +118,7 @@ Since their introduction by airlines in the 1980s, frequent flyer programs have 
 \end{figure}
 
 \chapter{Literature Review}
+\label{sec:lit}
 Before continuing it is important to undertake a review of previous and current literature in the field, in order to properly frame later findings and analysis. This will begin by broadly assessing past research in the field of gamification as a whole before moving on to the more specific field of higher education. Also included will be an assessment of papers relating to psychological profiling techniques and how they might shed light on learning styles.
 
 \section{Games and Gamification}
@@ -381,7 +392,17 @@ It may at first seem counter intuitive that it is not possible to predict how a 
 This would suggest that these types of video games are primarily used as a means of escapism, with players using them to leave behind a world in which they feel they have (relatively) little control over. As such, it is an opportunity to leave behind the facets of their personality that they feel comfortable with and experiment with other ways of interacting in a safe environment. This is a reasonable explanation, given that the Keirsey temperaments model the dispositions with which the subject feels the most comfortable. This may also explain why the only significant correlation in figure \ref{results} was between the social categories. If socialisers are the ones for whom ``The game world is just a setting'' \cite{bartle1996hearts} then it makes sense that they are not as invested in the game world, or as eager to leave behind their personality to embrace unfamiliar traits, as the other types of participants. The reason this is possible in video games to a much greater extent than in conventional play is that in virtual worlds players have their characters take on an alias. This disassociation of a players actions in the real world and their actions in virtual worlds allows them far more freedom than would be possible if their characters inherited pre-existing wealth, education, and social status. In situations where legislation has meant that users have to start using their real names online it has been shown that this can change both behaviours \cite{cho2012empirical}, and the level to which users are comfortable engaging \cite{bellonline}.
 
 \chapter{Conclusion and Further Work}
+To conclude, the project seeks to outline the role of Bartle's gamer types in higher education. The types themselves are grounded in the field of gamification, an increasingly popular method of driving engagement in a wide variety of areas. Gamification was defined in chapter \ref{sec:define} as the process of taking the elements that have allowed games, particularly video games, to get and hold the attention of users. In chapter \ref{sec:background} it was shown to have had a large impact in a variety of fields including marketing and social media. Once the credibility of gamification and its uses had been established, the literature review in chapter \ref{sec:lit} introduced the idea of gamification in education, with a focus on higher education. Gamification is currently employed by an ever increasing number of tools aimed at primary and secondary education, but the higher education sector has been less receptive. Common explanations of why this is the case include the unwillingness of faculty staff to adapt, and fact that higher education is administered without a central body to coordinate change.
 
+As it is on higher education that this report is focused, the research presented sought to demonstrate the link between (or absence thereof) the personality of a student, measured using the Keirsey Temperaments, and the aforementioned Bartle gamer type. In short, is the way a student acts and thinks related to how they act and think in games? Contrary to expectations, there was only one statistically significant correlation found out of the forty eight examined. Further analysis of the results revealed that there is a clear explanation for the findings; in the types of games the study questioned participants on users are typically invited to suspend their personalities and become whoever they wish instead of acting as they normally would.
+
+The question remains as to the ongoing role of Bartle's gamer types, and with the results of Konnert et al. \cite{konertmodeling} and the study presented in chapter \ref{sec:research}, the outlook appears to be bleak. It is possible that there is some mileage in examining the way in which players behave in games which do not ask them to suspend their disbelief, but it is not clear what this offers over conventional psychological profiling. Perhaps then, instead of asking students who they are, as was done with the Keirsey Temperament Sorter, it would be better to ask them \textit{who they would like to be}. This might help predict how users would react and respond to a gamified environment, but it is not the deeper connection that the project hoped to find. It is becoming apparent that perhaps Bartle types should take less of a front seat when designing and analysing gamified experiences than they currently do. By giving so much weight to a metric which is arguably unrelated to most gamification experiences (which do not require the suspension of disbelief) it is possible that we are not making them as effective as they have the potential to be. Bartle's gamer types are useful as a way of understanding ways in which systems can appeal to gamers, but because they focus on multiplayer role-playing experiences they are not applicable to a large number of such systems to which they are currently applied.
+
+In terms of further work, the implication of the project is that it is not prudent to further investigate links between elements of the personality (including learning style), and they way in which people play and act in games. Despite the fact that it seems a reasonable assumption to make at first, this and previous studies have demonstrated beyond reasonable doubt that the evidence to support it does not exist.
+
+One interesting and useful relationship that merits further investigation is how the metrics investigated in this report affect the ways in which users interact with \textit{gamified} systems. Now that it is apparent that the dimensions examined in section \ref{sec:research} are almost completely independent, a clearer look can be taken at how future education experiences might be tailored to students for whom profiling data is available. Such a study might see how useful metrics other than personality or learning type are in predicting interactions with a system.
+
+Related to this topic is the idea that the learning style of a user impacts the types of activities they find most engaging. Using the same learning style profile technique as Konnert el at. \cite{konertmodeling}, Schaller et al. \cite{one-size} found that certain types of learners were more predisposed to engage with particular types of task. This is a similar type of relationship to that which was examined by this report, and it is clear that moving away from the traditional notions of classifying gamers will yield better results and is an exciting area of research.
 
 \chapter{Legal, Social, Ethical, and Professional Issues}
 \label{sec:issues}

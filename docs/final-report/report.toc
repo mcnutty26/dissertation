@@ -1,7 +1,8 @@
-\contentsline {chapter}{\numberline {1}Opening}{2}
-\contentsline {section}{\numberline {1.1}Introduction}{2}
-\contentsline {section}{\numberline {1.2}Key Words}{2}
-\contentsline {section}{\numberline {1.3}Acknowledgements}{2}
+\contentsline {chapter}{\numberline {1}Opening}{1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}
+\contentsline {section}{\numberline {1.2}Key Words}{1}
+\contentsline {section}{\numberline {1.3}Word Count}{1}
+\contentsline {section}{\numberline {1.4}Acknowledgements}{2}
 \contentsline {chapter}{\numberline {2}Definitions}{3}
 \contentsline {section}{\numberline {2.1}Gamification}{3}
 \contentsline {section}{\numberline {2.2}Analytics}{4}
@@ -32,9 +33,9 @@
 \contentsline {section}{\numberline {6.2}Methodology}{25}
 \contentsline {section}{\numberline {6.3}Results and Discussion}{27}
 \contentsline {chapter}{\numberline {7}Conclusion and Further Work}{30}
-\contentsline {chapter}{\numberline {8}Legal, Social, Ethical, and Professional Issues}{31}
-\contentsline {chapter}{\numberline {9}Author's Assessment of the Project}{32}
-\contentsline {chapter}{\numberline {10}Background Texts}{33}
-\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{34}
-\contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{38}
-\contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Sorter II}{42}
+\contentsline {chapter}{\numberline {8}Legal, Social, Ethical, and Professional Issues}{32}
+\contentsline {chapter}{\numberline {9}Author's Assessment of the Project}{33}
+\contentsline {chapter}{\numberline {10}Background Texts}{34}
+\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{35}
+\contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{39}
+\contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Sorter II}{43}

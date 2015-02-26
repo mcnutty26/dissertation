@@ -3,54 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report.aux
 The style file: plain.bst
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 193 of file references.bib
- : 
- : @book {freq-fly,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--empty publisher in 1_comscore_2012
 Warning--empty publisher in freq-fly
 Warning--empty journal in johnson2013nmc
 Warning--empty journal in johnson2014nmc
-You've used 34 entries,
+You've used 35 entries,
             2118 wiz_defined-function locations,
-            680 strings with 9503 characters,
-and the built_in function-call counts, 9455 in all, are:
-= -- 922
-> -- 371
+            685 strings with 9745 characters,
+and the built_in function-call counts, 9727 in all, are:
+= -- 948
+> -- 394
 < -- 4
-+ -- 159
-- -- 116
-* -- 515
-:= -- 1591
-add.period$ -- 112
-call.type$ -- 34
-change.case$ -- 152
++ -- 168
+- -- 124
+* -- 534
+:= -- 1646
+add.period$ -- 115
+call.type$ -- 35
+change.case$ -- 159
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 403
-empty$ -- 827
-format.name$ -- 116
-if$ -- 2005
+cite$ -- 39
+duplicate$ -- 409
+empty$ -- 838
+format.name$ -- 124
+if$ -- 2055
 int.to.chr$ -- 0
-int.to.str$ -- 34
+int.to.str$ -- 35
 missing$ -- 37
-newline$ -- 180
-num.names$ -- 68
-pop$ -- 229
+newline$ -- 185
+num.names$ -- 70
+pop$ -- 233
 preamble$ -- 1
-purify$ -- 126
+purify$ -- 132
 quote$ -- 0
-skip$ -- 270
+skip$ -- 275
 stack$ -- 0
-substring$ -- 452
+substring$ -- 457
 swap$ -- 71
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 118
+type$ -- 122
 warning$ -- 4
-while$ -- 94
-width$ -- 36
-write$ -- 366
-(There was 1 error message)
+while$ -- 96
+width$ -- 37
+write$ -- 376
+(There were 4 warnings)
