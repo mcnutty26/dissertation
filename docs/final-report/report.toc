@@ -28,14 +28,14 @@
 \contentsline {section}{\numberline {5.4}Review Against the Specification}{22}
 \contentsline {subsection}{\numberline {5.4.1}Functional Requirements}{22}
 \contentsline {subsection}{\numberline {5.4.2}Non-functional Requirements}{24}
-\contentsline {chapter}{\numberline {6}Research Undertaken}{25}
-\contentsline {section}{\numberline {6.1}Objectives and Rationale}{25}
-\contentsline {section}{\numberline {6.2}Methodology}{25}
-\contentsline {section}{\numberline {6.3}Results and Discussion}{27}
-\contentsline {chapter}{\numberline {7}Conclusion and Further Work}{30}
-\contentsline {chapter}{\numberline {8}Legal, Social, Ethical, and Professional Issues}{32}
-\contentsline {chapter}{\numberline {9}Author's Assessment of the Project}{33}
-\contentsline {chapter}{\numberline {10}Background Texts}{34}
-\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{35}
-\contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{39}
-\contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Sorter II}{43}
+\contentsline {chapter}{\numberline {6}Research Undertaken}{26}
+\contentsline {section}{\numberline {6.1}Objectives and Rationale}{26}
+\contentsline {section}{\numberline {6.2}Methodology}{26}
+\contentsline {section}{\numberline {6.3}Results and Discussion}{28}
+\contentsline {chapter}{\numberline {7}Conclusion and Further Work}{31}
+\contentsline {chapter}{\numberline {8}Legal, Social, Ethical, and Professional Issues}{33}
+\contentsline {chapter}{\numberline {9}Author's Assessment of the Project}{34}
+\contentsline {chapter}{\numberline {10}Background Texts}{35}
+\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{36}
+\contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{40}
+\contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Sorter II}{44}
