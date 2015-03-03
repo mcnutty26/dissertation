@@ -237,20 +237,20 @@ As mentioned before when discussing profiling literature, a 2013 study by Johann
 \label{sec:software}
 In order to facilitate efficient testing, a bespoke piece of software was engineered in PHP. The software is responsible for collecting data, storing it assigned to a username, and doing preliminary processing on the results. The database used is MySQL, and the data and application files are stored on a server operated by the University of Warwick Computing Society. The software can be found running online at \url{mcnutty.uwcs.co.uk/dissertation} and a copy of the code has been supplied as a supplement to this report.
 
-During development, data and code was insured against loss or corruption by hosting the project in a git repository on GitHub. This meant that copies of the project files existed on the GitHub servers, which are backed up on a regular basis, my own desktop computer, and my laptop. Any two of these sources could be rendered inaccessible and the project would be able to continue with minimal disruption. The software development methodology followed was that of incremental builds; each feature of the software was built, tested, and integrated separately. This was done to allow rapid development and made sense given that research for each section of the program was being carried out in parallel with development.
+During development, data and code were insured against loss or corruption by hosting the project in a git repository on GitHub. This meant that copies of the project files existed on the GitHub servers, which are backed up on a regular basis, my own desktop computer, and my laptop. Any two of these sources could be rendered inaccessible and the project would be able to continue with minimal disruption. The software development methodology followed was that of incremental builds - each feature of the software was built, tested, and integrated separately. This was done to allow rapid development and made sense given that research for each section of the program was being carried out in parallel with development.
 
-When participants signed up for the study, they were assigned a random 6 digit alphanumeric string as a username. Upon signing in, session variables were set such that any data gathered subsequently would be associated with that username. Results for different question sets are entered sequentially, and the user can choose the order in which questionnaires are completed. When they have finished entering data for a profiling test or assignment, a synopsis of the results is presented. This is done in order to provide a layer of transparency to the profiling process, and anecdotally it is often the case that users are genuinely interested in the results of their own tests.
+When participants signed up for the study, they were each assigned a random 6 digit alphanumeric string as a username. Upon signing in, session variables were set such that any data gathered subsequently would be associated with that username. Results for different question sets are entered sequentially, and the user can choose the order in which questionnaires are completed. When they have finished entering data for a profiling test or assignment, a synopsis of the results is presented. This is done in order to provide a layer of transparency to the profiling process, and anecdotally it is often the case that users are genuinely interested in the results of their own tests.
 
-Once a result set has been collected, the software will calculate dimensional values for the relevant test as a percentage and store them in the database. That is to say that the sum of the survey responses that indicate affinity for a given type, say socialiser, are divided by the total number of answers that have responses which indicate affinity for the socialiser type. For the Keirsey Temperament sorter, the components of the different dichotomies are treated as if they were individual axes. As such, the Keirsey temperament of a participant can be calculated by reading off the dominant types, or the one with the higher percentage. Because the software was primarily developed to aid with administering the Bartle test it only supports four different dimensions. For this reason the Keirsey Temperament Sorter was administered on paper. It is possible that in future the software could be adapted to facilitate a wider range of tests, but restrictions on development time precluded this as an option during the project.
+Once a result set has been collected, the software will calculate dimensional values for the relevant test as a percentage and store them in the database. That is to say that the sum of the survey responses that indicate affinity for a given type, say socialiser, are divided by the total number of answers that have responses which indicate affinity for the socialiser type. For the Keirsey Temperament sorter, the components of the different dichotomies are treated as if they were individual axes. As such, the Keirsey temperament of a participant can be calculated by reading off the dominant types, or the one with the higher percentage. Because the primary use of the software in this study was to aid with administering the Bartle test it only supports four different dimensions\footnote{Dimensions refer to the different qualities assessed by a profiling technique. In the case of the Bartle test these are Killer, Socialiser, Explorer and Achiever.}. For this reason the Keirsey Temperament Sorter was administered on paper. It is possible that in future the software could be adapted to facilitate a wider range of tests, but restrictions on development time precluded this as an option during the project.
 
 \section{Stakeholder Analysis}
-Before trying to elicit requirements for the project it was important to determine the key stakeholders involved. This was done by examining existing systems as well as appropriate books on the subject. By considering all of the principal users of the system in this way it can be ensured that all of the required requirements are gathered, and those that are gathered are relevant to the use case of the software. The primary stakeholders in the software project are set forth below.
+Before trying to elicit requirements for the project it was important to determine the key stakeholders involved. This was done by examining existing systems as well as appropriate books on the subject. By considering all of the principal users of the system in this way it can be ensured that all of the required requirements are gathered, and those that are gathered are relevant to the use cases of the software. The primary stakeholders in the software project are set forth below.
 
 \subsection{Students}
-In terms of contact hours, students are the primary users of the system. They use the software to participate in assignments and testing online. Students want easy to use testing solutions, with as little overhead as possible: exams are already stressful enough. If the software were to be expanded to include learning exercises as well then it would be prudent to prioritise the look and feel, or user experience, more given that large amounts of time would be spent in non-test situations. Students also want a system which is transparent. To this end, instant feedback should be given wherever possible. It is assumed here that students are currently perusing an undergraduate degree, as the potential applications of such a piece of software for postgraduates is more limited.
+In terms of contact hours, students are the primary users of the system. They use the software to participate in assignments and testing online. Students want easy to use testing solutions, with as little overhead as possible - exams are already stressful enough. If the software were to be expanded to include learning exercises as well then it would be prudent to prioritise the look and feel, or user experience, given that large amounts of time would be spent in non-test situations. Students also want a system which is transparent. To this end, instant feedback should be given wherever possible. It is assumed here that students are currently pursuing an undergraduate degree, as the potential applications of such a piece of software for postgraduates is more limited.
 
 \subsection{Teaching Staff}
-Teaching staff will use this software to set exams and assignments for classes of students. Once the data has been collected, they will use the analysis it presents to them to inform the way they teach, through grading decisions and seminar assignments. The primary need of faculty staff is a system which provides the analysis they require with minimal effort. Above and beyond this, the software should be easy to use in order to increase its uptake in non-technical departments. Lecturers are also concerned with the security of the data held by such a system. This applies both to the availability of tests they have set - downtime disrupts deadlines - and the confidentiality of mark schemes and test results.
+Teaching staff will use this software to set exams and assignments for classes of students. Once the data have been collected, they will use the analysis they present to them to inform the way they teach, through grading decisions and seminar assignments. The primary need of faculty staff is a system which provides the analysis they require with minimal effort. Above and beyond this, the software should be easy to use in order to increase its uptake in non-technical departments. Lecturers are also concerned with the security of the data held by such a system. This applies both to the availability of tests they have set - downtime disrupts deadlines - and the confidentiality of mark schemes and test results.
 
 \section{Requirements Identification}
 Taking into account the stakeholders previously identified a set of functional and non-functional requirements have been drawn up. The software will be reviewed against these requirements at the end of the project to ensure that it fulfils the purpose for which is was commissioned.
@@ -258,28 +258,28 @@ Taking into account the stakeholders previously identified a set of functional a
 \subsection{Functional Requirements}
 The software should:
 \begin{itemize}
-	\item Store questions, users, and responses in a database
-	\item Perform statistical analysis on data collected, as specified by faculty staff
-	\item Report accurate figures on the data provided
-	\item Respond quickly to user input ($<$500ms)
-	\item Store mappings of answers to questions
-	\item Store mappings of questions to modules
-	\item Store mappings of users to modules
+	\item Store questions, users, and responses in a database;
+	\item Perform statistical analyses on data collected, as specified by faculty staff;
+	\item Report accurate figures on the data provided;
+	\item Respond quickly to user input ($<$500ms);
+	\item Store mappings of answers to questions;
+	\item Store mappings of questions to modules;
+	\item Store mappings of users to modules.
 \end{itemize}
 \subsection{Non-functional Requirements}
 The software should:
 \begin{itemize}
-	\item Keep user responses anonymous
-	\item Provide instant feedback to users
-	\item Provide a streamlined experience for students
-	\item Be accessible to non-technical staff
-	\item Have high availability to students
-	\item Maintain confidentiality of question and answer sets
-	\item Provide a method of verifying results and data are accurate
+	\item Keep user responses anonymous;
+	\item Provide instant feedback to users;
+	\item Provide a streamlined experience for students;
+	\item Be accessible to non-technical staff;
+	\item Have high availability to students;
+	\item Maintain confidentiality of question and answer sets;
+	\item Provide a method of verifying that results and data are accurate.
 \end{itemize}
 
 \section{Code and Database Structure}
-A diagram of the database structure can be found in figure \ref{database}. The fields present have been normalised as much as possible, and every table has only a single primary key. In terms of code structure, each script was classified as either core, static, or normal. Static code encompasses style sheets and Javascript libraries, whist core code contains files which are used to support the main scripts, either by exposing access to the database or by handling user objects etc. 
+A diagram of the database structure can be found in figure \ref{database}. The fields present have been normalised as much as possible, and every table has only a single primary key. In terms of code structure, each script is classified as either core, static, or normal. Static code encompasses style sheets and Javascript libraries, whist core code contains files which are used to support the main scripts, either by exposing access to the database or by handling user objects, etc. 
 
 If the project scope were to be expanded to anywhere near a professional or enterprise scale, as would be required for its use by a higher education institution, then use of the Model View Controller (MVC) pattern would be necessary to keep code organised and easy to work with. As it stands, the prototype nature of the software developed justifies it's simpler nature. The decision to use an approach that falls under the classification of rapid application development meant that there was sufficient time to conduct the research detailed in section \ref{sec:research}.
 
@@ -295,60 +295,60 @@ If the project scope were to be expanded to anywhere near a professional or ente
 Here the requirements of the project will be reiterated, and a brief description of how the software in its final state satisfies (or does not satisfy) each requirement will be given.
 
 \subsection{Functional Requirements}
-Store questions, users, and responses in a database
+\textit{Store questions, users, and responses in a database.}
 \begin{quote}
 Figure \ref{database} shows how the above information is stored in the database.
 \end{quote}
-Perform statistical analysis on data collected, as specified by faculty staff
+\textit{Perform statistical analyses on data collected, as specified by faculty staff.}
 \begin{quote}
 Unfortunately there was not enough time to consult faculty staff on the types of analysis that they would expect from the software. However, in the context of the project this is of little use. It is only if the software were to be expanded that consultation with lecturers would be vital.
 \end{quote}
-Report accurate figures on the data provided
+\textit{Report accurate figures on the data provided.}
 \begin{quote}
 Sample data sets were used to test the software. Raw results, as well as the outputs from data processing, were confirmed to match the expected values.
 \end{quote}
-Respond quickly to user input ($<$500ms)
+\textit{Respond quickly to user input ($<$500ms).}
 \begin{quote}
-While in theory a production environment, the Computing Society server that the software was hosted on does not offer the performance of an enterprise grade system. Analysis with the request tool at \url{pingdom.com} revealed that page queries take an average of 260ms, not including database access. This is adequate for most small scale use cases. Again, if the software were scaled up and hosted professionally, then more performant servers would be used, as well as tools such as Memcached, in order to reduce request time. 
+While in theory a production environment, the Computing Society server that the software was hosted on does not offer the performance of an enterprise grade system. Analysis with the request tool at \url{pingdom.com} revealed that page queries take an average of 260ms, not including database access. This is adequate for most small scale use cases. Again, if the software were scaled up and hosted professionally, then faster servers would be used, as well as tools such as Memcached, in order to reduce request time. 
 \end{quote}
-Store mappings of answers to questions
+\textit{Store mappings of answers to questions.}
 \begin{quote}
 See the `ds\_answer' class in figure \ref{database}.
 \end{quote}
-Store mappings of questions to modules
+\textit{Store mappings of questions to modules.}
 \begin{quote}
 See the `ds\_content' class in figure \ref{database}.
 \end{quote}
-Store mappings of users to modules
+\textit{Store mappings of users to modules.}
 \begin{quote}
 See the `ds\_class' class in figure \ref{database}.
 \end{quote}
 
 \subsection{Non-functional Requirements}
-Keep user responses anonymous
+\textit{Keep user responses anonymous.}
 \begin{quote}
 	Keeping users and their results anonymous during the course of an assignment is difficult when only a specific set of students are permitted to take that assignment. The solution practised during the study in chapter \ref{sec:research} is to completely decouple the account creation process and the assigning of users to IDs. To begin with, a number of user accounts equal to the number of test participants were created, and each of these was assigned to the correct class. Login details for these accounts were then given out at random to participants. In this way each student was assigned to the correct class without compromising their anonymity. Of course, this approach only works for class sizes greater than one, and the greater the number of participants, the greater the anonymity. If student were to be assigned to multiple classes then it may well be desirable to assign them multiple IDs.
 \end{quote}
-Provide instant feedback to users
+\textit{Provide instant feedback to users.}
 \begin{quote}
 	At the end of each module, users are presented with an overview that instantly lets them know both how well they did, and the results of any profiling conducted on their responses. Ideally this would also include a breakdown of individual questions for more granular feedback. This is a feature that would be included in the next iteration of the software.
 \end{quote}
-Provide a streamlined experience for students
+\textit{Provide a streamlined experience for students.}
 \begin{quote}
 	The experience that has been created is a minimal one, without any extraneous features that might clutter the user interface. There are, however, several gamification related elements still present in the software from earlier development cycles. These could be reactivated if desired, and would form an excellent basis for a more general learning platform that dealt with classroom exercises as well as tests.
 \end{quote}
-Be accessible to non-technical staff
+\textit{Be accessible to non-technical staff.}
 \begin{quote}
 	One area in which the prototype developed does not meet expectations is the accessibility to non technical users. In it's current state the software is unwieldy and quite difficult to use. In order to make the platform easier to use, the user interface would have to be redesigned.
 \end{quote}
-Have high availability to students
+\textit{Have high availability to students.}
 \begin{quote}
-	
+To a large extent  The security of the application also has an impact on its availability. To this end, care was taken to ensure that all user input is escaped before being entered into the database.
 \end{quote}
-Maintain confidentiality of question and answer sets
+\textit{Maintain confidentiality of question and answer sets.}
 \begin{quote}
 \end{quote}
-Provide a method of verifying results and data are accurate
+\textit{Provide a method of verifying that results and data are accurate.}
 \begin{quote}
 	In the prototype this feature takes on the form of a reporting page which displays anonymous data from all of the participants in a study. It compares the number of responses received per user to the expected number, as well as highlighting any discrepancies in the allocation of answers (e.g. if there are more killer responses than questions with killer responses). Ideally this process would be automated, with a daily or weekly digest sent to a module organiser, but in its current form the feature is adequate.
 \end{quote}
@@ -358,12 +358,12 @@ Provide a method of verifying results and data are accurate
 In this chapter the objectives and methodology of the study are presented, along with a detailed statistical analysis and discussion of the results. The aim of the work carried out as part of this project is to identify any potential correlation between Bartle gamer types and Keirsey temperaments with the hope of better understanding the human computer interaction implications that arise as gamification becomes more prevalent in higher education. As the target demographic for higher education software, thirty students currently pursuing courses at higher education institutions were invited to participate in the study. The response rate was 77\%, providing a total of twenty three complete data sets. Delegated ethical approval was granted for the study, and the declaration pertaining to that approval can be found in appendix \ref{sec:bsrec}.
 
 \section{Objectives and Rationale}
-The aim of the study was to see if there is a correlation between two different psychological profiling techniques, one used in a gaming context and one used in an educational context. There is already a fairly widespread understanding of how to craft interactive experiences for gamers, and also for learners. By observing how pre-existing models hold up when the two subject areas are combined will allow for better understanding of human-computer interaction in the context of gamified higher education. It may also enhance the ability of educational software to offer tailored experiences for students given knowledge of how they interact with either subject matter. In short, we understand how gamers interact with games, and how students interact with education, but what happens when these two worlds collide?
+The aim of the study was to see if there is a correlation between two different psychological profiling techniques, one used in a gaming context and one used in an educational context. There is already a fairly widespread understanding of how to craft interactive experiences for gamers, and also for learners. By observing how pre-existing models hold up when the two subject areas are combined will allow for better understanding of human-computer interaction in the context of gamified higher education. It may also enhance the ability of educational software to offer tailored experiences for students given knowledge of how they interact with subject matter from either area. In short, we understand how gamers interact with games, and how students interact with education, but what happens when these two worlds collide?
 
 \section{Methodology}
 In order to ascertain the personality and gamer types of each of the participants, they were presented with a copy of the Keirsey Temperament Sorter II and the Bartle Test. Copies of the Keirsey Temperament Sorter and the Bartle test can be found in appendices \ref{sec:bartle} and \ref{sec:keirsey} respectively. Each participant received a printed copy of the Keirsey Temperament Sorter, which was compiled with a modified version of the LDAPS  \LaTeX \ class. LDAPS is an open source program which provides optical mark recognition for surveys and questionnaires. While the mark recognition features of SDAPS were not used, it provided an excellent framework with which to construct the document distributed to candidates. SDAPS is used under the LaTeX Project Public License, and a full unaltered version can be found at \url{http://sdaps.org}. The other half of the study was conducted online, using a specially written piece of testing software as detailed in chapter \ref{sec:software}. All of the data collected will be destroyed upon conclusion of the project.
 
-Raw data from participants was used to create a percentage value for each dimension of the methods being considered. This value was equal to the number of responses the participant selected in a given category divided by the total number or responses in that category which they could have chosen. For example, a respondent who selected 7 introverted responses out of a possible 10 on the Kiersey Temperament Sorter would be assigned an introvert value of 70\%. While this is a simple operation for the Keirsey Temperament Sorter because each dimension only appears in dichotomies with it's opposite, it is less obvious for the Bartle test where each dimension appears alongside each other dimension. As such, there are six questions featuring any combination of two Bartle dimensions, and six sets of these questions. Because no dimension is paired with itself this gives eighteen responses for each dimension, and thirty six questions in total.
+Raw data from participants were used to create a percentage value for each dimension of the methods being considered. This value was equal to the number of responses the participant selected in a given category divided by the total number or responses in that category which they could have chosen. For example, a respondent who selected 7 introverted responses out of a possible 10 on the Kiersey Temperament Sorter would be assigned an introvert value of 70\%. While this is a simple operation for the Keirsey Temperament Sorter because each dimension only appears in dichotomies with it's opposite, it is less obvious for the Bartle test where each dimension appears alongside each other dimension. As such, there are six questions featuring any combination of two Bartle dimensions, and six sets of these questions. Because no dimension is paired with itself this gives eighteen responses for each dimension, and thirty six questions in total.
 
 Once the results had been collected and processed they were analysed using Pearson's Product Moment Correlation Coefficient (PPMCC). The test is used in this project to determine the independence of the two sets of data collected. In this case the hypothesis is that there is a relationship between the Keirsey Temperament and Bartle Type of an individual, and the null hypothesis is that no such link exists. The PCMCC, as defined by Karl Pearson in 1895 \cite{pearson1895note}, uses two data sets to produce a value denoting the correlation between the two with $1$ being perfect positive correlation and $-1$ being perfect negative correlation. Given this value and the sample size it is possible to derive an estimate of the probability that the correlation exhibited occurred solely by chance. 
 
@@ -373,7 +373,7 @@ The PPMCC, denoted by Rho, for two sets of data is defined as the ``\textit{cova
 Because it is a statistical method, it is not possible to prove a relationship exists between Keirsey Temperament and Bartle type in this way, only that it is highly probable (or not, as the case may be) that such a link exists. To illustrate this probability a p value was calculated for each r value, which is the estimated probability that the corresponding r value occurred by chance when the sample size is taken into account.
 
 \section{Results and Discussion}
-The results returned by the questionnaire and testing software were used to calculate the r and p values for each intersections PPMCC. These are shown in figure \ref{results}. Results that are significant at levels of $p = 0.05£$ are shaded in red. There were no results that were significant at the level $p = 0.01$. Because the Myers-Briggs types are presented as dichotomies, the correlation displayed by one value is the negative or it's opposite. The probability of these correlations occurring randomly is the same.
+The results returned by the questionnaire and testing software were used to calculate the r and p values for each pair of profiling dimensions. These are shown in figure \ref{results}. Results that are significant at levels of $p = 0.05£$ are shaded in red. There were no results that were significant at the level $p = 0.01$. Because the Myers-Briggs types are presented as dichotomies, the correlation displayed by one value is the negative or its opposite. The probability of these correlations occurring randomly is the same.
 
 \begin{figure}
 	\begin{center}
@@ -383,7 +383,7 @@ The results returned by the questionnaire and testing software were used to calc
 	\end{center}
 \end{figure}
 
-To a large extent, the results obtained were in line with what was discovered by Konert, G{\"o}bel, and Steinmetz \cite{konertmodeling}. The only statistically significant correlation was between the Myers-Briggs feeling dimension and the Bartle Socialiser type, with a moderate positive link found between the two (42\% positive correlation) at the 0.05 error level. This is understandable given the disposition of feeling types to be more personal when dealing with others and to respond more warmly in social situations \cite{keirsey1984}. Furthermore, on socialisers Bartle writes that ``Finding out about people and getting to know them is far more worthy than treating them as fodder to be bossed around. The game world is just a setting; it's the characters that make it so compelling''\cite{bartle1996hearts}, which along with the common observation that it is socialisers who are the most involved with guilds and clans adds credence to the idea that the socialiser and feeling types are linked. 
+To a large extent, the results obtained were in line with what was discovered by Konert, G{\"o}bel, and Steinmetz \cite{konertmodeling}. The only statistically significant correlation was between the Myers-Briggs feeling dimension and the Bartle Socialiser type, with a moderate positive link found between the two (42\% positive correlation at the 0.05 error level). This is understandable given the disposition of feeling types to be more personal when dealing with others and to respond more warmly in social situations \cite{keirsey1984}. Furthermore, on socialisers, Bartle writes that ``Finding out about people and getting to know them is far more worthy than treating them as fodder to be bossed around. The game world is just a setting; it's the characters that make it so compelling''\cite{bartle1996hearts}, which along with the common observation that it is socialisers who are the most involved with guilds and clans adds credence to the idea that the socialiser and feeling types are linked. 
 
 It may at first seem counter intuitive that it is not possible to predict how a learner will interact with a game based on their Keirsey Temperament. This is a view shared by Konert, G{\"o}bel, and Steinmetz who note that their findings do not reflect the expectations they had of their study, which is similar to the one currently being discussed \cite{konertmodeling}. After all, it seems obvious that the way in which a person conducts themselves in everyday life would spill over into the virtual worlds which they inhabit. To fully explain this phenomenon it is necessary to go back to the fundamental theory of games as described by Callois \cite{caillois1961man}. The way he describes the rubric of Mimicry almost perfectly encompasses the experiences offered by modern video games, particularly the MMOs which form the basis of the Bartle test. It serves as a deep insight into the reason behind the results of the study, showing that the purpose of this kind of play is not to hone skills in the real world but to escape into a virtual one with fewer constraints. On Mimicry, Callois writes that:
 
@@ -394,7 +394,7 @@ It may at first seem counter intuitive that it is not possible to predict how a 
 	- From Man, Play and Games \cite{caillois1961man} (Emphasis added by the report author)
 \end{quote}
 
-This would suggest that these types of video games are primarily used as a means of escapism, with players using them to leave behind a world in which they feel they have (relatively) little control over. As such, it is an opportunity to leave behind the facets of their personality that they feel comfortable with and experiment with other ways of interacting in a safe environment. This is a reasonable explanation, given that the Keirsey temperaments model the dispositions with which the subject feels the most comfortable. This may also explain why the only significant correlation in figure \ref{results} was between the social categories. If socialisers are the ones for whom ``The game world is just a setting'' \cite{bartle1996hearts} then it makes sense that they are not as invested in the game world, or as eager to leave behind their personality to embrace unfamiliar traits, as the other types of participants. The reason this is possible in video games to a much greater extent than in conventional play is that in virtual worlds players have their characters take on an alias. This disassociation of a players actions in the real world and their actions in virtual worlds allows them far more freedom than would be possible if their characters inherited pre-existing wealth, education, and social status. In situations where legislation has meant that users have to start using their real names online it has been shown that this can change both behaviours \cite{cho2012empirical}, and the level to which users are comfortable engaging \cite{bellonline}.
+This would suggest that these types of video games are primarily used as a means of escapism, with players using them to leave behind a world which they feel they have (relatively) little control over. As such, it is an opportunity to leave behind the facets of their personality that they feel comfortable with and experiment with other ways of interacting in a safe environment. This is a reasonable explanation, given that the Keirsey temperaments model the dispositions with which the subject feels the most comfortable. This may also explain why the only significant correlation in figure \ref{results} is between the social categories. If socialisers are the ones for whom ``The game world is just a setting'' \cite{bartle1996hearts} then it makes sense that they are not as invested in the game world, or as eager to leave behind their personality to embrace unfamiliar traits, as the other types of participants. The reason this is possible in video games to a much greater extent than in conventional play is that in virtual worlds players have their characters take on an alias. This disassociation of a players actions in the real world and their actions in virtual worlds allows them far more freedom than would be possible if their characters inherited pre-existing wealth, education, and social status. In situations where legislation has meant that users have to start using their real names online it has been shown that this can change both behaviours \cite{cho2012empirical}, and the level to which users are comfortable engaging \cite{bellonline}.
 
 \chapter{Conclusion and Further Work}
 To conclude, the project seeks to outline the role of Bartle's gamer types in higher education. The types themselves are grounded in the field of gamification, an increasingly popular method of driving engagement in a wide variety of areas. Gamification was defined in chapter \ref{sec:define} as the process of taking the elements that have allowed games, particularly video games, to get and hold the attention of users. In chapter \ref{sec:background} it was shown to have had a large impact in a variety of fields including marketing and social media. Once the credibility of gamification and its uses had been established, the literature review in chapter \ref{sec:lit} introduced the idea of gamification in education, with a focus on higher education. Gamification is currently employed by an ever increasing number of tools aimed at primary and secondary education, but the higher education sector has been less receptive. Common explanations of why this is the case include the unwillingness of faculty staff to adapt, and fact that higher education is administered without a central body to coordinate change.
