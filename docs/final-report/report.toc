@@ -35,7 +35,12 @@
 \contentsline {chapter}{\numberline {7}Conclusion and Further Work}{32}
 \contentsline {chapter}{\numberline {8}Legal, Social, Ethical, and Professional Issues}{34}
 \contentsline {chapter}{\numberline {9}Author's Assessment of the Project}{35}
-\contentsline {chapter}{\numberline {10}Background Texts}{36}
-\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{37}
-\contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{41}
-\contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Sorter II}{45}
+\contentsline {section}{\numberline {9.1}What is the contribution of this project?}{35}
+\contentsline {section}{\numberline {9.2}Why should this contribution be considered relevant and important for the subject of your degree?}{35}
+\contentsline {section}{\numberline {9.3}How can others make use of the work in this project?}{35}
+\contentsline {section}{\numberline {9.4}Why should this project be considered an achievement?}{36}
+\contentsline {section}{\numberline {9.5}What are the limitations of this project?}{36}
+\contentsline {chapter}{\numberline {10}Background Texts}{37}
+\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{38}
+\contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{42}
+\contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Sorter II}{46}
