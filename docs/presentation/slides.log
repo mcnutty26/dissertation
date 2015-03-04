@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.27)  4 MAR 2015 16:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.27)  4 MAR 2015 20:12
 entering extended mode
 **slides.tex
 (C:\Users\William\Documents\dissertation\docs\presentation\slides.tex
@@ -1002,16 +1002,30 @@ Package pdftex.def Info: ../img/horizon.png used on input line 75.
 (pdftex.def)             Requested size: 153.64493pt x 97.65622pt.
  [6
 
- <C:/Users/William/Documents/dissertation/docs/img/horizon.png>]
+ <C:/Users/William/Documents/dissertation/docs/img/horizon.png>] [7
+
+] <../img/bartle.png, id=60, 258.7266pt x 250.0542pt>
+File: ../img/bartle.png Graphic file (type png)
+
+<use ../img/bartle.png>
+Package pdftex.def Info: ../img/bartle.png used on input line 105.
+(pdftex.def)             Requested size: 153.64493pt x 148.49602pt.
+
+Overfull \vbox (20.3129pt too high) detected at line 105
+ []
+
+[8
+
+ <C:/Users/William/Documents/dissertation/docs/img/bartle.png>]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
 
 (C:\Users\William\Documents\dissertation\docs\presentation\slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
 Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1019,14 +1033,14 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
  ) 
 Here is how much of TeX's memory you used:
- 17811 strings out of 493921
- 340088 string characters out of 3144869
- 431402 words of memory out of 3000000
- 20666 multiletter control sequences out of 15000+200000
- 14432 words of font info for 59 fonts, out of 3000000 for 9000
+ 17830 strings out of 493921
+ 340303 string characters out of 3144869
+ 432402 words of memory out of 3000000
+ 20674 multiletter control sequences out of 15000+200000
+ 14627 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,11n,55p,405b,556s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb>
@@ -1034,9 +1048,9 @@ Here is how much of TeX's memory you used:
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on slides.pdf (6 pages, 634728 bytes).
+Output written on slides.pdf (8 pages, 722606 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 10810 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 89 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 10815 words of extra memory for PDF output out of 12000 (max. 10000000)
 
