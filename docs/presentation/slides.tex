@@ -89,11 +89,10 @@
 	\end{center}
 	
 	Bartle refined this model in a later paper, but as only explicit and implicit variants of the above roles were added, along with adjustments for players changing over time, the project focuses on the simpler version.
-	
 	}
 	
 	\frame{
-	\frametitle{Bartel's Gamer Types}	
+	\frametitle{Bartle's Gamer Types}	
 		Bartle types can be used to reason about ecosystems of players in online multiplayer games. For example, the effect on the player base of increasing one type of user can be seen below.\footnote{Image from ``Hearts, clubs, diamonds, spades'' by Richard Bartle (1996).}
 		\newline
 		
@@ -102,6 +101,106 @@
 		\begin{figure}
 			\includegraphics[width=0.5\linewidth]{../img/bartle.png}
 		\end{figure}
+	}
+	
+	\frame{
+	\frametitle{Summary}	
+	So, we've seen:
+	\begin{itemize}
+		\item What gamification is, and how it can be used in HE
+		\item What Bartle's gamer types are, and what they are used for
+	\end{itemize}
+
+	\vspace{0.5cm}
+	Which bring us nicely round to the original question:
+	\begin{itemize}
+		\item What place do Bartle's gamer types have in the future of gamified higher education?
+	\end{itemize}
+	}
+	
+	\frame{
+	\frametitle{Research Undertaken}
+	
+	Begin by discussing ``Modeling the player, learner and personality'' by Konert et al\footnote{Johannes Konert, Stefan Gobel, and Ralf Steinmetz. Modeling the player, learner and personality: Independency of the models of bartle, kolb and neo-ffi (big5) and the implications for game based learning. 7th European Conference on Games Based Learning, 2013.}. The paper examines the link between the Bartle type and LSI/Big 5 scores of 12-14 year olds.
+	\newline
+
+	While a few correlations were found, there was nothing to evidence a larger pattern.
+	
+	\begin{quotation}
+		``All in all, the results do not fulfill the expectations of the study. Predicting the playing style preferences based on the BFI-K profile of a gamer is only possible for the Socializer playing style''
+	\end{quotation}	
+	}
+	
+	\frame{
+	\frametitle{Research Undertaken}	
+		
+		My project set out to follow up on this by:
+		\begin{itemize}
+			\item Taking a step back and examining correlations between gamer type and personality (non BFI)
+			\item Explaining the correlation between the above, or lack thereof
+		\end{itemize}
+			
+		\vspace{0.5cm}
+		23 HE students, mainly from Warwick, completed profiling exercises for Bartle type and Keirsey Temperament\footnote{Keirsey Temperament is a measure of personality, similar in scope to BFI}. An online testing platform was constructed for the task, which was able to lessen the workload by automating some of the analysis.
+	}
+	
+	\frame{
+	\frametitle{Research Undertaken}	
+	
+		Raw results from participants were normalised over the interval (0,1). This equates to:
+	
+	\begin{center}
+		$\frac{number\:of\:X\:reposes\:given}{total\:number\:of\:possible\:X\:responses}$
+	\end{center}
+	\vspace{0.5cm}
+	
+	These were then used to calculate the Pearson Product Moment Correlation Coefficient for each combination:
+	
+	\begin{center}
+		$r=\frac{\sum_{i=1}^{n}(X_i-\bar{X})(Y_i-\bar{Y})}{\sqrt{\sum_{i=1}^{n}(X_i-\bar{X})^2}\sqrt{\sum_{i=1}^{n}(Y_i-\bar{Y})^2}}$
+	\end{center}
+	(With $\bar{X}$ and $\bar{Y}$ being the mean of $X$ and $Y$ respectively)
+	\newline
+	
+	Alternatively put, this is the covariance of the
+	two variables divided by the product of their standard deviations.
+	}
+	
+	\frame{
+	\frametitle{Research Results}
+	
+	\begin{figure}
+		\includegraphics[width=0.55\textwidth]{../img/results.png}
+	\end{figure}
+	
+	}
+	
+	\frame{
+	\frametitle{Research Analysis}
+		These findings echo those of Konert et al., including the rogue socialiser correlation.
+		\newline
+	
+		This is understandable given the disposition of feeling types to be more personal when dealing with others and to respond more warmly in social situations. Furthermore, on	socialisers, Bartle writes that:
+		
+		\begin{quotation}
+		``Finding out about people and getting to know them is far
+		more worthy than treating them as fodder to be bossed around. The game world is just a
+		setting; it's the characters that make it so compelling''	
+		\end{quotation}
+	}
+	
+	\frame{
+	\frametitle{Research Analysis}
+	
+		In order to fully explain these findings we have to go back and re-examine the theory of games themselves. The Frenchman Roger Callois described in his work ``Man, Play and Games'' a type of play he called \textit{mimicry}:
+		\begin{quotation}
+			``Play can consist not only of deploying actions or submitting to one's fate
+			in an imaginary milieu, but of becoming an illusory character oneself, and of
+			so behaving. One is then confronted with a diverse series of manifestations,
+			the common element of which is that the subject makes believe or makes
+			others believe that he is someone other than himself. \textbf{He forgets, disguises,
+			or temporarily sheds his personality in order to gain another}''
+		\end{quotation}
 	}
 	
 \end{document}
