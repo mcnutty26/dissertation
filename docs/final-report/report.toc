@@ -17,30 +17,32 @@
 \contentsline {section}{\numberline {4.1}Games and Gamification}{11}
 \contentsline {section}{\numberline {4.2}Psychological Profiling}{14}
 \contentsline {section}{\numberline {4.3}Gamification in Education}{16}
-\contentsline {chapter}{\numberline {5}Testing Software}{20}
-\contentsline {section}{\numberline {5.1}Stakeholder Analysis}{21}
-\contentsline {subsection}{\numberline {5.1.1}Students}{21}
-\contentsline {subsection}{\numberline {5.1.2}Teaching Staff}{21}
-\contentsline {section}{\numberline {5.2}Requirements Identification}{22}
-\contentsline {subsection}{\numberline {5.2.1}Functional Requirements}{22}
-\contentsline {subsection}{\numberline {5.2.2}Non-functional Requirements}{22}
-\contentsline {section}{\numberline {5.3}Code and Database Structure}{23}
-\contentsline {section}{\numberline {5.4}Review Against the Specification}{23}
-\contentsline {subsection}{\numberline {5.4.1}Functional Requirements}{23}
-\contentsline {subsection}{\numberline {5.4.2}Non-functional Requirements}{25}
-\contentsline {chapter}{\numberline {6}Research Undertaken}{28}
-\contentsline {section}{\numberline {6.1}Objectives and Rationale}{28}
-\contentsline {section}{\numberline {6.2}Methodology}{28}
-\contentsline {section}{\numberline {6.3}Results and Discussion}{30}
-\contentsline {chapter}{\numberline {7}Conclusion and Further Work}{33}
-\contentsline {chapter}{\numberline {8}Legal, Social, Ethical, and Professional Issues}{35}
-\contentsline {chapter}{\numberline {9}Author's Assessment of the Project}{36}
-\contentsline {section}{\numberline {9.1}What is the contribution of this project?}{36}
-\contentsline {section}{\numberline {9.2}Why should this contribution be considered relevant and important for the subject of your degree?}{36}
-\contentsline {section}{\numberline {9.3}How can others make use of the work in this project?}{36}
-\contentsline {section}{\numberline {9.4}Why should this project be considered an achievement?}{37}
-\contentsline {section}{\numberline {9.5}What are the limitations of this project?}{37}
-\contentsline {chapter}{\numberline {10}Background Texts}{38}
-\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{39}
-\contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{43}
-\contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Sorter II}{47}
+\contentsline {chapter}{\numberline {5}Background and Literature Summary}{20}
+\contentsline {chapter}{\numberline {6}Testing Software}{21}
+\contentsline {section}{\numberline {6.1}Stakeholder Analysis}{22}
+\contentsline {subsection}{\numberline {6.1.1}Students}{22}
+\contentsline {subsection}{\numberline {6.1.2}Teaching Staff}{22}
+\contentsline {section}{\numberline {6.2}Requirements Identification}{23}
+\contentsline {subsection}{\numberline {6.2.1}Functional Requirements}{23}
+\contentsline {subsection}{\numberline {6.2.2}Non-functional Requirements}{23}
+\contentsline {section}{\numberline {6.3}Code and Database Structure}{24}
+\contentsline {section}{\numberline {6.4}Review Against the Specification}{24}
+\contentsline {subsection}{\numberline {6.4.1}Functional Requirements}{24}
+\contentsline {subsection}{\numberline {6.4.2}Non-functional Requirements}{26}
+\contentsline {chapter}{\numberline {7}Research Undertaken}{29}
+\contentsline {section}{\numberline {7.1}Objectives and Rationale}{29}
+\contentsline {section}{\numberline {7.2}Methodology}{29}
+\contentsline {section}{\numberline {7.3}Results and Discussion}{31}
+\contentsline {section}{\numberline {7.4}Research Limitations}{33}
+\contentsline {chapter}{\numberline {8}Conclusion and Further Work}{35}
+\contentsline {chapter}{\numberline {9}Author's Assessment of the Project}{37}
+\contentsline {section}{\numberline {9.1}What is the contribution of this project?}{37}
+\contentsline {section}{\numberline {9.2}Why should this contribution be considered relevant and important for the subject of your degree?}{37}
+\contentsline {section}{\numberline {9.3}How can others make use of the work in this project?}{37}
+\contentsline {section}{\numberline {9.4}Why should this project be considered an achievement?}{38}
+\contentsline {section}{\numberline {9.5}What are the ethical issues surrounding gamification?}{38}
+\contentsline {section}{\numberline {9.6}What are the limitations of this project?}{38}
+\contentsline {chapter}{\numberline {10}Background Texts}{39}
+\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{40}
+\contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{44}
+\contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Sorter II}{48}
