@@ -2,6 +2,7 @@
 \usetheme{default}
 \usepackage{microtype}
 \usepackage{graphicx}
+\usepackage{url}
 \title{The Role of Bartle’s Gamer Types in Gamified Higher Education}
 \author{William Seymour}
 \institute{University of Warwick}
@@ -32,12 +33,12 @@
 		Or, put another way, transplanting the game mechanics that make games engaging into other media with the aim of driving engagement.
 		\newline
 		
-		It is important here to make the distinction between \textit{games} and \textit{gamified activities}. Not interested in things like controller support or fancy 3D graphics that typify game experiences.
+		It is important here to make the distinction between \textit{games} and \textit{gamified activities}. Not interested in things like controller support or fancy 3D graphics that typify video game experiences.
 	}
 	
 	\frame{
 		\frametitle{Gamification}
-		Though it existed since 2002, the term really spiked in usage from \textasciitilde2010\footnote{Google Trends image: proportion of gamification searches relative to the peak}. Gamification has psychological roots in operant conditioning (cf. B. F. Skinner) and Self Determination Theory.
+		Though it has existed since 2002, the term really spiked in usage from \textasciitilde2010\footnote{Google Trends image: proportion of gamification searches relative to the peak}. The psychological roots of gamification are in operant conditioning (B. F. Skinner) and Self Determination Theory.
 		
 			\begin{figure}
 				\includegraphics[width=0.5\linewidth]{../img/usage-graph.png}
@@ -60,7 +61,7 @@
 	}
 	
 	\frame{
-		\frametitle{What does gamified higher education look like?}
+		\frametitle{What might gamified higher education look like?}
 
 		Uses a combination of gamification and learning analytics to enrich all aspects of campus life - from learning to sport and healthy eating.
 		\newline
@@ -99,7 +100,7 @@
 		Despite being designed for MUDs (and by extension, MMOs), the Bartle types have found their way into a large amount of books and papers on gamification.
 		
 		\begin{figure}
-			\includegraphics[width=0.5\linewidth]{../img/bartle.png}
+			\includegraphics[width=0.4\linewidth]{../img/bartle.png}
 		\end{figure}
 	}
 	
@@ -112,7 +113,7 @@
 	\end{itemize}
 
 	\vspace{0.5cm}
-	Which bring us nicely around to the original question:
+	Which brings us nicely around to the original question:
 	\begin{itemize}
 		\item What place do Bartle's gamer types have in the future of gamified higher education?
 	\end{itemize}
@@ -141,13 +142,17 @@
 		\end{itemize}
 			
 		\vspace{0.5cm}
+		
+		It is important when creating future gamified applications to have an understanding of how users will interact with them.
+		\newline
+		
 		23 HE students, mainly from Warwick, completed profiling exercises for Bartle type and Keirsey Temperament.\footnote{Keirsey Temperament is a measure of personality, similar in scope to BFI} An online testing platform was constructed for the task, which was able to lessen the workload by automating some of the analysis.
 	}
 	
 	\frame{
 	\frametitle{Research Undertaken}	
 	
-		Raw results from participants were normalised over the interval (0,1). This equates to:
+		Raw results from participants were converted into a score and normalised over the interval (0,1). This equates to:
 	
 	\begin{center}
 		$\frac{number\:of\:X\:reposes\:given}{total\:number\:of\:possible\:X\:responses}$
@@ -172,7 +177,7 @@
 	\begin{figure}
 		\includegraphics[width=0.55\textwidth]{../img/results.png}
 	\end{figure}
-	
+	Results statistically significant at the 0.05 level are shaded red.
 	}
 	
 	\frame{
@@ -224,9 +229,31 @@
 	\frametitle{Further Work}	
 	
 	\begin{itemize}
+		\item It is no longer worth looking for correlation between personality and Bartle type
 		\item The focus should be on how these metrics affect actual usage and engagement
 		\item Direct efforts towards the relationship between learning style and task preference (Schaller et al.)
 	\end{itemize}
+		
+	}
+	
+	\frame{
+	\frametitle{Project Evaluation}	
+	Initially, the project goal was to create a prototype gamified platform for education, but it became apparent that this had both:
+	\begin{itemize}
+		\item Been done before
+		\item Been achieved to a level beyond the scope of the project
+	\end{itemize}
+	\vspace{0.5cm}
+	
+	The solution was to change to a more research focused approach, and use the software that had been developed to administer one of the questionnaires.
+	}
+	
+	\frame{
+	\frametitle{Project Management}	
+		Code and documents used Git for source control, hosted on GitHub. Code was backed up on one of the Computing Society's servers\footnote{Current running at \url{mcnutty.uwcs.co.uk/dissertation}}, and everything in the repository was synchronised to my desktop and laptop.
+		\newline
+		
+		Internal deadlines made sure that everything was done in time, and meant that I didn't spend too long waiting for survey responses etc.	
 		
 	}
 	
