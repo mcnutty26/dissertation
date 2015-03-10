@@ -60,6 +60,12 @@ The Economist.
 \newblock 2012.
 \newblock \url{http://www.economist.com/node/1112721 [Accessed 22/01/2015]}.
 
+\bibitem{Eyal2013}
+Nir Eyal.
+\newblock The morality of manipulation.
+\newblock \url{http://www.nirandfar.com/2012/07/the-art-of-manipulation.html}
+  [Accessed 10/03/2015], 2013.
+
 \bibitem{eysenck1992four}
 Hans~J Eysenck.
 \newblock Four ways five factors are not basic.
@@ -97,6 +103,13 @@ Victor~Manrique (iVersity).
 \newblock
   \url{https://iversity.org/en/courses/gamification-design-online-course}
   [Accessed 13/01/2015].
+
+\bibitem{john1999big}
+Oliver~P John and Sanjay Srivastava.
+\newblock The big five trait taxonomy: History, measurement, and theoretical
+  perspectives.
+\newblock {\em Handbook of personality: Theory and research}, 2(1999):102--138,
+  1999.
 
 \bibitem{johnson2013nmc}
 Larry Johnson, Samantha Adams, Malcolm Cummins, Victoria Estrada, Alex Freeman,
@@ -190,20 +203,16 @@ Burrhus~Frederic Skinner.
 \newblock {\em The behavior of organisms: An experimental analysis.}
 \newblock Appleton-Century, 1938.
 
-\bibitem{wiki-ppmcc}
-Wikipedia.
-\newblock Pearson product-moment correlation coefficient.
-\newblock Online, February 2015.
-\newblock
-  \url{http://en.wikipedia.org/wiki/Pearson_product-moment_correlation_coefficient}
-  [Accessed on 19/02/2015].
+\bibitem{tupes1961}
+Ernest~C Tupes and Raymond~E Christal.
+\newblock Recurrent personality factors based on trait ratings.
+\newblock Technical report, DTIC Document, 1961.
 
-\bibitem{wiki-ffm}
-Wikipedia.
-\newblock Big five personality traits.
-\newblock Online, January 2015.
-\newblock \url{http://en.wikipedia.org/wiki/Big_Five_personality_traits}
-  [Accessed on 27/01/2015].
+\bibitem{versteeg2013ethics}
+MJJM Versteeg.
+\newblock Ethics \& gamification design: a moral framework for taking
+  responsibility.
+\newblock 2013.
 
 \bibitem{zichermann2010game}
 Gabe Zichermann and Joselin Linder.

@@ -7,45 +7,46 @@ Warning--empty publisher in 1_comscore_2012
 Warning--empty publisher in freq-fly
 Warning--empty journal in johnson2013nmc
 Warning--empty journal in johnson2014nmc
-You've used 35 entries,
+Warning--empty journal in versteeg2013ethics
+You've used 37 entries,
             2118 wiz_defined-function locations,
-            685 strings with 9745 characters,
-and the built_in function-call counts, 9727 in all, are:
-= -- 948
-> -- 394
+            695 strings with 9979 characters,
+and the built_in function-call counts, 10239 in all, are:
+= -- 1001
+> -- 420
 < -- 4
-+ -- 168
-- -- 124
-* -- 534
-:= -- 1646
-add.period$ -- 115
-call.type$ -- 35
-change.case$ -- 159
++ -- 180
+- -- 132
+* -- 573
+:= -- 1748
+add.period$ -- 119
+call.type$ -- 37
+change.case$ -- 170
 chr.to.int$ -- 0
-cite$ -- 39
-duplicate$ -- 409
-empty$ -- 838
-format.name$ -- 124
-if$ -- 2055
+cite$ -- 42
+duplicate$ -- 430
+empty$ -- 864
+format.name$ -- 132
+if$ -- 2146
 int.to.chr$ -- 0
-int.to.str$ -- 35
-missing$ -- 37
-newline$ -- 185
-num.names$ -- 70
-pop$ -- 233
+int.to.str$ -- 37
+missing$ -- 39
+newline$ -- 193
+num.names$ -- 74
+pop$ -- 231
 preamble$ -- 1
-purify$ -- 132
+purify$ -- 140
 quote$ -- 0
-skip$ -- 275
+skip$ -- 289
 stack$ -- 0
-substring$ -- 457
-swap$ -- 71
+substring$ -- 494
+swap$ -- 70
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 122
-warning$ -- 4
-while$ -- 96
-width$ -- 37
-write$ -- 376
-(There were 4 warnings)
+type$ -- 130
+warning$ -- 5
+while$ -- 102
+width$ -- 39
+write$ -- 393
+(There were 5 warnings)
