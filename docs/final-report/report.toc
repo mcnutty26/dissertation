@@ -15,8 +15,9 @@
 \contentsline {subsection}{\numberline {3.3.2}Case Study: Frequent Flyer Programs}{9}
 \contentsline {chapter}{\numberline {4}Literature Review}{11}
 \contentsline {section}{\numberline {4.1}Games and Gamification}{11}
-\contentsline {section}{\numberline {4.2}Psychological Profiling}{14}
-\contentsline {section}{\numberline {4.3}Gamification in Education}{16}
+\contentsline {section}{\numberline {4.2}The Ethics of Gamification}{14}
+\contentsline {section}{\numberline {4.3}Psychological Profiling}{15}
+\contentsline {section}{\numberline {4.4}Gamification in Education}{16}
 \contentsline {chapter}{\numberline {5}Background and Literature Summary}{20}
 \contentsline {chapter}{\numberline {6}Testing Software}{21}
 \contentsline {section}{\numberline {6.1}Stakeholder Analysis}{22}
@@ -41,8 +42,8 @@
 \contentsline {section}{\numberline {9.3}How can others make use of the work in this project?}{37}
 \contentsline {section}{\numberline {9.4}Why should this project be considered an achievement?}{38}
 \contentsline {section}{\numberline {9.5}What are the ethical issues surrounding gamification?}{38}
-\contentsline {section}{\numberline {9.6}What are the limitations of this project?}{39}
-\contentsline {chapter}{\numberline {10}Background Texts}{40}
-\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{41}
-\contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{45}
+\contentsline {section}{\numberline {9.6}What are the limitations of this project?}{38}
+\contentsline {chapter}{\numberline {10}Background Texts}{39}
+\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{40}
+\contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{44}
 \contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Sorter II}{49}
