@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.27)  12 MAR 2015 17:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.27)  13 MAR 2015 15:49
 entering extended mode
 **report.tex
 (C:\Users\William\Documents\dissertation\docs\final-report\report.tex
@@ -272,24 +272,21 @@ Package pdftex.def Info: ../img/usage-graph.png used on input line 81.
 ]
 Underfull \vbox (badness 1057) has occurred while \output is active []
 
- [7 <C:/Users/William/Documents/dissertation/docs/img/usage-graph.png>]
-<../img/orkut-brazil.jpg, id=51, 405.76593pt x 179.16937pt>
+ [7 <C:/Users/William/Documents/dissertation/docs/img/usage-graph.png>] [8]
+<../img/orkut-brazil.jpg, id=54, 405.76593pt x 179.16937pt>
 File: ../img/orkut-brazil.jpg Graphic file (type jpg)
 
 <use ../img/orkut-brazil.jpg>
 Package pdftex.def Info: ../img/orkut-brazil.jpg used on input line 103.
 (pdftex.def)             Requested size: 405.76494pt x 179.16893pt.
- [8]
-<../img/flyer.png, id=55, 188.20313pt x 182.18062pt>
+ [9 <C:/Users/William/Documents/dissertation/docs/img/orkut-brazil.jpg>] <../im
+g/flyer.png, id=58, 188.20313pt x 182.18062pt>
 File: ../img/flyer.png Graphic file (type png)
- <use ../img/flyer.png>
+
+<use ../img/flyer.png>
 Package pdftex.def Info: ../img/flyer.png used on input line 114.
 (pdftex.def)             Requested size: 188.20265pt x 182.18016pt.
-
-Underfull \vbox (badness 1383) has occurred while \output is active []
-
- [9 <C:/Users/William/Documents/dissertation/docs/img/orkut-brazil.jpg>] [10 <C
-:/Users/William/Documents/dissertation/docs/img/flyer.png>]
+ [10 <C:/Users/William/Documents/dissertation/docs/img/flyer.png>]
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 131--131
@@ -720,7 +717,7 @@ ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (63 pages, 1077990 bytes).
+Output written on report.pdf (63 pages, 1078795 bytes).
 PDF statistics:
  368 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
