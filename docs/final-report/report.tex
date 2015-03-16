@@ -46,6 +46,8 @@
 \end{minipage}
 
 \vfill
+\large Department of Computer Science,\\
+\large University of Warwick,\\
 \large April 2015\\
 \vfill
 \includegraphics[width=0.50\textwidth]{../img/dcslogo.png}~\\[1cm]
@@ -429,15 +431,136 @@ The PPMCC, denoted by Rho, for two sets of data is defined as the covariance of 
 Because it is a statistical method, it is not possible to prove a relationship exists between Keirsey Temperament and Bartle type in this way, only that it is highly probable (or not, as the case may be) that such a link exists. To illustrate this probability a p value was calculated for each r value, which is the estimated probability that the corresponding r value occurred by chance when the sample size is taken into account.
 
 \section{Results and Discussion}
-The results returned by the questionnaire and testing software were used to calculate the r and p values for each pair of profiling dimensions. These are shown in figure \ref{results}. Results that are significant at levels of $p = 0.05£$ are shaded in red. There were no results that were significant at the level $p = 0.01$. Because the Myers-Briggs types are presented as dichotomies, the correlation displayed by one value is the negative of its opposite. The probability of these correlations occurring randomly is the same.
+The results returned by the questionnaire and testing software were used to calculate the r and p values for each pair of profiling dimensions. These are shown in table \ref{results}. Results that are significant at levels of $p = 0.05$ are shown in bold. There were no results that were significant at the level $p = 0.01$. Because the Myers-Briggs types are presented as dichotomies, the correlation displayed by one value is the negative of its opposite. The probability of these correlations occurring randomly is the same.
 
-\begin{figure}
-	\begin{center}
-		\includegraphics[width=1\textwidth]{../img/results.png}
-		\caption{Pearson correlations between the Bartle, Myers-Briggs and Keirsey Temperament scores in 23 students. P values shaded red are significant at the 0.05 error level.}
-		\label{results}
-	\end{center}
-\end{figure}
+\begin{table}
+\begin{center}
+\begin{tabular}{|c|c|r|r|r|r|}
+	\hline  &  & Killer & Socialiser & Explorer & Achiever \\ 
+	\hline E & r & 0.1283
+	& 0.2807 & -0.1568 & -0.2863
+	\\ 
+	\hline  & p & 0.559616
+	& 0.194498
+	& 0.477209
+	& 0.18537
+	\\ 
+	\hline I & r & -0.1283
+	& -0.2807
+	& 0.1568
+	& 0.2863
+	\\ 
+	\hline  & p & 0.559616
+	& 0.194498
+	& 0.477209
+	& 0.18537
+	\\ 
+	\hline S & r & -0.0293
+	&  -0.1482
+	& 0.0246
+	& 0.1544
+	\\ 
+	\hline  & p & 0.894423
+	& 0.524044
+	& 0.911287
+	& 0.481795
+	\\ 
+	\hline N & r & 0.0293
+	&  0.1482
+	& -0.0246
+	& -0.1544
+	\\ 
+	\hline  & p & 0.894423
+	& 0.524044
+	& 0.911287
+	& 0.481795
+	\\ 
+	\hline T & r & 0.3723
+	& -0.4242
+	& -0.0931
+	& -0.1575
+	\\ 
+	\hline  & p & 0.080215
+	& \textbf{0.043768}
+	& 0.672984
+	& 0.47293
+	\\ 
+	\hline F & r & -0.3723
+	& 0.4242
+	& 0.0931
+	& 0.1575
+	\\ 
+	\hline  & p & 0.080215
+	& \textbf{0.043768}
+	& 0.672984
+	& 0.47293
+	\\ 
+	\hline J & r & -0.2721
+	& 0.1671
+	& 0.3388
+	& -0.1528
+	\\ 
+	\hline  & p & 0.209277
+	& 0.446015
+	& 0.113786
+	& 0.486403
+	\\ 
+	\hline P & r & 0.2721
+	& -0.1671
+	& -0.3388
+	& 0.1528
+	\\ 
+	\hline  & p & 0.209277
+	& 0.446015
+	& 0.113786
+	& 0.486403
+	\\ 
+	\hline SP & r & 0.2036
+	& -0.2688
+	& -0.2638
+	& 0.2621
+	\\ 
+	\hline  & p & 0.351445
+	& 0.214897
+	& 0.22388
+	& 0.226989
+	\\ 
+	\hline SJ & r & -0.1839
+	& 0.009
+	& 0.2216
+	& 0.0036
+	\\ 
+	\hline  & p & 0.400926
+	& 0.96749
+	& 0.309536
+	& 0.986993
+	\\ 
+	\hline NF & r & -0.246
+	& 0.3898
+	& 0.0511
+	& 0.0184
+	\\ 
+	\hline  & p & 0.257854
+	& 0.065964
+	& 0.816887
+	& 0.93359
+	\\ 
+	\hline NT & r & 0.3291
+	& -0.2469
+	& -0.0945
+	& -0.2394
+	\\ 
+	\hline  & p & 0.125185
+	& 0.256061
+	& 0.668
+	& 0.271249
+	\\ 
+	\hline 
+\end{tabular}
+\caption{Pearson correlations between the Bartle, Myers-Briggs and Keirsey Temperament scores in 23 students. P values shown in bold are significant at the 0.05 error level.}
+\label{results}
+\end{center}
+\end{table}
 
 To a large extent the results obtained were in line with what was discovered by Konert, G{\"o}bel, and Steinmetz \cite{konertmodeling}. The only statistically significant correlation was between the Myers-Briggs feeling dimension and the Bartle Socialiser type, with a moderate positive link found between the two (42\% positive correlation at the 0.05 error level). This is understandable given the disposition of feeling types to be more personal when dealing with others and to respond more warmly in social situations \cite{keirsey1984}. Furthermore, on socialisers, Bartle writes that ``Finding out about people and getting to know them is far more worthy than treating them as fodder to be bossed around. The game world is just a setting; it's the characters that make it so compelling''\cite{bartle1996hearts}, which along with the common observation that it is socialisers who are the most involved with guilds and clans adds credence to the idea that the socialiser and feeling types are linked. 
 
@@ -516,7 +639,23 @@ Primarily the report serves as an indication to others that the Bartle Types tha
 \section{Why should this project be considered an achievement?}
 Due to the interdisciplinary nature of the report a large amount of information had to be analysed from a variety of fields. In the field of psychology I have been researching the different methods of profiling, as well as Self Determination Theory, operant conditioning, and the ethics thereof. Turning to statistics, I examined a large number of different statistical tests to find the one most suitable to the data collected. This is a broad range of topics, but an in depth knowledge of each was required in order to properly answer the question posed by the report. Finally, a good understanding of the state of gamification was required to properly place the conclusion and suggestions for further work in the context of existing literature.
 
-\chapter{Background Texts}
+\chapter{Further Reading}
+
+Raising engagement in e-learning through gamification
+
+Upside Down and Inside Out: Flip Your Classroom to Improve Student Learning
+
+The Flipped Classroom
+
+Gamification in Educational Software Development (master thesis)
+
+Serious Games and Edutainment Applications
+
+Learning style, sense of community and learning effectiveness in hybrid learning environment
+
+Meta-synthesis of player typologies
+
+The Role of Games in Education
 
 \titleformat{\chapter}{\large\bf\centering}{APPENDIX \MakeUppercase{\thechapter}.}{1em}{}
 \begin{appendices}

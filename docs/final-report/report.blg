@@ -11,15 +11,15 @@ Warning--empty journal in london1969behavioral
 Warning--empty journal in versteeg2013ethics
 You've used 40 entries,
             2118 wiz_defined-function locations,
-            711 strings with 10303 characters,
-and the built_in function-call counts, 10972 in all, are:
-= -- 1072
+            711 strings with 10281 characters,
+and the built_in function-call counts, 10968 in all, are:
+= -- 1071
 > -- 447
 < -- 4
 + -- 191
 - -- 140
-* -- 613
-:= -- 1877
+* -- 612
+:= -- 1876
 add.period$ -- 128
 call.type$ -- 40
 change.case$ -- 182
@@ -28,17 +28,17 @@ cite$ -- 46
 duplicate$ -- 463
 empty$ -- 928
 format.name$ -- 140
-if$ -- 2296
+if$ -- 2295
 int.to.chr$ -- 0
 int.to.str$ -- 40
 missing$ -- 43
 newline$ -- 208
 num.names$ -- 80
-pop$ -- 248
+pop$ -- 250
 preamble$ -- 1
 purify$ -- 150
 quote$ -- 0
-skip$ -- 310
+skip$ -- 309
 stack$ -- 0
 substring$ -- 528
 swap$ -- 72
@@ -49,5 +49,5 @@ type$ -- 140
 warning$ -- 6
 while$ -- 110
 width$ -- 42
-write$ -- 423
+write$ -- 422
 (There were 6 warnings)
