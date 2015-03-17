@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {3.3.2}Case Study: Frequent Flyer Programs}{9}
 \contentsline {chapter}{\numberline {4}Literature Review}{11}
 \contentsline {section}{\numberline {4.1}Games and Gamification}{11}
-\contentsline {section}{\numberline {4.2}Psychological Profiling}{14}
+\contentsline {section}{\numberline {4.2}Psychographic and Behavioural Profiling}{14}
 \contentsline {section}{\numberline {4.3}Gamification in Education}{16}
 \contentsline {section}{\numberline {4.4}The Ethics of Gamification}{18}
 \contentsline {chapter}{\numberline {5}Background and Literature Summary}{21}
@@ -42,7 +42,11 @@
 \contentsline {section}{\numberline {9.2}Why should this contribution be considered relevant and important for the subject of your degree?}{38}
 \contentsline {section}{\numberline {9.3}How can others make use of the work in this project?}{38}
 \contentsline {section}{\numberline {9.4}Why should this project be considered an achievement?}{39}
+\contentsline {section}{\numberline {9.5}On the change in direction of the project}{39}
 \contentsline {chapter}{\numberline {10}Further Reading}{40}
-\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{41}
-\contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{45}
-\contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Sorter II}{50}
+\contentsline {section}{\numberline {10.1}Gamification in Education}{40}
+\contentsline {section}{\numberline {10.2}Learning Style}{41}
+\contentsline {section}{\numberline {10.3}The Flipped Classroom}{41}
+\contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{42}
+\contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{46}
+\contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Sorter II}{51}

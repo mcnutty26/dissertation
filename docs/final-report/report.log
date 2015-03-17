@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.24)  16 MAR 2015 23:23
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.24)  17 MAR 2015 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -293,52 +293,52 @@ File: ../img/flyer.png Graphic file (type QTm)
  <use  "../img/flyer.png" > [10]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []\OT1/cmr/m/n/12 AGON (Com-pe-ti-
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 160--160
+Underfull \hbox (badness 1057) in paragraph at lines 161--161
 []\OT1/cmr/m/n/12 Economic com-pe-ti-
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 160--160
+Underfull \hbox (badness 2205) in paragraph at lines 161--161
 \OT1/cmr/m/n/12 tion and com-pet-i-
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 160--160
+Underfull \hbox (badness 3460) in paragraph at lines 161--161
 []\OT1/cmr/m/n/12 Violence, Will to
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 160--160
+Underfull \hbox (badness 3547) in paragraph at lines 161--161
 []\OT1/cmr/m/n/12 Carnival, The-atre,
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 160--160
+Underfull \hbox (badness 1831) in paragraph at lines 161--161
 \OT1/cmr/m/n/12 Cin-ema and Hero
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []\OT1/cmr/m/n/12 Alienation and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 \OT1/cmr/m/n/12 Ski-ing, Tightrope
  []
 
 
-Underfull \hbox (badness 6063) in paragraph at lines 160--160
+Underfull \hbox (badness 6063) in paragraph at lines 161--161
 []\OT1/cmr/m/n/12 Professions re-quir-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []\OT1/cmr/m/n/12 Alcoholism and
  []
 
@@ -347,11 +347,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--160
 ]
 File: ../img/fog.png Graphic file (type QTm)
  <use  "../img/fog.png" > [12] [13] [14]
-Overfull \hbox (18.16635pt too wide) in paragraph at lines 197--209
+Overfull \hbox (18.16635pt too wide) in paragraph at lines 199--211
  [] 
  []
 
-[15] [16]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+[16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
@@ -375,14 +379,14 @@ Underfull \vbox (badness 2970) has occurred while \output is active []
  [22
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 311.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 313.
 
 
 (d:/Program Files/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 311.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 313.
  [23]
 [24]
 File: ../img/database.png Graphic file (type QTm)
@@ -414,12 +418,17 @@ Chapter 10.
 [40
 
 ]
+Missing character: There is no ’ in font cmr12!
+Missing character: There is no ’ in font cmr12!
+ [41
+
+]
 Appendix A.
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 <use  "../ethical-consent/delegated-approval.pdf" >
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
-<use  "../ethical-consent/delegated-approval.pdf" > [41
+<use  "../ethical-consent/delegated-approval.pdf" > [42
 
 ]
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
@@ -441,7 +450,7 @@ File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 <use  "../ethical-consent/delegated-approval.pdf"  page1>
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
-<use  "../ethical-consent/delegated-approval.pdf"  page1> [42]
+<use  "../ethical-consent/delegated-approval.pdf"  page1> [43]
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
 <use  "../ethical-consent/delegated-approval.pdf"  page2>
@@ -450,7 +459,7 @@ File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 <use  "../ethical-consent/delegated-approval.pdf"  page2>
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
-<use  "../ethical-consent/delegated-approval.pdf"  page2> [43]
+<use  "../ethical-consent/delegated-approval.pdf"  page2> [44]
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
 <use  "../ethical-consent/delegated-approval.pdf"  page3>
@@ -459,9 +468,9 @@ File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 <use  "../ethical-consent/delegated-approval.pdf"  page3>
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type QTm)
 
-<use  "../ethical-consent/delegated-approval.pdf"  page3> [44]
+<use  "../ethical-consent/delegated-approval.pdf"  page3> [45]
 Appendix B.
-[45
+[46
 
 ] (./bartle-questions.tex
 Overfull \hbox (22.81609pt too wide) in paragraph at lines 46--46
@@ -472,7 +481,7 @@ find its weakness.[]
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46
+ [47
 
 ]
 Overfull \hbox (14.78859pt too wide) in paragraph at lines 51--51
@@ -483,21 +492,21 @@ entertaining you[]
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]
+ [48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
+ [49]
 Overfull \hbox (4.29108pt too wide) in paragraph at lines 144--144
 []\OT1/cmtt/m/n/12 +K An amulet that increases the damage you do against other 
 players by 10%.[] 
  []
 
-) [49]
+) [50]
 Appendix C.
 File: sample.pdf Graphic file (type QTm)
 <use  "sample.pdf" >
 File: sample.pdf Graphic file (type QTm)
- <use  "sample.pdf" > [50
+ <use  "sample.pdf" > [51
 
 ]
 File: sample.pdf Graphic file (type QTm)
@@ -516,7 +525,7 @@ File: sample.pdf Graphic file (type QTm)
 
 <use  "sample.pdf"  page1>
 File: sample.pdf Graphic file (type QTm)
- <use  "sample.pdf"  page1> [51]
+ <use  "sample.pdf"  page1> [52]
 File: sample.pdf Graphic file (type QTm)
 
 <use  "sample.pdf"  page2>
@@ -524,14 +533,14 @@ File: sample.pdf Graphic file (type QTm)
  <use  "sample.pdf"  page2>
 File: sample.pdf Graphic file (type QTm)
 
-<use  "sample.pdf"  page2> [52]
+<use  "sample.pdf"  page2> [53]
 File: sample.pdf Graphic file (type QTm)
  <use  "sample.pdf"  page3>
 File: sample.pdf Graphic file (type QTm)
 
 <use  "sample.pdf"  page3>
 File: sample.pdf Graphic file (type QTm)
- <use  "sample.pdf"  page3> [53]
+ <use  "sample.pdf"  page3> [54]
 File: sample.pdf Graphic file (type QTm)
 
 <use  "sample.pdf"  page4>
@@ -539,7 +548,7 @@ File: sample.pdf Graphic file (type QTm)
  <use  "sample.pdf"  page4>
 File: sample.pdf Graphic file (type QTm)
 
-<use  "sample.pdf"  page4> [54] (./report.bbl
+<use  "sample.pdf"  page4> [55] (./report.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 48--55
 []\OT1/cmr/m/n/12 comScore.  \OT1/cmr/m/it/12 Face-book Blasts into Top Po-si-t
 ion in Brazil-ian So-
@@ -563,7 +572,7 @@ Overfull \hbox (14.10985pt too wide) in paragraph at lines 48--55
 ocial-[]Networking-[]Market$
  []
 
-[55
+[56
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 103--108
@@ -571,14 +580,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--108
 % 2F2009 % 2072m & cmpt = q$
  []
 
-[56] [57]) [58] (./report.aux) ) 
+[57] [58]) [59] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 4808 strings out of 495656
- 71770 string characters out of 6187192
- 169957 words of memory out of 5000000
- 7942 multiletter control sequences out of 15000+600000
+ 4811 strings out of 495656
+ 71804 string characters out of 6187192
+ 169983 words of memory out of 5000000
+ 7945 multiletter control sequences out of 15000+600000
  9054 words of font info for 32 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,18n,42p,2265b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,18n,42p,2265b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.pdf (64 pages).
+Output written on report.pdf (65 pages).
