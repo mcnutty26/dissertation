@@ -39,7 +39,7 @@
 \contentsline {chapter}{\numberline {8}Conclusion and Further Work}{36}
 \contentsline {chapter}{\numberline {9}Author's Assessment of the Project}{38}
 \contentsline {section}{\numberline {9.1}What is the contribution of this project?}{38}
-\contentsline {section}{\numberline {9.2}Why should this contribution be considered relevant and important for the subject of your degree?}{38}
+\contentsline {section}{\numberline {9.2}Why should this contribution be considered relevant and important for a computer science degree?}{38}
 \contentsline {section}{\numberline {9.3}How can others make use of the work in this project?}{38}
 \contentsline {section}{\numberline {9.4}Why should this project be considered an achievement?}{39}
 \contentsline {section}{\numberline {9.5}On the change in direction of the project}{39}
@@ -49,4 +49,4 @@
 \contentsline {section}{\numberline {10.3}The Flipped Classroom}{41}
 \contentsline {chapter}{Appendix \numberline {A}Declaration of Delegated Ethical Approval}{42}
 \contentsline {chapter}{Appendix \numberline {B}Bartle Test Questions}{46}
-\contentsline {chapter}{Appendix \numberline {C}Keirsey Termerament Sorter II}{51}
+\contentsline {chapter}{Appendix \numberline {C}Keirsey Temperament Sorter II}{51}
