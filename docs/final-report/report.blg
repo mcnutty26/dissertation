@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2014/W32TeX)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: report.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: report.aux
 The style file: plain.bst
 Database file #1: references.bib
 Warning--empty publisher in 1_comscore_2012
@@ -9,45 +7,4 @@ Warning--empty journal in johnson2013nmc
 Warning--empty journal in johnson2014nmc
 Warning--empty journal in london1969behavioral
 Warning--empty journal in versteeg2013ethics
-You've used 41 entries,
-            2118 wiz_defined-function locations,
-            715 strings with 10455 characters,
-and the built_in function-call counts, 11240 in all, are:
-= -- 1094
-> -- 460
-< -- 4
-+ -- 196
-- -- 144
-* -- 625
-:= -- 1921
-add.period$ -- 131
-call.type$ -- 41
-change.case$ -- 187
-chr.to.int$ -- 0
-cite$ -- 47
-duplicate$ -- 477
-empty$ -- 956
-format.name$ -- 144
-if$ -- 2354
-int.to.chr$ -- 0
-int.to.str$ -- 41
-missing$ -- 44
-newline$ -- 213
-num.names$ -- 82
-pop$ -- 259
-preamble$ -- 1
-purify$ -- 154
-quote$ -- 0
-skip$ -- 317
-stack$ -- 0
-substring$ -- 533
-swap$ -- 74
-text.length$ -- 4
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 144
-warning$ -- 6
-while$ -- 112
-width$ -- 43
-write$ -- 432
 (There were 6 warnings)

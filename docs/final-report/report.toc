@@ -25,7 +25,7 @@
 \contentsline {subsection}{\numberline {6.1.2}Teaching Staff}{23}
 \contentsline {section}{\numberline {6.2}Requirements Identification}{23}
 \contentsline {subsection}{\numberline {6.2.1}Functional Requirements}{23}
-\contentsline {subsection}{\numberline {6.2.2}Non-functional Requirements}{23}
+\contentsline {subsection}{\numberline {6.2.2}Non-functional Requirements}{24}
 \contentsline {section}{\numberline {6.3}Development}{24}
 \contentsline {section}{\numberline {6.4}Code and Database Structure}{25}
 \contentsline {section}{\numberline {6.5}Review Against the Specification}{25}
