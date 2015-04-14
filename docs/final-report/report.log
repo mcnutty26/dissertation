@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.27)  13 APR 2015 16:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.27)  13 APR 2015 23:40
 entering extended mode
 **report.tex
 (C:\Users\William\Documents\dissertation\docs\final-report\report.tex
@@ -440,13 +440,17 @@ File: ../img/database.png Graphic file (type png)
 <use ../img/database.png>
 Package pdftex.def Info: ../img/database.png used on input line 350.
 (pdftex.def)             Requested size: 407.66833pt x 601.5582pt.
- [25] [26 <C:/Users/William/Documents/dissertation/docs/img/database.png>] [27]
- [28] [29]
+
+Underfull \vbox (badness 2653) has occurred while \output is active []
+
+ [25]
+[26 <C:/Users/William/Documents/dissertation/docs/img/database.png>] [27]
+[28] [29]
 Chapter 7.
 [30
 
 ]
-Underfull \vbox (badness 5008) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
 Missing character: There is no Â in font cmr12!
@@ -482,7 +486,7 @@ Missing character: There is no ™ in font cmr12!
 ]
 Appendix A.
 
-<../ethical-consent/delegated-approval.pdf, id=179, 597.55246pt x 845.07718pt>
+<../ethical-consent/delegated-approval.pdf, id=176, 597.55246pt x 845.07718pt>
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
 
 <use ../ethical-consent/delegated-approval.pdf>
@@ -498,7 +502,7 @@ t line 697.
  [42
 
 ]
-<../ethical-consent/delegated-approval.pdf, id=185, page=1, 597.55246pt x 845.0
+<../ethical-consent/delegated-approval.pdf, id=182, page=1, 597.55246pt x 845.0
 7718pt>
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
  <use ../ethical-consent/delegated-approval.pdf, page 1>
@@ -531,7 +535,7 @@ on input line 697.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
  [43 <C:/Users/William/Documents/dissertation/docs/ethical-consent/delegated-ap
 proval.pdf>]
-<../ethical-consent/delegated-approval.pdf, id=226, page=2, 597.55246pt x 845.0
+<../ethical-consent/delegated-approval.pdf, id=223, page=2, 597.55246pt x 845.0
 7718pt>
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
  <use ../ethical-consent/delegated-approval.pdf, page 2>
@@ -552,7 +556,7 @@ on input line 697.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
  [44 <C:/Users/William/Documents/dissertation/docs/ethical-consent/delegated-ap
 proval.pdf>]
-<../ethical-consent/delegated-approval.pdf, id=231, page=3, 597.55246pt x 845.0
+<../ethical-consent/delegated-approval.pdf, id=228, page=3, 597.55246pt x 845.0
 7718pt>
 File: ../ethical-consent/delegated-approval.pdf Graphic file (type pdf)
  <use ../ethical-consent/delegated-approval.pdf, page 3>
@@ -609,7 +613,7 @@ players by 10%.[]
 
 ) [50]
 Appendix C.
-<sample.pdf, id=266, 597.51233pt x 845.0471pt>
+<sample.pdf, id=263, 597.51233pt x 845.0471pt>
 File: sample.pdf Graphic file (type pdf)
  <use sample.pdf>
 Package pdftex.def Info: sample.pdf used on input line 710.
@@ -621,7 +625,7 @@ Package pdftex.def Info: sample.pdf used on input line 710.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
  [51
 
-] <sample.pdf, id=272, page=1, 597.51233pt x 845.0471pt>
+] <sample.pdf, id=269, page=1, 597.51233pt x 845.0471pt>
 File: sample.pdf Graphic file (type pdf)
 
 <use sample.pdf, page 1>
@@ -645,7 +649,7 @@ File: sample.pdf Graphic file (type pdf)
 Package pdftex.def Info: sample.pdf, page1 used on input line 710.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [52 <C:/Users/William/Documents/dissertation/docs/final-report/sample.pdf>]
-<sample.pdf, id=294, page=2, 597.51233pt x 845.0471pt>
+<sample.pdf, id=291, page=2, 597.51233pt x 845.0471pt>
 File: sample.pdf Graphic file (type pdf)
 
 <use sample.pdf, page 2>
@@ -661,7 +665,7 @@ Package pdftex.def Info: sample.pdf, page2 used on input line 710.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 
 [53 <C:/Users/William/Documents/dissertation/docs/final-report/sample.pdf>]
-<sample.pdf, id=298, page=3, 597.51233pt x 845.0471pt>
+<sample.pdf, id=295, page=3, 597.51233pt x 845.0471pt>
 File: sample.pdf Graphic file (type pdf)
 
 <use sample.pdf, page 3>
@@ -677,7 +681,7 @@ Package pdftex.def Info: sample.pdf, page3 used on input line 710.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 
 [54 <C:/Users/William/Documents/dissertation/docs/final-report/sample.pdf>]
-<sample.pdf, id=302, page=4, 597.51233pt x 845.0471pt>
+<sample.pdf, id=299, page=4, 597.51233pt x 845.0471pt>
 File: sample.pdf Graphic file (type pdf)
 
 <use sample.pdf, page 4>
@@ -740,20 +744,17 @@ gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (65 pages, 1047891 bytes).
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on report.pdf (65 pages, 1023633 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
+ 360 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18538 words of extra memory for PDF output out of 20736 (max. 10000000)
 

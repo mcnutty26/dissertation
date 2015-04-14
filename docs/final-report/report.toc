@@ -29,8 +29,8 @@
 \contentsline {section}{\numberline {6.3}Development}{24}
 \contentsline {section}{\numberline {6.4}Code and Database Structure}{25}
 \contentsline {section}{\numberline {6.5}Review Against the Specification}{25}
-\contentsline {subsection}{\numberline {6.5.1}Functional Requirements}{25}
-\contentsline {subsection}{\numberline {6.5.2}Non-functional Requirements}{27}
+\contentsline {subsection}{\numberline {6.5.1}Functional Requirements}{27}
+\contentsline {subsection}{\numberline {6.5.2}Non-functional Requirements}{28}
 \contentsline {chapter}{\numberline {7}Research Undertaken}{30}
 \contentsline {section}{\numberline {7.1}Objectives and Rationale}{30}
 \contentsline {section}{\numberline {7.2}Methodology}{30}

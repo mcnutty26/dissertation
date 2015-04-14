@@ -10,7 +10,7 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Matrix by Nir Eyal detailing the different categories of manipulation in gamification \cite {Eyal2013}.}}{20}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Structure of the application database. An arrow -$>$ denotes a foreign key relationship. The first field of each table is the sole primary key.}}{26}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Structure of the application database. An arrow $\rightarrow $ denotes a foreign key relationship. The first field of each table is the sole primary key.}}{26}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
